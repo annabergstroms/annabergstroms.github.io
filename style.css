@@ -1,22 +1,40 @@
 body {
   background-color: #ffffff;
-  /*font-family: "Poppins", sans-serif;*/
+  font-family: "Poppins", sans-serif;
   text-align: center;
 }
 
-.poppins-bold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
 }
 
-.poppins-medium {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-style: normal;
+.top-text {
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  font-size: 70px;
+  color: #262A4E;
 }
 
-h1 {
+.middle-text {
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  font-size: 70px;
+  color: #1E2B85;
+}
+
+.bottom-text {
+  position: absolute;
+  bottom: 80px;
+  left: 50%;
+  font-size: 25px;
+  color: #262A4E;
+}
+
+/*h1 {
   font-size: 70px;
   color: #262A4E;
 }
@@ -29,4 +47,4 @@ h2 {
 p {
   font-size: 25px;
   color: #262A4E;
-}
+}*/
