@@ -1,5 +1,10 @@
 body {
   background-color: #202124;
   color: #ffffff;
+  font-family: "Poppins", sans-serif;
   text-align: center;
+}
+
+h1 {
+  font-size: 60px;
 }
