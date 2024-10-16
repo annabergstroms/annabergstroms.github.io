@@ -1,6 +1,5 @@
 body {
   background-color: #ffffff;
-  color: #ffffff;
   font-family: "Poppins", sans-serif;
   text-align: center;
 }
@@ -16,6 +15,6 @@ h2 {
 }
 
 p {
-  font-size: 40px;
+  font-size: 30px;
   color: #262A4E;
 }
