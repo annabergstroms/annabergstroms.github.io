@@ -4,7 +4,7 @@ body {
   text-align: center;
 }
 
-/*.poppins-bold {
+.poppins-bold {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -14,7 +14,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
-}*/
+}
 
 h1 {
   font-size: 70px;
