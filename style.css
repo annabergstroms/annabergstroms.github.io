@@ -24,21 +24,21 @@ body {
 .text1 {
   top: 22%;
   color: #262A4E;
-  font-size: 64px;
+  font-size: 54px;
   font-weight: bold;
 }
 
 .text2 {
   top: 36%;
   color: #1E2B85;
-  font-size: 64px;
+  font-size: 54px;
   font-weight: bold;
 }
 
 .text3 {
   top: 62%;
   color: #262A4E;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: medium;
 }
 
