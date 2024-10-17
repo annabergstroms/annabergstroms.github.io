@@ -4,17 +4,39 @@ body {
   text-align: center;
 }
 
-h1 {
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+}
+
+.heading-big {
   font-size: 70px;
   color: #262A4E;
 }
 
-.uxDesigner {
-  font-size: 98px;
-  color: #1E2B85;
-}
-
-h3 {
+.heading-small {
   font-size: 25px;
   color: #262A4E;
 }
+
+
+/*h1 {
+  font-size: 70px;
+  color: #262A4E;
+}*/
+
+.uxDesigner {
+  font-size: 100px;
+  color: #1E2B85;
+}
+
+/*h3 {
+  font-size: 25px;
+  color: #262A4E;
+}*/
