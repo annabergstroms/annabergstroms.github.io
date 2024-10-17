@@ -16,37 +16,7 @@ body {
   font-style: normal;
 }
 
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-.top-text {
-  position: absolute;
-  top: 1000px;
-  left: 50%;
-  font-size: 70px;
-  color: #262A4E;
-}
-
-.middle-text {
-  position: absolute;
-  top: 1300px;
-  left: 50%;
-  font-size: 70px;
-  color: #1E2B85;
-}
-
-.bottom-text {
-  position: absolute;
-  top: 2000px;
-  left: 50%;
-  font-size: 25px;
-  color: #262A4E;
-}
-
-/*h1 {
+h1 {
   font-size: 70px;
   color: #262A4E;
 }
@@ -59,4 +29,4 @@ h2 {
 p {
   font-size: 25px;
   color: #262A4E;
-}*/
+}
