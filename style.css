@@ -2,6 +2,7 @@ body {
   background-color: #ffffff;
   font-family: "Poppins", sans-serif;
   text-align: center;
+  color: #1E1E1E;
 }
 
 .image-container {
@@ -22,7 +23,7 @@ body {
 }
 
 .text1 {
-  top: 26%;
+  top: 28%;
   color: #1E1E1E;
   font-size: 54px;
   font-weight: bold;
@@ -36,7 +37,7 @@ body {
 }
 
 .text3 {
-  top: 55%;
+  top: 58%;
   color: #1E1E1E;
   font-size: 20px;
   font-weight: medium;
