@@ -52,8 +52,8 @@ body {
 }*/
 
 .item1 {
-  width: 400px;
-  height: 200px;
+  width: 100%;
+  height: auto;
 }
 
 .item1 a {
@@ -62,7 +62,7 @@ body {
 }
 
 .item1 img {
-  width: 100%;
+  width: 50%;
   height: auto;
   border-radius: 8px;
   transition: transform 0.3s;
@@ -97,8 +97,8 @@ body {
 }
 
 .item2 {
-  width: 400px;
-  height: 200px;
+  width: 100%;
+  height: auto;
 }
 
 .item2 a {
@@ -107,7 +107,7 @@ body {
 }
 
 .item2 img {
-  width: 100%;
+  width: 50%;
   height: auto;
   border-radius: 8px;
   transition: transform 0.3s;
