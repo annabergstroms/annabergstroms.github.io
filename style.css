@@ -1,19 +1,7 @@
 body {
   background-color: #ffffff;
-  /*font-family: "Poppins", sans-serif;*/
+  font-family: "Poppins", sans-serif;
   text-align: center;
-}
-
-.poppins-bold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.poppins-medium {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-style: normal;
 }
 
 h1 {
@@ -26,7 +14,7 @@ h2 {
   color: #1E2B85;
 }
 
-p {
+h3 {
   font-size: 25px;
   color: #262A4E;
 }
