@@ -9,6 +9,8 @@ body {
   position: relative;
   text-align: center;
   color: white;
+  width: 100%;
+  max-width: 1200px;
 }
 
 /*.image-container {
@@ -41,10 +43,10 @@ body {
 }
 
 
-/*h1 {
+h1 {
   font-size: 70px;
   color: #262A4E;
-}*/
+}
 
 .uxDesigner {
   font-size: 100px;
@@ -55,7 +57,7 @@ body {
   transform: translate(-50%, -50%);
 }
 
-/*h3 {
+h3 {
   font-size: 25px;
   color: #262A4E;
-}*/
+}
