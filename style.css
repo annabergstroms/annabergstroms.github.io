@@ -70,9 +70,22 @@ body {
   transform: scale(1.05);
 }
 
+.item h1 {
+  margin-top: 8px;
+  font-size: 16px;
+  color: #262A4E;
+  font-weight: bold;
+  font-size: 20px;
+}
+
 .item p {
   margin-top: 8px;
   font-size: 16px;
   color: #262A4E;
+  font-weight: medium;
+  font-size: 16px;
 }
 
+.item p:hover {
+  transform: scale(1.05);
+}
