@@ -56,9 +56,15 @@ body {
   height: auto;
 }
 
-.item1 a {
+.item1 a:link, a:visited {
   text-decoration: none;
   color: #1E1E1E;
+}
+
+.item1 a:hover, a:active {
+  text-decoration: none;
+  color: #1E1E1E;
+  transform: scale(1.05);
 }
 
 .item1 img {
@@ -103,9 +109,15 @@ body {
   height: auto;
 }
 
-.item2 a {
+.item2 a:link, a:visited {
   text-decoration: none;
   color: #1E1E1E;
+}
+
+.item2 a:hover, a:active {
+  text-decoration: none;
+  color: #1E1E1E;
+  transform: scale(1.05);
 }
 
 .item2 img {
@@ -144,14 +156,21 @@ body {
   transform: scale(1.05);
 }
 
+
 .item3 {
   width: 100%;
   height: auto;
 }
 
-.item3 a {
+.item3 a:link, a:visited {
   text-decoration: none;
   color: #1E1E1E;
+}
+
+.item3 a:hover, a:active {
+  text-decoration: none;
+  color: #1E1E1E;
+  transform: scale(1.05);
 }
 
 .item3 img {
