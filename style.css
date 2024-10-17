@@ -47,7 +47,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 200px;
+  gap: 120px;
   padding: 20px;
 }
 
@@ -62,7 +62,7 @@ body {
 }
 
 .item img {
-  width: 100%;
+  width: 110%;
   height: auto;
   border-radius: 8px;
   transition: transform 0.3s;
