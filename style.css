@@ -23,29 +23,28 @@ body {
 .text1 {
   top: 22%;
   color: #262A4E;
-  font-size: 54px;
+  font-size: 64px;
   font-weight: bold;
 }
 
 .text2 {
   top: 32%;
   color: #1E2B85;
-  font-size: 54px;
+  font-size: 64px;
   font-weight: bold;
-  width: 100%;
 }
 
 .text3 {
   top: 42%;
   color: #262A4E;
-  font-size: 54px;
+  font-size: 64px;
   font-weight: bold;
 }
 
 .text4 {
   top: 62%;
   color: #262A4E;
-  font-size: 18px;
+  font-size: 30px;
   font-weight: medium;
 }
 
