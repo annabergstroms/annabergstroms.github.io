@@ -43,7 +43,7 @@ body {
   font-weight: bold;
 }
 
-.gallery {
+/*.gallery {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -92,4 +92,48 @@ body {
 
 .item p:hover {
   transform: scale(1.05);
+}*/
+
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
 }
+
+.item {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.item:hover {
+  transform: scale(1.02);
+}
+
+.item a {
+  display: flex;
+  text-decoration: none;
+  color: black;
+  width: 100%;
+}
+
+.item img {
+  width: 200px;
+  height: auto;
+  border-right: 1px solid #ddd;
+}
+
+.text {
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.text p {
+  margin: 0;
+  font-size: 18px;
