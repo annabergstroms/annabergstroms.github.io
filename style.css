@@ -28,20 +28,13 @@ body {
 }
 
 .text2 {
-  top: 32%;
+  top: 30%;
   color: #1E2B85;
   font-size: 64px;
   font-weight: bold;
 }
 
 .text3 {
-  top: 42%;
-  color: #262A4E;
-  font-size: 64px;
-  font-weight: bold;
-}
-
-.text4 {
   top: 62%;
   color: #262A4E;
   font-size: 30px;
