@@ -4,12 +4,50 @@ body {
   text-align: center;
 }
 
+.image-container {
+  position: relative;
+  width: 100%;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.text {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.text1 {
+  top: 20%;
+  color: #262A4E;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.text2 {
+  top: 50%;
+  color: #1E2B85;
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.text3 {
+  top: 80%;
+  color: #262A4E;
+  font-size: 25px;
+  font-weight: medium;
+}
+
+
 /*.image-container {
   position: relative;
   text-align: center;
   color: white;
   width: 100%;
-}*/
+}
 
 .image-container {
   position: relative;
