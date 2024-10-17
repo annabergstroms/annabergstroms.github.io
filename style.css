@@ -54,23 +54,13 @@ body {
 .item1 {
   width: 100%;
   height: auto;
-}
-
-.item1 a:link, a:visited {
-  text-decoration: none;
-  color: #1E1E1E;
-}
-
-.item1 a:hover, a:active {
-  text-decoration: none;
-  color: #1E1E1E;
-  transform: scale(1.05);
+  position: absolute;
 }
 
 .item1 img {
   width: 40%;
   height: auto;
-  left: 30%;
+  left: 100px;
   border-radius: 8px;
   transition: transform 0.3s;
 }
@@ -83,12 +73,8 @@ body {
   /*margin-top: 8px;*/
   color: #1E1E1E;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 30px;
   left: 70%;
-}
-
-.item1 h1:hover {
-  transform: scale(1.05);
 }
 
 .item1 p {
@@ -99,7 +85,14 @@ body {
   left: 70%;
 }
 
-.item1 p:hover {
+.item1 a:link, a:visited {
+  text-decoration: none;
+  color: #1E1E1E;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.item1 a:hover, a:active {
   transform: scale(1.05);
 }
 
@@ -107,17 +100,7 @@ body {
 .item2 {
   width: 100%;
   height: auto;
-}
-
-.item2 a:link, a:visited {
-  text-decoration: none;
-  color: #1E1E1E;
-}
-
-.item2 a:hover, a:active {
-  text-decoration: none;
-  color: #1E1E1E;
-  transform: scale(1.05);
+  position: absolute;
 }
 
 .item2 img {
@@ -140,10 +123,6 @@ body {
   left: 70%;
 }
 
-.item2 h1:hover {
-  transform: scale(1.05);
-}
-
 .item2 p {
   /*margin-top: 8px;*/
   color: #1E1E1E;
@@ -152,7 +131,14 @@ body {
   left: 70%;
 }
 
-.item2 p:hover {
+.item2 a:link, a:visited {
+  text-decoration: none;
+  color: #1E1E1E;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.item2 a:hover, a:active {
   transform: scale(1.05);
 }
 
@@ -160,17 +146,7 @@ body {
 .item3 {
   width: 100%;
   height: auto;
-}
-
-.item3 a:link, a:visited {
-  text-decoration: none;
-  color: #1E1E1E;
-}
-
-.item3 a:hover, a:active {
-  text-decoration: none;
-  color: #1E1E1E;
-  transform: scale(1.05);
+  position: absolute;
 }
 
 .item3 img {
@@ -193,10 +169,6 @@ body {
   left: 70%;
 }
 
-.item3 h1:hover {
-  transform: scale(1.05);
-}
-
 .item3 p {
   /*margin-top: 8px;*/
   color: #1E1E1E;
@@ -205,6 +177,13 @@ body {
   left: 70%;
 }
 
-.item3 p:hover {
+.item3 a:link, a:visited {
+  text-decoration: none;
+  color: #1E1E1E;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.item3 a:hover, a:active {
   transform: scale(1.05);
 }
