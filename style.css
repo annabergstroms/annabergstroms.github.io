@@ -36,7 +36,14 @@ body {
 }
 
 .text3 {
-  top: 60%;
+  top: 42%;
+  color: #262A4E;
+  font-size: 54px;
+  font-weight: bold;
+}
+
+.text4 {
+  top: 62%;
   color: #262A4E;
   font-size: 18px;
   font-weight: medium;
