@@ -21,23 +21,23 @@ body {
 }
 
 .text1 {
-  top: 30%;
+  top: 25%;
   color: #262A4E;
   font-size: 70px;
   font-weight: bold;
 }
 
 .text2 {
-  top: 40%;
+  top: 35%;
   color: #1E2B85;
   font-size: 99px;
   font-weight: bold;
 }
 
 .text3 {
-  top: 80%;
+  top: 60%;
   color: #262A4E;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: medium;
 }
 
