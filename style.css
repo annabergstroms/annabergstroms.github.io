@@ -1,6 +1,6 @@
 body {
   background-color: #ffffff;
-  font-family: "Poppins", sans-serif;
+  /*font-family: "Poppins", sans-serif;*/
   text-align: center;
 }
 
@@ -24,7 +24,7 @@ body {
 
 .top-text {
   position: absolute;
-  top: 40px;
+  top: 1000px;
   left: 50%;
   font-size: 70px;
   color: #262A4E;
@@ -32,7 +32,7 @@ body {
 
 .middle-text {
   position: absolute;
-  top: 60px;
+  top: 1300px;
   left: 50%;
   font-size: 70px;
   color: #1E2B85;
@@ -40,7 +40,7 @@ body {
 
 .bottom-text {
   position: absolute;
-  bottom: 80px;
+  top: 2000px;
   left: 50%;
   font-size: 25px;
   color: #262A4E;
