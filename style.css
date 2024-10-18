@@ -52,15 +52,16 @@ body {
 }*/
 
 .item1 {
-  width: 100%;
+  width: 70%;
   height: auto;
+  margin: 150px auto;
 }
 
 .item1 img {
   width: 30%;
   height: auto;
   float: left;
-  border-radius: 8px;
+  margin-right: 20px;
   transition: transform 0.3s;
 }
 
@@ -68,49 +69,41 @@ body {
   transform: scale(1.05);
 }
 
-.item1 h1 {
+.item1text h1 {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 30px;
-  position: absolute;
-  left: 70%;
-  bottom: 10%;
 }
 
-.item1 p {
+.item1text p {
   color: #1E1E1E;
   font-weight: medium;
   font-size: 14px;
-  position: absolute;
-  left: 70%;
-  bottom: 10%;
 }
 
-.item1 a:link, a:visited {
+.item1text a:link, a:visited {
   text-decoration: none;
   color: #1E1E1E;
   font-weight: bold;
   font-size: 18px;
-  position: absolute;
-  left: 70%;
-  bottom: 10%;
 }
 
-.item1 a:hover, a:active {
+.item1text a:hover, a:active {
   transform: scale(1.05);
 }
 
 
 .item2 {
-  width: 100%;
+  width: 70%;
   height: auto;
+  margin: 150px auto;
 }
 
 .item2 img {
   width: 30%;
   height: auto;
   float: right;
-  border-radius: 8px;
+  margin-left: 20px;
   transition: transform 0.3s;
 }
 
@@ -118,49 +111,41 @@ body {
   transform: scale(1.05);
 }
 
-.item2 h1 {
+.item2text h1 {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 30px;
-  position: absolute;
-  left: 30%;
-  bottom: 10%;
 }
 
-.item2 p {
+.item2text p {
   color: #1E1E1E;
   font-weight: medium;
   font-size: 14px;
-  position: absolute;
-  left: 30%;
-  bottom: 10%;
 }
 
-.item2 a:link, a:visited {
+.item2text a:link, a:visited {
   text-decoration: none;
   color: #1E1E1E;
   font-weight: bold;
   font-size: 18px;
-  position: absolute;
-  left: 30%;
-  bottom: 10%;
 }
 
-.item2 a:hover, a:active {
+.item2text a:hover, a:active {
   transform: scale(1.05);
 }
 
 
 .item3 {
-  width: 100%;
+  width: 70%;
   height: auto;
+  margin: 150px auto;
 }
 
 .item3 img {
   width: 30%;
   height: auto;
   float: left;
-  border-radius: 8px;
+  margin-right: 20px;
   transition: transform 0.3s;
 }
 
@@ -168,30 +153,24 @@ body {
   transform: scale(1.05);
 }
 
-.item3 h1 {
+.item3text h1 {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 30px;
-  left: 70%;
-  bottom: 10%;
 }
 
-.item3 p {
+.item3text p {
   color: #1E1E1E;
   font-weight: medium;
   font-size: 14px;
-  left: 70%;
-  bottom: 10%;
 }
 
-.item3 a:link, a:visited {
+.item3text a:link, a:visited {
   text-decoration: none;
   color: #1E1E1E;
   font-weight: bold;
-  left: 70%;
-  bottom: 10%;
 }
 
-.item3 a:hover, a:active {
+.item3text a:hover, a:active {
   transform: scale(1.05);
 }
