@@ -59,7 +59,7 @@ body {
 }
 
 .item img {
-  width: 42%;
+  width: 46%;
   height: auto;
   float: left;
   padding-right: 6%;
@@ -74,19 +74,21 @@ body {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 36px;
-  padding: 50px 0px 0px 0px;
+  padding-top: 6%;
 }
 
 .item p {
   color: #1E1E1E;
   font-weight: medium;
   font-size: 14px;
+  padding-top: 7%;
 }
 
 .item a:link, a:visited {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 18px;
+  padding-top: 8%;
   text-decoration: none;
   transition: transform 0.3s;
 }
