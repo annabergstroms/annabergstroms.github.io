@@ -52,14 +52,14 @@ body {
 }*/
 
 /* VOLVO CARS */
-.volvoproject {
+.item1 {
   width: 80%;
   height: auto;
   margin-left: 10%;
   padding: 30px 0px 30px 0px;
 }
 
-.volvoproject img {
+.item1 img {
   width: 36%;
   height: auto;
   float: left;
@@ -67,30 +67,30 @@ body {
   transition: transform 0.3s;
 }
 
-.volvoproject img:hover {
+.item1 img:hover {
   transform: scale(1.05);
 }
 
-.volvoproject h1 {
+.item1 h1 {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 34px;
 }
 
-.volvoproject p {
+.item1 p {
   color: #1E1E1E;
   font-weight: medium;
   font-size: 14px;
 }
 
-.volvoproject a:link, a:visited {
+.item1 a:link, a:visited {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 18px;
   text-decoration: none;
 }
 
-.volvoproject a:hover, a:active {
+.item1 a:hover, a:active {
   transform: scale(1.05);
 }
 
