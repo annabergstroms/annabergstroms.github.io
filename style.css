@@ -90,7 +90,7 @@ body {
   text-decoration: none;
 }
 
-.item1text a:hover, a:active {
+.item1text a:hover {
   transform: scale(1.05);
 }
 
@@ -133,7 +133,7 @@ body {
   text-decoration: none;
 }
 
-.item2text a:hover, a:active {
+.item2text a:hover {
   transform: scale(1.05);
 }
 
@@ -173,8 +173,9 @@ body {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 18px;
+  text-decoration: none;
 }
 
-.item3text a:hover, a:active {
+.item3text a:hover {
   transform: scale(1.05);
 }
