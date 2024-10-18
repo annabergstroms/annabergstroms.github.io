@@ -80,6 +80,7 @@ body {
   color: #1E1E1E;
   font-weight: medium;
   font-size: 14px;
+  margin: 10px 40px 10px 40px;
 }
 
 .item1text a:link, a:visited {
@@ -122,6 +123,7 @@ body {
   color: #1E1E1E;
   font-weight: medium;
   font-size: 14px;
+  margin: 10px 40px 10px 40px;
 }
 
 .item2text a:link, a:visited {
@@ -163,7 +165,8 @@ body {
 .item3text p {
   color: #1E1E1E;
   font-weight: medium;
-  font-size: 14px;
+  font-size: 14px;  
+  margin: 10px 40px 10px 40px;
 }
 
 .item3text a:link, a:visited {
