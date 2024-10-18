@@ -62,6 +62,7 @@ body {
   width: 46%;
   height: auto;
   float: left;
+  padding-right: 4%;
   transition: transform 0.3s;
 }
 
