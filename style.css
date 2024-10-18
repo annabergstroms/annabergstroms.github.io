@@ -89,18 +89,6 @@ body {
   padding-left: 10px;
 }
 
-.item1 a:link, a:visited {
-  color: #1E1E1E;
-  font-weight: bold;
-  font-size: 18px;
-  text-decoration: none;
-  padding-top: 50px;
-}
-
-.item1 a:hover, a:active {
-  transform: scale(1.05);
-}
-
 
 
 
