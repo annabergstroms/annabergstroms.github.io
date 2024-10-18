@@ -70,20 +70,20 @@ body {
   transform: scale(1.05);
 }
 
-.item1text h1 {
+.item1 h1 {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 36px;
-  padding: 30px 0px 0px 0px;
+  padding: 50px 0px 0px 0px;
 }
 
-.item1text p {
+.item1 p {
   color: #1E1E1E;
   font-weight: medium;
   font-size: 14px;
 }
 
-.item1text a:link, a:visited {
+.item1 a:link, a:visited {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 18px;
@@ -91,7 +91,7 @@ body {
   transition: transform 0.3s;
 }
 
-.item1text a:hover, a:active {
+.item1 a:hover, a:active {
   transform: scale(1.05);
 }
 
