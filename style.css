@@ -81,6 +81,8 @@ body {
   color: #1E1E1E;
   font-weight: medium;
   font-size: 14px; 
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .item a:link, a:visited {
