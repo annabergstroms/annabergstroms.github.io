@@ -92,7 +92,7 @@ body {
 }
 
 .item a:hover, a:active {
-  transform: scale(1.05);
+  font-size: 28px;
 }
 
 
