@@ -89,7 +89,6 @@ body {
 }
 
 .item a:link, a:visited {
-  display: block;
   color: #1E1E1E;
   font-weight: bold;
   font-size: 18px;
