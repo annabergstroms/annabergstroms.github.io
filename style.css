@@ -53,9 +53,9 @@ body {
 
 /* VOLVO CARS */
 .content {
-  width: 70%;
+  width: 80%;
   height: auto;
-  margin-left: 15%;
+  margin-left: 10%;
   margin-bottom: 2%;
 }
 
@@ -75,17 +75,17 @@ body {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 36px;
-  padding-top: 9%;
-  padding-left: 4%;
-  padding-right: 4%;
+  padding-top: 8%;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 .item p {
   color: #1E1E1E;
   font-weight: medium;
   font-size: 14px;
-  padding-left: 4%;
-  padding-right: 4%;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 .item a:link, a:visited {
@@ -94,10 +94,12 @@ body {
   font-weight: bold;
   font-size: 18px;
   text-decoration: none;
+  padding-top: 4%;
 }
 
 .item a:hover, a:active {
   color: #1E1E1E;
+  transform: scale(1.05);
 }
 
 
