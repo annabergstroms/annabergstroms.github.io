@@ -54,7 +54,7 @@ body {
 /* VOLVO CARS */
 .item1 {
   width: 70%;
-  height: auto;
+  height: 500px;
   margin: 0px 150px 20px 150px;
 }
 
@@ -97,7 +97,7 @@ body {
 /* WISE */
 .item2 {
   width: 70%;
-  height: auto;
+  height: 500px;
   margin: 20px 150px 20px 150px;
 }
 
@@ -140,7 +140,7 @@ body {
 /* MASSIKA */
 .item3 {
   width: 70%;
-  height: auto;
+  height: 500px;
   margin: 20px 150px 20px 150px;
 }
 
