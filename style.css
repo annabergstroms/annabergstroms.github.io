@@ -73,16 +73,12 @@ body {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 36px;
-  padding-top: 10px;
-  padding-left: 60px;
 }
 
 .item p {
   color: #1E1E1E;
   font-weight: medium;
   font-size: 14px;
-  padding-left: 60px;
-  padding-right: 60px;
 }
 
 .item a:link, a:visited {
