@@ -55,10 +55,6 @@ body {
 .volvoproject {
   width: auto;
   height: auto;
-  margin-top: 40px;
-  margin-right: 200px;
-  margin-bottom: 200px;
-  margin-left: 200px;
 }
 
 .volvoproject img {
@@ -77,16 +73,12 @@ body {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 34px;
-  padding-top: 35x;
 }
 
 .volvoproject p {
   color: #1E1E1E;
   font-weight: medium;
   font-size: 14px;
-  padding-top: 40px;
-  padding-right: 20px;
-  padding-left: 20px;
 }
 
 .volvoproject a:link, a:visited {
@@ -94,7 +86,6 @@ body {
   font-weight: bold;
   font-size: 18px;
   text-decoration: none;
-  padding-top: 50px;
 }
 
 .volvoproject a:hover, a:active {
