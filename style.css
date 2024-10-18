@@ -84,7 +84,7 @@ body {
   font-size: 14px;
 }
 
-.item1 a:link, a:visited {
+.item1link a:link, a:visited {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 18px;
@@ -92,7 +92,7 @@ body {
   transition: transform 0.3s;
 }
 
-.item1 a:hover, a:active {
+.item1link a:hover, a:active {
   transform: scale(1.05);
 }
 
