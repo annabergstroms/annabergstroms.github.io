@@ -52,9 +52,13 @@ body {
 }*/
 
 .item1 {
-  width: 100%;
+  /*width: 100%;
   height: auto;
-  position: absolute;
+  position: absolute;*/
+  display: grid;
+  align-items: center; 
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5px;
 }
 
 .item1 img {
@@ -98,9 +102,13 @@ body {
 
 
 .item2 {
-  width: 100%;
+  /*width: 100%;
   height: auto;
-  position: absolute;
+  position: absolute;*/
+  display: grid;
+  align-items: center; 
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5px;
 }
 
 .item2 img {
@@ -144,9 +152,13 @@ body {
 
 
 .item3 {
-  width: 100%;
+  /*width: 100%;
   height: auto;
-  position: absolute;
+  position: absolute;*/
+  display: grid;
+  align-items: center; 
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5px;
 }
 
 .item3 img {
