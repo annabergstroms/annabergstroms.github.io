@@ -60,7 +60,7 @@ body {
 }
 
 .item1 img {
-  width: 36%;
+  width: 40%;
   height: auto;
   float: left;
   padding-right: 6%;
@@ -71,26 +71,26 @@ body {
   transform: scale(1.05);
 }
 
-.item1 h1 {
+.item1text h1 {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 34px;
 }
 
-.item1 p {
+.item1text p {
   color: #1E1E1E;
   font-weight: medium;
   font-size: 14px;
 }
 
-.item1 a:link, a:visited {
+.item1text a:link, a:visited {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 18px;
   text-decoration: none;
 }
 
-.item1 a:hover, a:active {
+.item1text a:hover, a:active {
   transform: scale(1.05);
 }
 
