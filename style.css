@@ -57,10 +57,10 @@ body {
 }
 
 .item1 img {
-  width: 40%;
+  width: 30%;
   height: auto;
   float: left;
-  margin: 0px 30px 30px 0px;
+  margin: 30px 30px 30px 30px;
   border-radius: 8px;
   transition: transform 0.3s;
 }
@@ -70,19 +70,19 @@ body {
 }
 
 .item1 h1 {
-  /*margin-top: 8px;*/
   color: #1E1E1E;
   font-weight: bold;
   font-size: 30px;
-  margin-left: 20px
+  margin-left: 70%;
+  margin-bottom: 10%;
 }
 
 .item1 p {
-  /*margin-top: 8px;*/
   color: #1E1E1E;
   font-weight: medium;
   font-size: 14px;
-  margin-left: 20px
+  margin-left: 70%;
+  margin-bottom: 10%;
 }
 
 .item1 a:link, a:visited {
@@ -90,7 +90,9 @@ body {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 18px;
-  margin-left: 20px
+  position: absolute;
+  margin-left: 70%;
+  margin-bottom: 10%;
 }
 
 .item1 a:hover, a:active {
@@ -104,10 +106,10 @@ body {
 }
 
 .item2 img {
-  width: 40%;
+  width: 30%;
   height: auto;
   float: right;
-  margin: 0px 30px 30px 0px;
+  margin: 30px 30px 30px 30px;
   border-radius: 8px;
   transition: transform 0.3s;
 }
@@ -117,19 +119,21 @@ body {
 }
 
 .item2 h1 {
-  /*margin-top: 8px;*/
   color: #1E1E1E;
   font-weight: bold;
   font-size: 30px;
-  margin-left: 20px
+  position: absolute;
+  margin-left: 30%;
+  margin-bottom: 10%;
 }
 
 .item2 p {
-  /*margin-top: 8px;*/
   color: #1E1E1E;
   font-weight: medium;
   font-size: 14px;
-  margin-left: 20px
+  position: absolute;
+  margin-left: 30%;
+  margin-bottom: 10%;
 }
 
 .item2 a:link, a:visited {
@@ -137,7 +141,9 @@ body {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 18px;
-  margin-left: 20px
+  position: absolute;
+  margin-left: 30%;
+  margin-bottom: 10%;
 }
 
 .item2 a:hover, a:active {
@@ -151,10 +157,10 @@ body {
 }
 
 .item3 img {
-  width: 40%;
+  width: 30%;
   height: auto;
   float: left;
-  margin: 0px 30px 30px 0px;
+  margin: 30px 30px 30px 30px;
   border-radius: 8px;
   transition: transform 0.3s;
 }
@@ -164,27 +170,30 @@ body {
 }
 
 .item3 h1 {
-  /*margin-top: 8px;*/
   color: #1E1E1E;
   font-weight: bold;
   font-size: 30px;
-  margin-left: 20px
+  position: absolute;
+  margin-left: 70%;
+  margin-bottom: 10%;
 }
 
 .item3 p {
-  /*margin-top: 8px;*/
   color: #1E1E1E;
   font-weight: medium;
   font-size: 14px;
-  margin-left: 20px
+  position: absolute;
+  margin-left: 70%;
+  margin-bottom: 10%;
 }
 
 .item3 a:link, a:visited {
   text-decoration: none;
   color: #1E1E1E;
   font-weight: bold;
-  font-size: 18px;
-  margin-left: 20px
+  position: absolute;
+  margin-left: 70%;
+  margin-bottom: 10%;
 }
 
 .item3 a:hover, a:active {
