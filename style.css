@@ -55,6 +55,8 @@ body {
 .volvoproject {
   width: auto;
   height: auto;
+  margin-left: 220;
+  margin-right: 220;;
 }
 
 .volvoproject img {
