@@ -55,11 +55,11 @@ body {
 .item1 {
   width: 70%;
   height: auto;
-  margin: 150px auto;
+  margin: 20px 150px 20px 150px;
 }
 
 .item1 img {
-  width: 30%;
+  width: 300px;
   height: auto;
   float: left;
   margin-right: 20px;
@@ -83,10 +83,10 @@ body {
 }
 
 .item1text a:link, a:visited {
-  text-decoration: none;
   color: #1E1E1E;
   font-weight: bold;
   font-size: 18px;
+  text-decoration: none;
 }
 
 .item1text a:hover, a:active {
@@ -97,11 +97,11 @@ body {
 .item2 {
   width: 70%;
   height: auto;
-  margin: 150px auto;
+  margin: 20px 150px 20px 150px;
 }
 
 .item2 img {
-  width: 30%;
+  width: 300px;
   height: auto;
   float: right;
   margin-left: 20px;
@@ -125,10 +125,10 @@ body {
 }
 
 .item2text a:link, a:visited {
-  text-decoration: none;
   color: #1E1E1E;
   font-weight: bold;
   font-size: 18px;
+  text-decoration: none;
 }
 
 .item2text a:hover, a:active {
@@ -139,11 +139,11 @@ body {
 .item3 {
   width: 70%;
   height: auto;
-  margin: 150px auto;
+  margin: 20px 150px 20px 150px;
 }
 
 .item3 img {
-  width: 30%;
+  width: 300px;
   height: auto;
   float: left;
   margin-right: 20px;
@@ -167,9 +167,10 @@ body {
 }
 
 .item3text a:link, a:visited {
-  text-decoration: none;
   color: #1E1E1E;
   font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
 }
 
 .item3text a:hover, a:active {
