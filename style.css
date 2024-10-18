@@ -84,7 +84,7 @@ body {
   margin: 10px 30px 10px 30px;
 }
 
-.item1text a:link, a:visited {
+.item1text a {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 18px;
@@ -128,7 +128,7 @@ body {
   margin: 10px 30px 10px 30px;
 }
 
-.item2text a:link, a:visited {
+.item2text a {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 18px;
@@ -172,7 +172,7 @@ body {
   margin: 10px 30px 10px 30px;
 }
 
-.item3text a:link, a:visited {
+.item3text a {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 18px;
