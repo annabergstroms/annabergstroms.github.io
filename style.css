@@ -60,7 +60,6 @@ body {
   width: 30%;
   height: auto;
   float: left;
-  margin: 30px 30px 30px 30px;
   border-radius: 8px;
   transition: transform 0.3s;
 }
@@ -73,6 +72,7 @@ body {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 30px;
+  position: absolute;
   margin-left: 70%;
   margin-bottom: 10%;
 }
@@ -81,6 +81,7 @@ body {
   color: #1E1E1E;
   font-weight: medium;
   font-size: 14px;
+  position: absolute;
   margin-left: 70%;
   margin-bottom: 10%;
 }
@@ -109,7 +110,6 @@ body {
   width: 30%;
   height: auto;
   float: right;
-  margin: 30px 30px 30px 30px;
   border-radius: 8px;
   transition: transform 0.3s;
 }
@@ -160,7 +160,6 @@ body {
   width: 30%;
   height: auto;
   float: left;
-  margin: 30px 30px 30px 30px;
   border-radius: 8px;
   transition: transform 0.3s;
 }
@@ -173,7 +172,6 @@ body {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 30px;
-  position: absolute;
   margin-left: 70%;
   margin-bottom: 10%;
 }
@@ -182,7 +180,6 @@ body {
   color: #1E1E1E;
   font-weight: medium;
   font-size: 14px;
-  position: absolute;
   margin-left: 70%;
   margin-bottom: 10%;
 }
@@ -191,7 +188,6 @@ body {
   text-decoration: none;
   color: #1E1E1E;
   font-weight: bold;
-  position: absolute;
   margin-left: 70%;
   margin-bottom: 10%;
 }
