@@ -92,8 +92,7 @@ body {
 }
 
 .item a:hover, a:active {
-  display: block;
-  transform: scale(1.05);
+  color: #1E1E1E;
 }
 
 
