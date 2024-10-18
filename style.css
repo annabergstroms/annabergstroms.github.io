@@ -56,7 +56,6 @@ body {
   width: 70%;
   height: auto;
   margin-left: 15%;
-  padding-top: 40%;
 }
 
 .item1 img {
@@ -84,7 +83,7 @@ body {
   font-size: 14px;
 }
 
-.item1link a:link, a:visited {
+a:link, a:visited {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 18px;
@@ -92,7 +91,7 @@ body {
   transition: transform 0.3s;
 }
 
-.item1link a:hover, a:active {
+a:hover, a:active {
   transform: scale(1.05);
 }
 
