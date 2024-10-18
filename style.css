@@ -68,7 +68,7 @@ body {
 }
 
 .item img:hover {
-  transform: scale(1.00);
+  transform: scale(1.05);
 }
 
 .item h1 {
@@ -93,6 +93,7 @@ body {
   font-weight: bold;
   font-size: 18px;
   text-decoration: none;
+  padding-top: 8%;
 }
 
 .item a:hover, a:active {
