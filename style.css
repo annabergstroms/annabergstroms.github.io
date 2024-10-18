@@ -84,14 +84,14 @@ body {
   margin: 10px 30px 10px 30px;
 }
 
-.item1text a {
+.item1 a {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 18px;
   text-decoration: none;
 }
 
-.item1text a:hover {
+.item1 a:hover {
   transform: scale(1.05);
 }
 
@@ -128,14 +128,14 @@ body {
   margin: 10px 30px 10px 30px;
 }
 
-.item2text a {
+.item2 a {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 18px;
   text-decoration: none;
 }
 
-.item2text a:hover {
+.item2 a:hover {
   transform: scale(1.05);
 }
 
@@ -172,13 +172,13 @@ body {
   margin: 10px 30px 10px 30px;
 }
 
-.item3text a {
+.item3 a {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 18px;
   text-decoration: none;
 }
 
-.item3text a:hover {
+.item3 a:hover {
   transform: scale(1.05);
 }
