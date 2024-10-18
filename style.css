@@ -153,21 +153,19 @@ body {
 
 
 
-
-
-
 /* MASSIKA */
-/*.item3 {
-  width: auto;
-  height: 300px;
-  margin-bottom: 60px;
+.content3 {
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  margin-bottom: 2%;
 }
 
 .item3 img {
-  width: 34%;
+  width: 46%;
   height: auto;
   float: left;
-  margin-right: 30px;
+  padding-right: 6%;
   transition: transform 0.3s;
 }
 
@@ -175,31 +173,31 @@ body {
   transform: scale(1.05);
 }
 
-.item3text h1 {
+.item3 h1 {
   color: #1E1E1E;
   font-weight: bold;
-  font-size: 34px;
-  padding-top: 30%;
+  font-size: 36px;
+  padding-top: 8%;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
-.item3text p {
+.item3 p {
   color: #1E1E1E;
   font-weight: medium;
   font-size: 14px;
-  padding-top: 40%;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
-.item3text a:link, a:visited {
+.item3 a:link, a:visited {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 18px;
   text-decoration: none;
-  transition: transform 0.3s;
-  padding-top: 50%;
+  padding-top: 8%;
 }
 
-.item3text a:hover, a:active {
-  transform: scale(1.05);
+.item3 a:hover, a:active {
+  color: #1E1E1E;
 }
