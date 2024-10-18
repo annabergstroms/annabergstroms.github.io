@@ -55,6 +55,7 @@ body {
 .item1 {
   width: 70%;
   height: auto;
+  margin-bottom: 40px;
 }
 
 .item1 img {
@@ -98,6 +99,7 @@ body {
 .item2 {
   width: 70%;
   height: auto;
+  margin-bottom: 40px;
 }
 
 .item2 img {
@@ -141,6 +143,7 @@ body {
 .item3 {
   width: 70%;
   height: auto;
+  margin-bottom: 40px;
 }
 
 .item3 img {
