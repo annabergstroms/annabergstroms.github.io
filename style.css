@@ -62,7 +62,7 @@ body {
   width: 46%;
   height: auto;
   float: left;
-  padding-right: 40px;
+  padding-right: 2%;
   transition: transform 0.3s;
 }
 
@@ -74,7 +74,7 @@ body {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 36px;
-  padding-top: 20px;
+  padding-top: 10px;
   padding-left: 60px;
 }
 
