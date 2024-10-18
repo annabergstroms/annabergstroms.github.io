@@ -74,25 +74,28 @@ body {
 .item1text h1 {
   color: #1E1E1E;
   font-weight: bold;
-  font-size: 34px;
+  font-size: 36px;
+  padding: 30px 0px 0px 0px;
 }
 
 .item1text p {
   color: #1E1E1E;
   font-weight: medium;
   font-size: 14px;
+  padding: 30px 0px 0px 0px;
 }
 
 .item1text a {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 18px;
+  padding: 30px 0px 0px 0px;
   text-decoration: none;
   transition: transform 0.3s;
 }
 
 .item1text a:hover {
-  font-size: 28px;
+  transform: scale(1.05);
 }
 
 
