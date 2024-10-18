@@ -59,10 +59,10 @@ body {
 }
 
 .item1 img {
-  width: 36%;
+  width: 34%;
   height: auto;
   float: left;
-  margin-right: 40px;
+  margin-right: 30px;
   transition: transform 0.3s;
 }
 
@@ -89,6 +89,7 @@ body {
   font-weight: bold;
   font-size: 18px;
   text-decoration: none;
+  transition: transform 0.3s;
 }
 
 .item1text a:hover, a:active {
@@ -103,10 +104,10 @@ body {
 }
 
 .item2 img {
-  width: 36%;
+  width: 34%;
   height: auto;
   float: right;
-  margin-left: 40px;
+  margin-left: 30px;
   transition: transform 0.3s;
 }
 
@@ -133,6 +134,7 @@ body {
   font-weight: bold;
   font-size: 18px;
   text-decoration: none;
+  transition: transform 0.3s;
 }
 
 .item2text a:hover, a:active {
@@ -147,10 +149,10 @@ body {
 }
 
 .item3 img {
-  width: 36%;
+  width: 34%;
   height: auto;
   float: left;
-  margin-right: 40px;
+  margin-right: 30px;
   transition: transform 0.3s;
 }
 
@@ -177,6 +179,7 @@ body {
   font-weight: bold;
   font-size: 18px;
   text-decoration: none;
+  transition: transform 0.3s;
 }
 
 .item3text a:hover, a:active {
