@@ -53,9 +53,8 @@ body {
 
 /* VOLVO CARS */
 .item1 {
-  width: 100%;
-  height: 400px;
-  margin: 0px 180px 20px 180px;
+  width: 70%;
+  height: auto;
 }
 
 .item1 img {
@@ -84,22 +83,21 @@ body {
   margin: 10px 30px 10px 30px;
 }
 
-.item1 a {
+.item1text a:link, a:visited {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 18px;
   text-decoration: none;
 }
 
-.item1 a:hover {
+.item1text a:hover, a:active {
   transform: scale(1.05);
 }
 
 /* WISE */
 .item2 {
-  width: 100%;
-  height: 400px;
-  margin: 0px 180px 20px 180px;
+  width: 70%;
+  height: auto;
 }
 
 .item2 img {
@@ -128,22 +126,21 @@ body {
   margin: 10px 30px 10px 30px;
 }
 
-.item2 a {
+.item2text a:link, a:visited {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 18px;
   text-decoration: none;
 }
 
-.item2 a:hover {
+.item2text a:hover, a:active {
   transform: scale(1.05);
 }
 
 /* MASSIKA */
 .item3 {
-  width: 100%;
-  height: 400px;
-  margin: 0px 180px 20px 180px;
+  width: 70%;
+  height: auto;
 }
 
 .item3 img {
@@ -172,13 +169,13 @@ body {
   margin: 10px 30px 10px 30px;
 }
 
-.item3 a {
+.item3text a:link, a:visited {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 18px;
   text-decoration: none;
 }
 
-.item3 a:hover {
+.item3text a:hover, a:active {
   transform: scale(1.05);
 }
