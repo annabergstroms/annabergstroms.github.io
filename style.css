@@ -52,14 +52,14 @@ body {
 }*/
 
 /* VOLVO CARS */
-.content {
+.content1 {
   width: 80%;
   height: auto;
   margin-left: 10%;
   margin-bottom: 2%;
 }
 
-.item img {
+.item1 img {
   width: 46%;
   height: auto;
   float: left;
@@ -67,11 +67,11 @@ body {
   transition: transform 0.3s;
 }
 
-.item img:hover {
+.item1 img:hover {
   transform: scale(1.05);
 }
 
-.item h1 {
+.item1 h1 {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 36px;
@@ -80,7 +80,7 @@ body {
   padding-right: 2%;
 }
 
-.item p {
+.item1 p {
   color: #1E1E1E;
   font-weight: medium;
   font-size: 14px;
@@ -88,7 +88,7 @@ body {
   padding-right: 2%;
 }
 
-.item a:link, a:visited {
+.item1 a:link, a:visited {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 18px;
@@ -96,30 +96,25 @@ body {
   padding-top: 8%;
 }
 
-.item a:hover, a:active {
+.item1 a:hover, a:active {
   color: #1E1E1E;
 }
 
 
 
-
-
-
-
-
-
 /* WISE */
-/*.item2 {
-  width: auto;
-  height: 300px;
-  margin-bottom: 60px;
+.content2 {
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  margin-bottom: 2%;
 }
 
 .item2 img {
-  width: 34%;
+  width: 46%;
   height: auto;
   float: right;
-  margin-left: 30px;
+  padding-left: 6%;
   transition: transform 0.3s;
 }
 
@@ -127,33 +122,33 @@ body {
   transform: scale(1.05);
 }
 
-.item2text h1 {
+.item2 h1 {
   color: #1E1E1E;
   font-weight: bold;
-  font-size: 34px;
-  padding-top: 30%;
+  font-size: 36px;
+  padding-top: 8%;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
-.item2text p {
+.item2 p {
   color: #1E1E1E;
   font-weight: medium;
   font-size: 14px;
-  padding-top: 40%;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
-.item2text a:link, a:visited {
+.item1 a:link, a:visited {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 18px;
   text-decoration: none;
-  transition: transform 0.3s;
-  padding-top: 50%;
+  padding-top: 8%;
 }
 
-.item2text a:hover, a:active {
-  transform: scale(1.05);
+.item1 a:hover, a:active {
+  color: #1E1E1E;
 }
 
 
