@@ -79,8 +79,7 @@ body {
 .item p {
   color: #1E1E1E;
   font-weight: medium;
-  font-size: 14px;
-  width: 10%;
+  font-size: 14px;  
 }
 
 .item a:link, a:visited {
