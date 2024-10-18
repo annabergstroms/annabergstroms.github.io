@@ -55,8 +55,7 @@ body {
 .volvoproject {
   width: 80%;
   height: auto;
-  padding-left: 220;
-  padding-right: 220;
+  background-color: powderblue;
 }
 
 .volvoproject img {
