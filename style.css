@@ -55,7 +55,10 @@ body {
 .item1 {
   width: auto;
   height: auto;
+  margin-top: 10px;
+  margin-right: 100px;
   margin-bottom: 60px;
+  margin-left: 100px;
 }
 
 .item1 img {
