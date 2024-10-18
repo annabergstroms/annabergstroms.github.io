@@ -83,6 +83,7 @@ body {
 }
 
 .item a:link, a:visited {
+  display:inline-block;
   color: #1E1E1E;
   font-weight: bold;
   font-size: 18px;
@@ -90,6 +91,7 @@ body {
 }
 
 .item a:hover, a:active {
+  display:inline-block;
   transform: scale(1.05);
 }
 
