@@ -52,7 +52,7 @@ body {
 }*/
 
 /* VOLVO CARS */
-/*.content {
+.content {
   width: 60%;
   height: auto;
   margin-left: 20%;
@@ -70,20 +70,20 @@ body {
   transform: scale(1.05);
 }
 
-.text h1 {
+.item h1 {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 36px;
   padding: 50px 0px 0px 0px;
 }
 
-.text p {
+.item p {
   color: #1E1E1E;
   font-weight: medium;
   font-size: 14px;
 }
 
-.text a:link, a:visited {
+.item a:link, a:visited {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 18px;
@@ -91,63 +91,11 @@ body {
   transition: transform 0.3s;
 }
 
-.text a:hover, a:active {
-  transform: scale(1.05);
-}*/
-
-
-
-
-
-
-.content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 50px;
-}
-
-.item {
-  display: flex;
-  align-items: center;
-  background-color: white;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s;
-}
-
-.item:hover {
+.item a:hover, a:active {
   transform: scale(1.05);
 }
 
-.item img {
-  width: 200px;
-  height: auto;
-  border-right: 1px solid #ddd;
-  transition: transform 0.3s;
-}
 
-.text {
-  padding: 20px;
-  text-align: left;
-}
-
-.text p {
-  margin: 0;
-  font-size: 18px;
-}
-
-.text a {
-  text-decoration: none;
-  color: blue;
-  font-weight: bold;
-  transition: color 0.3s;
-}
-
-.text a:hover {
-  color: darkblue;
-}
 
 
 
@@ -202,7 +150,6 @@ body {
 .item2text a:hover, a:active {
   transform: scale(1.05);
 }
-
 
 
 
