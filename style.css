@@ -94,12 +94,10 @@ body {
   font-weight: bold;
   font-size: 18px;
   text-decoration: none;
-  padding-top: 4%;
 }
 
 .item a:hover, a:active {
   color: #1E1E1E;
-  transform: scale(1.05);
 }
 
 
