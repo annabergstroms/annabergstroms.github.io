@@ -55,14 +55,14 @@ body {
 .item1 {
   width: auto;
   height: auto;
-  margin-top: 10px;
+  margin-top: 100px;
   margin-right: 200px;
-  margin-bottom: 60px;
+  margin-bottom: 200px;
   margin-left: 200px;
 }
 
 .item1 img {
-  width: 34%;
+  width: 36%;
   height: auto;
   float: left;
   margin-right: 30px;
@@ -100,6 +100,12 @@ body {
 .item1 a:hover, a:active {
   transform: scale(1.05);
 }
+
+
+
+
+
+
 
 /* WISE */
 .item2 {
@@ -148,6 +154,12 @@ body {
 .item2text a:hover, a:active {
   transform: scale(1.05);
 }
+
+
+
+
+
+
 
 /* MASSIKA */
 .item3 {
