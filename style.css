@@ -126,17 +126,17 @@ body {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 36px;
-  padding-top: 23%;
-  padding-left: 4%;
-  padding-right: 4%;
+  padding-top: 25%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .item2 p {
   color: #1E1E1E;
   font-weight: medium;
   font-size: 14px;
-  padding-left: 4%;
-  padding-right: 4%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .item2 a:link, a:visited {
@@ -177,17 +177,17 @@ body {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 36px;
-  padding-top: 30%;
-  padding-left: 4%;
-  padding-right: 4%;
+  padding-top: 28%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .item3 p {
   color: #1E1E1E;
   font-weight: medium;
   font-size: 14px;
-  padding-left: 4%;
-  padding-right: 4%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .item3 a:link, a:visited {
