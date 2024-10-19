@@ -45,14 +45,6 @@ body {
 }
 
 /* VOLVO CARS */
-/*.content1 {
-  width: 80%;
-  height: auto;
-  margin-left: 10%;
-  margin-bottom: 2%;
-  border: 10px solid red;
-}*/
-
 .item1 {
   width: 80%;
   height: auto;
@@ -84,7 +76,6 @@ body {
   color: #1E1E1E;
   font-weight: medium;
   font-size: 14px;
-  margin-top: -1%;'
   padding-left: 62%;
   padding-right: 8%;
 }
@@ -136,7 +127,6 @@ body {
   color: #1E1E1E;
   font-weight: medium;
   font-size: 14px;
-  margin-top: -1%;
   padding-left: 8%;
   padding-right: 62%;
 }
@@ -155,8 +145,6 @@ body {
 .lank2 a:hover, a:active {
   color: #1E1E1E;
 }
-
-
 
 /* MASSIKA */
 .item3 {
@@ -190,7 +178,6 @@ body {
   color: #1E1E1E;
   font-weight: medium;
   font-size: 14px;
-  margin-top: -1%;
   padding-left: 62%;
   padding-right: 8%;
 }
