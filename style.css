@@ -77,7 +77,7 @@ body {
   color: #1E1E1E;
   font-weight: medium;
   font-size: 14px;
-  padding-top: -2%;
+  padding-top: -4%;
   padding-left: 50%;
   padding-right: 8%;
 }
@@ -118,7 +118,7 @@ body {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 36px;
-  padding-top: 24.3%;
+  padding-top: 8%;
   padding-left: 8%;
   padding-right: 50%;
 }
@@ -127,7 +127,7 @@ body {
   color: #1E1E1E;
   font-weight: medium;
   font-size: 14px;
-  padding-top: -2%;
+  padding-top: -4%;
   padding-left: 8%;
   padding-right: 50%;
 }
@@ -170,7 +170,7 @@ body {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 36px;
-  padding-top: 25%;
+  padding-top: 8%;
   padding-left: 50%;
   padding-right: 8%;
 }
@@ -179,7 +179,7 @@ body {
   color: #1E1E1E;
   font-weight: medium;
   font-size: 14px;
-  padding-top: -2%;
+  padding-top: -4%;
   padding-left: 50%;
   padding-right: 8%;
 }
@@ -199,9 +199,9 @@ body {
 /*Volvo page*/
 h1 {
   font-size: 54px;
-  padding-top: 4%;
+  padding-top: 1%;
 }
 
 .short-description p {
-  padding-top: -2%;
+  padding-top: -6%;
 }
