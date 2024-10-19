@@ -50,11 +50,7 @@ body {
   height: auto;
   margin-left: 10%;
   margin-bottom: 2%;
-  border: 1px solid red;
-}
-
-.item1 {
-  border: 1px solid green;
+  border: 10px solid red;
 }
 
 .item1 img {
@@ -63,6 +59,7 @@ body {
   float: left;
   padding-right: 14%;
   transition: transform 0.3s;
+  border: 10px solid green;
 }
 
 .item1 img:hover {
@@ -76,6 +73,7 @@ body {
   padding-top: 8%;
   padding-left: 50%;
   padding-right: 8%;
+  border: 10px solid blue;
 }
 
 .item1 p {
@@ -85,6 +83,7 @@ body {
   padding-top: -4%;
   padding-left: 50%;
   padding-right: 8%;
+  border: 10px solid orange;
 }
 
 .item1 a:link, a:visited {
@@ -105,11 +104,7 @@ body {
   height: auto;
   margin-left: 10%;
   margin-bottom: 2%;
-  border: 1px solid red;
-}
-
-.item2 {
-  border: 1px solid green;
+  border: 10px solid red;
 }
 
 .item2 img {
@@ -118,6 +113,7 @@ body {
   float: right;
   padding-left: 14%;
   transition: transform 0.3s;
+  border: 10px solid green;
 }
 
 .item2 img:hover {
@@ -131,6 +127,7 @@ body {
   padding-top: 8%;
   padding-left: 8%;
   padding-right: 50%;
+  border: 10px solid blue;
 }
 
 .item2 p {
@@ -140,6 +137,7 @@ body {
   padding-top: -4%;
   padding-left: 8%;
   padding-right: 50%;
+  border: 10px solid orange;
 }
 
 .item2 a:link, a:visited {
@@ -162,11 +160,7 @@ body {
   height: auto;
   margin-left: 10%;
   margin-bottom: 2%;
-  border: 1px solid red;
-}
-
-.item3 {
-  border: 1px solid green;
+  border: 10px solid red;
 }
 
 .item3 img {
@@ -175,6 +169,7 @@ body {
   float: left;
   padding-right: 14%;
   transition: transform 0.3s;
+  border: 10px solid green;
 }
 
 .item3 img:hover {
@@ -188,6 +183,7 @@ body {
   padding-top: 8%;
   padding-left: 50%;
   padding-right: 8%;
+  border: 10px solid blue;
 }
 
 .item3 p {
@@ -197,6 +193,7 @@ body {
   padding-top: -4%;
   padding-left: 50%;
   padding-right: 8%;
+  border: 10px solid orange;
 }
 
 .item3 a:link, a:visited {
@@ -214,5 +211,5 @@ body {
 /*Volvo page*/
 h1 {
   font-size: 54px;
-  padding-top: 2%;
+  padding-top: 1%;
 }
