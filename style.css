@@ -77,7 +77,7 @@ body {
   font-size: 36px;
   padding-top: 8%;
   padding-left: 50%;
-  padding-right: 6%;
+  padding-right: 8%;
 }
 
 .item1 p {
@@ -85,7 +85,7 @@ body {
   font-weight: medium;
   font-size: 14px;
   padding-left: 50%;
-  padding-right: 6%;
+  padding-right: 8%;
 }
 
 .item1 a:link, a:visited {
@@ -126,8 +126,8 @@ body {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 36px;
-  padding-top: 24.5%;
-  padding-left: 6%;
+  padding-top: 23%;
+  padding-left: 8%;
   padding-right: 50%;
 }
 
@@ -135,7 +135,7 @@ body {
   color: #1E1E1E;
   font-weight: medium;
   font-size: 14px;
-  padding-left: 6%;
+  padding-left: 8%;
   padding-right: 50%;
 }
 
@@ -179,7 +179,7 @@ body {
   font-size: 36px;
   padding-top: 25%;
   padding-left: 50%;
-  padding-right: 6%;
+  padding-right: 8%;
 }
 
 .item3 p {
@@ -187,7 +187,7 @@ body {
   font-weight: medium;
   font-size: 14px;
   padding-left: 50%;
-  padding-right: 6%;
+  padding-right: 8%;
 }
 
 .item3 a:link, a:visited {
