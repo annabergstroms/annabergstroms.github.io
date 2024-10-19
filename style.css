@@ -50,9 +50,10 @@ body {
 .item1 {
   width: 80%;
   height: auto;
-  margin-top: -2%;
   margin-left: 10%;
   margin-bottom: 14%;
+  margin-top: -4%;
+  border: 10px solid orange;
 } 
 
 .item1 img {
@@ -107,6 +108,7 @@ body {
   height: auto;
   margin-left: 10%;
   margin-bottom: 14%;
+  border: 10px solid orange;
 }
 
 .item2 img {
@@ -161,6 +163,7 @@ body {
   height: auto;
   margin-left: 10%;
   margin-bottom: 14%;
+  border: 10px solid orange;
 }
 
 .item3 img {
