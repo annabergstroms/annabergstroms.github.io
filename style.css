@@ -219,7 +219,7 @@ body {
 }
 
 .short-description p {
- margin-top: -1%;
+ margin-top: -2%;
 }
 
 .img-tpqd {
@@ -235,7 +235,7 @@ body {
 .left-image-tpqd {
   width: 35%;
   height: auto;
-  left: 20%;
+  left: 25%;
   top: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
@@ -253,8 +253,8 @@ body {
 .right-image-tpqd {
   width: 35%;
   height: auto;
-  left: 80%;
-  top: 50%;
+  left: 85%;
+  top: 60%;
   transform: translate(-50%, -50%);
   z-index: 3;
 }
