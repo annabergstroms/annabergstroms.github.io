@@ -52,8 +52,7 @@ body {
   height: auto;
   margin-left: 10%;
   margin-bottom: 14%;
-  margin-top: -2%;
-  border: 10px solid orange;
+  margin-top: -1%;
 } 
 
 .item1 img {
@@ -97,7 +96,7 @@ body {
 }
 
 .lank1 a:hover, a:active {
-  transform: scale(1.05);
+  color: #1E1E1E;
 }
 
 
@@ -108,7 +107,6 @@ body {
   height: auto;
   margin-left: 10%;
   margin-bottom: 14%;
-  border: 10px solid orange;
 }
 
 .item2 img {
@@ -163,7 +161,6 @@ body {
   height: auto;
   margin-left: 10%;
   margin-bottom: 14%;
-  border: 10px solid orange;
 }
 
 .item3 img {
