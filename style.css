@@ -57,7 +57,7 @@ body {
   width: 80%;
   height: auto;
   margin-left: 10%;
-  margin-bottom: 10%;
+  margin-bottom: 14%;
   border: 10px solid red;
 } 
 
@@ -65,7 +65,6 @@ body {
   width: 46%;
   height: auto;
   float: left;
-  /*padding-right: 14%;*/
   transition: transform 0.3s;
   border: 10px solid green;
 }
@@ -78,7 +77,7 @@ body {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 36px;
-  padding-top: 8%;
+  margin-top: 6%;
   padding-left: 50%;
   padding-right: 8%;
   border: 10px solid blue;
@@ -119,7 +118,7 @@ body {
   width: 80%;
   height: auto;
   margin-left: 10%;
-  margin-bottom: 10%;
+  margin-bottom: 14%;
   border: 10px solid red;
 }
 
@@ -127,7 +126,6 @@ body {
   width: 46%;
   height: auto;
   float: right;
-  /*padding-left: 14%;*/
   transition: transform 0.3s;
   border: 10px solid green;
 }
@@ -140,7 +138,7 @@ body {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 36px;
-  padding-top: 8%;
+  margin-top: 6%;
   padding-left: 8%;
   padding-right: 50%;
   border: 10px solid blue;
@@ -183,7 +181,7 @@ body {
   width: 80%;
   height: auto;
   margin-left: 10%;
-  margin-bottom: 10%;
+  margin-bottom: 14%;
   border: 10px solid red;
 }
 
@@ -191,7 +189,6 @@ body {
   width: 46%;
   height: auto;
   float: left;
-  /*padding-right: 14%;*/  
   transition: transform 0.3s;
   border: 10px solid green;
 }
@@ -204,7 +201,7 @@ body {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 36px;
-  padding-top: 8%;
+  margin-top: 6%;
   padding-left: 50%;
   padding-right: 8%;
   border: 10px solid blue;
