@@ -5,7 +5,7 @@ body {
   color: #1E1E1E;
 }
 
-/*Index page*/
+/*INDEX PAGE*/
 .image-container {
   position: relative;
   width: 100%;
@@ -44,10 +44,13 @@ body {
   font-weight: bold;
 }
 
+
+
 /* VOLVO CARS */
 .item1 {
   width: 80%;
   height: auto;
+  margin-top: -2%;
   margin-left: 10%;
   margin-bottom: 14%;
 } 
@@ -76,6 +79,7 @@ body {
   color: #1E1E1E;
   font-weight: medium;
   font-size: 14px;
+  margin-top: -1%;
   padding-left: 62%;
   padding-right: 8%;
 }
@@ -92,8 +96,10 @@ body {
 }
 
 .lank1 a:hover, a:active {
-  color: #1E1E1E;
+  transform: scale(1.05);
 }
+
+
 
 /* WISE */
 .item2 {
@@ -120,15 +126,16 @@ body {
   font-size: 36px;
   margin-top: 8%;
   padding-left: 8%;
-  padding-right: 62%;
+  padding-right: 60%;
 }
 
 .item2 p {
   color: #1E1E1E;
   font-weight: medium;
   font-size: 14px;
+  margin-top: -1%;
   padding-left: 8%;
-  padding-right: 62%;
+  padding-right: 60%;
 }
 
 .lank2 p {
@@ -145,6 +152,8 @@ body {
 .lank2 a:hover, a:active {
   color: #1E1E1E;
 }
+
+
 
 /* MASSIKA */
 .item3 {
@@ -178,6 +187,7 @@ body {
   color: #1E1E1E;
   font-weight: medium;
   font-size: 14px;
+  margin-top: -1%;
   padding-left: 62%;
   padding-right: 8%;
 }
@@ -197,8 +207,14 @@ body {
   color: #1E1E1E;
 }
 
-/*Volvo page*/
+
+
+/*VOLVO PAGE*/
 h1 {
   font-size: 54px;
-  padding-top: 1%;
+  padding-top: 1.5%;
+}
+
+.short-description p {
+ margin-top: -1%;
 }
