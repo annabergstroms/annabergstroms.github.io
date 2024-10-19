@@ -222,7 +222,24 @@ body {
  margin-top: -1%;
 }
 
-.top-volvo img {
-  width: 100%;
+.img-tpqd1 img {
+  width: 50%;
   height: auto;
+  position: relative;
+}
+
+.img-tpqd2 img {
+  width: 25%;
+  height: auto;
+  position: absolute;
+  float: left;
+  margin-left: 10%;
+}
+
+.img-tpqd3 img {
+  width: 25%;
+  height: auto;
+  position: absolute;
+  float: right;
+  margin-right: 10%;
 }
