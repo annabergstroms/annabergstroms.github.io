@@ -225,11 +225,11 @@ body {
 .img-tpqd {
   position: relative;
   width: 100%;
-  margin-top: 2%;
 }
 
 .img-tpqd img {
   position: absolute;
+  margin-top: 8%;
 }
 
 .left-image-tpqd {
