@@ -225,6 +225,7 @@ body {
 .img-tpqd {
   position: relative;
   width: 100%;
+  margin-top: 2%;
 }
 
 .img-tpqd img {
@@ -232,9 +233,8 @@ body {
 }
 
 .left-image-tpqd {
-  width: 35%;
+  width: 37%;
   height: auto;
-  margin-left: 10%;
   left: 25%;
   top: 50%;
   transform: translate(-50%, -50%) scale(0.9);
@@ -242,7 +242,7 @@ body {
 }
 
 .center-image-tpqd {
-  width: 50%;
+  width: 52%;
   height: auto;
   left: 50%;
   top: 50%;
@@ -251,11 +251,10 @@ body {
 }
 
 .right-image-tpqd {
-  width: 35%;
+  width: 37%;
   height: auto;
-  margin-right: 10%;
   left: 75%;
   top: 50%;
-  transform: translate(-50%, -50%) scale(0.9);
-  z-index: 1;
+  transform: translate(-50%, -50%);
+  z-index: 3;
 }
