@@ -58,7 +58,6 @@ body {
   height: auto;
   margin-left: 10%;
   margin-bottom: 14%;
-  border: 10px solid red;
 } 
 
 .item1 img {
@@ -66,7 +65,6 @@ body {
   height: auto;
   float: left;
   transition: transform 0.3s;
-  border: 10px solid green;
 }
 
 .item1 img:hover {
@@ -80,21 +78,19 @@ body {
   margin-top: 6%;
   padding-left: 56%;
   padding-right: 8%;
-  border: 10px solid blue;
 }
 
 .item1 p {
   color: #1E1E1E;
   font-weight: medium;
   font-size: 14px;
-  margin-top: -4%;
+  margin-top: -2%;
   padding-left: 56%;
   padding-right: 8%;
-  border: 10px solid orange;
 }
 
 .lank1 p {
-  margin-top: 10%;
+  margin-top: 6%;
 }
 
 .lank1 a:link, a:visited {
@@ -109,20 +105,11 @@ body {
 }
 
 /* WISE */
-/*.content2 {
-  width: 80%;
-  height: auto;
-  margin-left: 10%;
-  margin-bottom: 2%;
-  border: 10px solid red;
-}*/
-
 .item2 {
   width: 80%;
   height: auto;
   margin-left: 10%;
   margin-bottom: 14%;
-  border: 10px solid red;
 }
 
 .item2 img {
@@ -130,7 +117,6 @@ body {
   height: auto;
   float: right;
   transition: transform 0.3s;
-  border: 10px solid green;
 }
 
 .item2 img:hover {
@@ -144,21 +130,19 @@ body {
   margin-top: 6%;
   padding-left: 8%;
   padding-right: 56%;
-  border: 10px solid blue;
 }
 
 .item2 p {
   color: #1E1E1E;
   font-weight: medium;
   font-size: 14px;
-  margin-top: -4%;
+  margin-top: -2%;
   padding-left: 8%;
   padding-right: 56%;
-  border: 10px solid orange;
 }
 
 .lank2 p {
-  margin-top: 10%;
+  margin-top: 6%;
 }
 
 .lank2 a:link, a:visited {
@@ -175,20 +159,11 @@ body {
 
 
 /* MASSIKA */
-/*.content3 {
-  width: 80%;
-  height: auto;
-  margin-left: 10%;
-  margin-bottom: 2%;
-  border: 10px solid red;
-}*/
-
 .item3 {
   width: 80%;
   height: auto;
   margin-left: 10%;
   margin-bottom: 14%;
-  border: 10px solid red;
 }
 
 .item3 img {
@@ -196,7 +171,6 @@ body {
   height: auto;
   float: left;
   transition: transform 0.3s;
-  border: 10px solid green;
 }
 
 .item3 img:hover {
@@ -210,21 +184,19 @@ body {
   margin-top: 6%;
   padding-left: 56%;
   padding-right: 8%;
-  border: 10px solid blue;
 }
 
 .item3 p {
   color: #1E1E1E;
   font-weight: medium;
   font-size: 14px;
-  margin-top: -4%;
+  margin-top: -2%;
   padding-left: 56%;
   padding-right: 8%;
-  border: 10px solid orange;
 }
 
 .lank3 p {
-  margin-top: 10%;
+  margin-top: 6%;
 }
 
 .lank3 a:link, a:visited {
