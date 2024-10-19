@@ -233,7 +233,7 @@ body {
 }
 
 .left-image-tpqd {
-  width: 35%;
+  width: 31%;
   height: auto;
   left: 23%;
   top: 50%;
@@ -242,7 +242,7 @@ body {
 }
 
 .center-image-tpqd {
-  width: 50%;
+  width: 46%;
   height: auto;
   left: 50%;
   top: 50%;
@@ -251,10 +251,10 @@ body {
 }
 
 .right-image-tpqd {
-  width: 35%;
+  width: 31%;
   height: auto;
   left: 76%;
   top: 50%;
-  transform: translate(-50%, -15%);
+  transform: translate(-50%, -11%);
   z-index: 3;
 }
