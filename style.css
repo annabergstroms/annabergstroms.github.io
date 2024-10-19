@@ -76,16 +76,16 @@ body {
   font-weight: bold;
   font-size: 36px;
   padding-top: 8%;
-  padding-left: 24%;
-  padding-right: 10%;
+  padding-left: 30%;
+  padding-right: 2%;
 }
 
 .item1 p {
   color: #1E1E1E;
   font-weight: medium;
   font-size: 14px;
-  padding-left: 24%;
-  padding-right: 10%;
+  padding-left: 30%;
+  padding-right: 2%;
 }
 
 .item1 a:link, a:visited {
@@ -126,17 +126,17 @@ body {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 36px;
-  padding-top: 26%;
-  padding-left: 10%;
-  padding-right: 24%;
+  padding-top: 25.5%;
+  padding-left: 2%;
+  padding-right: 30%;
 }
 
 .item2 p {
   color: #1E1E1E;
   font-weight: medium;
   font-size: 14px;
-  padding-left: 10%;
-  padding-right: 24%;
+  padding-left: 2%;
+  padding-right: 30%;
 }
 
 .item2 a:link, a:visited {
@@ -177,17 +177,17 @@ body {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 36px;
-  padding-top: 26%;
-  padding-left: 24%;
-  padding-right: 10%;
+  padding-top: 25.5%;
+  padding-left: 30%;
+  padding-right: 2%;
 }
 
 .item3 p {
   color: #1E1E1E;
   font-weight: medium;
   font-size: 14px;
-  padding-left: 24%;
-  padding-right: 10%;
+  padding-left: 30%;
+  padding-right: 2%;
 }
 
 .item3 a:link, a:visited {
