@@ -52,6 +52,7 @@ body {
   height: auto;
   margin-left: 10%;
   margin-bottom: 14%;
+  border: 1px solid red;
 } 
 
 .item1 img {
@@ -208,3 +209,17 @@ body {
 
 
 
+/*VOLVO PAGE*/
+.top-volvo h1 {
+  font-size: 54px;
+  padding-top: 1.5%;
+}
+
+.short-description p {
+ margin-top: -1%;
+}
+
+.top-volvo img {
+  width: 100%;
+  height: auto;
+}
