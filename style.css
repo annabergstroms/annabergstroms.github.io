@@ -45,19 +45,27 @@ body {
 }
 
 /* VOLVO CARS */
-.content1 {
+/*.content1 {
   width: 80%;
   height: auto;
   margin-left: 10%;
   margin-bottom: 2%;
   border: 10px solid red;
-}
+}*/
+
+.item1 {
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  margin-bottom: 2%;
+  border: 10px solid red;
+} 
 
 .item1 img {
   width: 46%;
   height: auto;
   float: left;
-  padding-right: 14%;
+  /*padding-right: 14%;*/
   transition: transform 0.3s;
   border: 10px solid green;
 }
@@ -99,7 +107,15 @@ body {
 }
 
 /* WISE */
-.content2 {
+/*.content2 {
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  margin-bottom: 2%;
+  border: 10px solid red;
+}*/
+
+.item2 {
   width: 80%;
   height: auto;
   margin-left: 10%;
@@ -111,7 +127,7 @@ body {
   width: 46%;
   height: auto;
   float: right;
-  padding-left: 14%;
+  /*padding-left: 14%;*/
   transition: transform 0.3s;
   border: 10px solid green;
 }
@@ -155,7 +171,15 @@ body {
 
 
 /* MASSIKA */
-.content3 {
+/*.content3 {
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  margin-bottom: 2%;
+  border: 10px solid red;
+}*/
+
+.item3 {
   width: 80%;
   height: auto;
   margin-left: 10%;
@@ -167,7 +191,7 @@ body {
   width: 46%;
   height: auto;
   float: left;
-  padding-right: 14%;
+  /*padding-right: 14%;*/  
   transition: transform 0.3s;
   border: 10px solid green;
 }
