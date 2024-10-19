@@ -53,6 +53,10 @@ body {
   border: 1px solid red;
 }
 
+.item1 {
+  border: 1px solid green;
+}
+
 .item1 img {
   width: 46%;
   height: auto;
@@ -102,6 +106,10 @@ body {
   margin-left: 10%;
   margin-bottom: 2%;
   border: 1px solid red;
+}
+
+.item2 {
+  border: 1px solid green;
 }
 
 .item2 img {
@@ -155,6 +163,10 @@ body {
   margin-left: 10%;
   margin-bottom: 2%;
   border: 1px solid red;
+}
+
+.item3 {
+  border: 1px solid green;
 }
 
 .item3 img {
