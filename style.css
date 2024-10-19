@@ -253,8 +253,8 @@ body {
 .right-image-tpqd {
   width: 35%;
   height: auto;
-  left: 75%;
-  top: 70%;
-  transform: translate(-50%, -50%);
+  left: 78%;
+  top: 50%;
+  transform: translate(-50%, -60%);
   z-index: 3;
 }
