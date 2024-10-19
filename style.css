@@ -52,7 +52,7 @@ body {
   height: auto;
   margin-left: 10%;
   margin-bottom: 14%;
-  border: 1px solid red;
+  border: 1px solid white;
 } 
 
 .item1 img {
@@ -107,6 +107,7 @@ body {
   height: auto;
   margin-left: 10%;
   margin-bottom: 14%;
+  border: 1px solid white;
 }
 
 .item2 img {
@@ -161,6 +162,7 @@ body {
   height: auto;
   margin-left: 10%;
   margin-bottom: 14%;
+  border: 1px solid white;
 }
 
 .item3 img {
