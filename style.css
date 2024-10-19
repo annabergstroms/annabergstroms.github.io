@@ -222,7 +222,7 @@ body {
  margin-top: -1%;
 }
 
-.img-tpqd1 img {
+/*.img-tpqd1 img {
   width: 50%;
   height: auto;
   position: relative;
@@ -241,4 +241,55 @@ body {
   height: auto;
   position: absolute;
   margin-right: 10%;
+}*/
+
+.image-container {
+  position: relative;
+  width: 600px;
+  height: 400px;
+}
+
+.image-container img {
+  position: absolute;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s;
+}
+
+/* Centrera mittenbilden och gör den större */
+.center-image {
+  width: 250px;
+  height: auto;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+/* Placera vänstra bilden lite bakom mittenbilden och gör den mindre */
+.left-image {
+  width: 180px; /* Mindre storlek */
+  height: auto;
+  left: 25%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(0.9);
+  z-index: 1;
+  opacity: 0.8;
+}
+
+/* Placera högra bilden lite bakom mittenbilden och gör den mindre */
+.right-image {
+  width: 180px; /* Mindre storlek */
+  height: auto;
+  left: 75%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(0.9);
+  z-index: 1;
+  opacity: 0.8;
+}
+
+/* Skalningseffekt vid hovring */
+.image-container img:hover {
+  transform: translate(-50%, -50%) scale(1.05);
+  z-index: 3;
 }
