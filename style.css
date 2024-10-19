@@ -255,6 +255,6 @@ body {
   height: auto;
   left: 76%;
   top: 50%;
-  transform: translate(-50%, -25%);
+  transform: translate(-50%, -15%);
   z-index: 3;
 }
