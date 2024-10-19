@@ -5,6 +5,7 @@ body {
   color: #1E1E1E;
 }
 
+/*Index page*/
 .image-container {
   position: relative;
   width: 100%;
@@ -42,14 +43,6 @@ body {
   font-size: 20px;
   font-weight: bold;
 }
-
-/*.gallery {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 120px;
-  padding: 20px;
-}*/
 
 /* VOLVO CARS */
 .content1 {
@@ -198,4 +191,10 @@ body {
 
 .item3 a:hover, a:active {
   color: #1E1E1E;
+}
+
+/*Volvo page*/
+h1{
+  font-size: 54px;
+  margin-top: 2%;
 }
