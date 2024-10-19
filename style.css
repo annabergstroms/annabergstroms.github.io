@@ -63,7 +63,7 @@ body {
   width: 46%;
   height: auto;
   float: left;
-  padding-right: 6%;
+  padding-right: 10%;
   transition: transform 0.3s;
 }
 
@@ -76,7 +76,7 @@ body {
   font-weight: bold;
   font-size: 36px;
   padding-top: 8%;
-  padding-left: 46%;
+  padding-left: 50%;
   padding-right: 2%;
 }
 
@@ -84,7 +84,7 @@ body {
   color: #1E1E1E;
   font-weight: medium;
   font-size: 14px;
-  padding-left: 46%;
+  padding-left: 50%;
   padding-right: 2%;
 }
 
@@ -114,7 +114,7 @@ body {
   width: 46%;
   height: auto;
   float: right;
-  padding-left: 6%;
+  padding-left: 10%;
   transition: transform 0.3s;
 }
 
@@ -128,7 +128,7 @@ body {
   font-size: 36px;
   padding-top: 25.5%;
   padding-left: 2%;
-  padding-right: 46%;
+  padding-right: 50%;
 }
 
 .item2 p {
@@ -136,7 +136,7 @@ body {
   font-weight: medium;
   font-size: 14px;
   padding-left: 2%;
-  padding-right: 46%;
+  padding-right: 50%;
 }
 
 .item2 a:link, a:visited {
@@ -165,7 +165,7 @@ body {
   width: 46%;
   height: auto;
   float: left;
-  padding-right: 6%;
+  padding-right: 10%;
   transition: transform 0.3s;
 }
 
@@ -178,7 +178,7 @@ body {
   font-weight: bold;
   font-size: 36px;
   padding-top: 25%;
-  padding-left: 46%;
+  padding-left: 50%;
   padding-right: 2%;
 }
 
@@ -186,7 +186,7 @@ body {
   color: #1E1E1E;
   font-weight: medium;
   font-size: 14px;
-  padding-left: 46%;
+  padding-left: 50%;
   padding-right: 2%;
 }
 
