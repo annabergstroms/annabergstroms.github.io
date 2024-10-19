@@ -70,7 +70,7 @@ body {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 36px;
-  margin-top: 8%;
+  margin-top: 10%;
   padding-left: 62%;
   padding-right: 8%;
 }
@@ -124,7 +124,7 @@ body {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 36px;
-  margin-top: 8%;
+  margin-top: 10%;
   padding-left: 8%;
   padding-right: 60%;
 }
@@ -178,7 +178,7 @@ body {
   color: #1E1E1E;
   font-weight: bold;
   font-size: 36px;
-  margin-top: 8%;
+  margin-top: 10%;
   padding-left: 62%;
   padding-right: 8%;
 }
@@ -210,11 +210,16 @@ body {
 
 
 /*VOLVO PAGE*/
-h1 {
+.top-volvo h1 {
   font-size: 54px;
   padding-top: 1.5%;
 }
 
 .short-description p {
  margin-top: -1%;
+}
+
+.top-volvo img {
+  width: 100%;
+  height: auto;
 }
