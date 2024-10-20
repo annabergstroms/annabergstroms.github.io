@@ -262,8 +262,6 @@ body {
 /*PROJECT OVERVIEW*/
 .project-overview-volvo {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
   width: 100%;
 }
 
@@ -271,30 +269,27 @@ body {
   font-weight: medium;
   text-align: center;
   font-size: 36px;
-  margin-top: -1%;
+  margin-top: -12%;
 }
 
 .left-paragraph-tpqd h3 {
-  width: 45%;
-  padding-left: 12%;
-  padding-right: 12%;
   font-weight: medium;
   text-align: left;
   font-size: 18px;
+  margin-left: -10%;
+  margin-right: 40%;
 }
 
 .left-paragraph-tpqd p {
-  width: 45%;
-  padding-left: 12%;
-  padding-right: 12%;
   text-align: left;
   font-size: 13px;
+  margin-left: -10%;
+  margin-right: 40%;
 }
 
 .right-paragraph-tpqd p {
-  width: 45%;
-  padding-left: 12%;
-  padding-right: 12%;
   text-align: left;
   font-size: 13px;
+  margin-left: -60%;
+  margin-right: 40%;
 }
