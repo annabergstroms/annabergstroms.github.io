@@ -292,7 +292,7 @@ h2 {
   text-align: left;
   font-size: 20px;
   margin-left: 30%;
-  margin-right: -10%;
+  margin-right: 30%;
 }
 
 .right-paragraph-tpqd p {
@@ -300,4 +300,5 @@ h2 {
   font-size: 13px;
   margin-left: 30%;
   margin-right: 30%;
+  margin-top: -1%:
 }
