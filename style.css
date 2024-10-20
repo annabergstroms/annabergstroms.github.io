@@ -260,16 +260,15 @@ body {
 }
 
 /*PROJECT OVERVIEW*/
-.project-overview-volvo {
-  display: flex;
-  width: 100%;
-}
-
-.project-overview-volvo h2 {
+h2 {
   font-weight: medium;
   text-align: center;
   font-size: 36px;
-  margin-top: -12%;
+}
+  
+.project-overview-volvo {
+  display: flex;
+  width: 100%;
 }
 
 .left-paragraph-tpqd h3 {
