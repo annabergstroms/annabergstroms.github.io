@@ -294,3 +294,43 @@ h2 {
   margin-right: 40%;
   margin-top: 6%;
 }
+
+
+/*DESIGN PROCESS*/
+.process-container-volvo {
+  position: relative;
+  width: 100%;
+}
+
+.process-container-volvo img {
+  width: 100%;
+  height: auto;
+}
+
+.volvo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+}
+
+.process1 {
+  left: 50%;
+  color: #1E1E1E;
+  font-size: 20px;
+  font-weight: medium;
+}
+
+.process2 {
+  left: 35%;
+  color: #1E1E1E;
+  font-size: 20px;
+  font-weight: medium;
+}
+
+.process3 {
+  left: 65%;
+  color: #1E1E1E;
+  font-size: 20px;
+  font-weight: medium;
+}
