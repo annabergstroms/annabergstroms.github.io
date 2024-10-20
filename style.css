@@ -267,7 +267,8 @@ h2 {
 }
   
 .project-overview-volvo {
-  display: inline-block;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   width: 100%;
 }
 
