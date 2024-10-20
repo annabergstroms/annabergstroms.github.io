@@ -318,7 +318,7 @@ h2 {
   color: #1E1E1E;
   font-size: 20px;
   font-weight: medium;
-  margin-top: -6%;
+  margin-top: -10%;
 }
 
 .process2 h3 {
@@ -326,7 +326,7 @@ h2 {
   color: #1E1E1E;
   font-size: 20px;
   font-weight: medium;
-  margin-top: -6%;
+  margin-top: -10%;
 }
 
 .process3 h3 {
@@ -334,29 +334,26 @@ h2 {
   color: #1E1E1E;
   font-size: 20px;
   font-weight: medium;
-  margin-top: -6%;
+  margin-top: -10%;
 }
 
 .process1 p {
   left: 30%;
   color: #1E1E1E;
   font-size: 13px;
-  font-weight: medium;
-  margin-top: -6%;
+  margin-top: -8%;
 }
 
 .process2 p {
   left: 50%;
   color: #1E1E1E;
   font-size: 13px;
-  font-weight: medium;
-  margin-top: -6%;
+  margin-top: -8%;
 }
 
 .process3 p {
   left: 70%;
   color: #1E1E1E;
   font-size: 13px;
-  font-weight: medium;
-  margin-top: -6%;
+  margin-top: -8%;
 }
