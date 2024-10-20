@@ -314,22 +314,25 @@ h2 {
 }
 
 .process1 {
+  left: 30%;
+  color: #1E1E1E;
+  font-size: 20px;
+  font-weight: medium;
+  margin-top: -6%;
+}
+
+.process2 {
   left: 50%;
   color: #1E1E1E;
   font-size: 20px;
   font-weight: medium;
-}
-
-.process2 {
-  left: 35%;
-  color: #1E1E1E;
-  font-size: 20px;
-  font-weight: medium;
+  margin-top: -6%;
 }
 
 .process3 {
-  left: 65%;
+  left: 70%;
   color: #1E1E1E;
   font-size: 20px;
   font-weight: medium;
+  margin-top: -6%;
 }
