@@ -260,7 +260,7 @@ body {
 }
 
 /*PROJECT OVERVIEW*/
-.project-volvo {
+.project-overview-volvo {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -276,6 +276,7 @@ body {
 
 .left-paragraph-tpqd h3 {
   font-weight: medium;
+  text-align: left;
   font-size: 18px;
 }
 
@@ -284,7 +285,7 @@ body {
   padding-left: 20%;
   padding-right: 20%;
   text-align: left;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .right-paragraph-tpqd p {
@@ -292,5 +293,5 @@ body {
   padding-left: 20%;
   padding-right: 20%;
   text-align: left;
-  font-size: 12px;
+  font-size: 13px;
 }
