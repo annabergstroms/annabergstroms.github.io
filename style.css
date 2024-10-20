@@ -276,15 +276,15 @@ h2 {
   font-weight: medium;
   text-align: left;
   font-size: 20px;
-  margin-left: 30%;
-  margin-right: -10%;
+  margin-left: 40%;
+  margin-right: -20%;
 }
 
 .left-paragraph-tpqd p {
   text-align: left;
   font-size: 13px;
-  margin-left: 30%;
-  margin-right: -10%;
+  margin-left: 40%;
+  margin-right: -20%;
 }
 
 .right-paragraph-tpqd h3 {
@@ -292,13 +292,12 @@ h2 {
   text-align: left;
   font-size: 20px;
   margin-left: 30%;
-  margin-right: 30%;
+  margin-right: 40%;
 }
 
 .right-paragraph-tpqd p {
   text-align: left;
   font-size: 13px;
   margin-left: 30%;
-  margin-right: 30%;
-  margin-top: -1%:
+  margin-right: 40%;
 }
