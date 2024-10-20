@@ -313,7 +313,7 @@ h2 {
   width: 100%;
 }
 
-.process1 {
+.process1 h3 {
   left: 30%;
   color: #1E1E1E;
   font-size: 20px;
@@ -321,7 +321,7 @@ h2 {
   margin-top: -6%;
 }
 
-.process2 {
+.process2 h3 {
   left: 50%;
   color: #1E1E1E;
   font-size: 20px;
@@ -329,10 +329,34 @@ h2 {
   margin-top: -6%;
 }
 
-.process3 {
+.process3 h3 {
   left: 70%;
   color: #1E1E1E;
   font-size: 20px;
+  font-weight: medium;
+  margin-top: -6%;
+}
+
+.process1 p {
+  left: 30%;
+  color: #1E1E1E;
+  font-size: 13px;
+  font-weight: medium;
+  margin-top: -6%;
+}
+
+.process2 p {
+  left: 50%;
+  color: #1E1E1E;
+  font-size: 13px;
+  font-weight: medium;
+  margin-top: -6%;
+}
+
+.process3 p {
+  left: 70%;
+  color: #1E1E1E;
+  font-size: 13px;
   font-weight: medium;
   margin-top: -6%;
 }
