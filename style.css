@@ -260,14 +260,14 @@ body {
 }
 
 /*PROJECT OVERVIEW*/
-.project-overview-volvo {
+/*.project-overview-volvo {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   padding: 50px;
   width: 100%;
   margin: 0 auto;
-}
+}*/
 
 .project-overview-volvo h2 {
   font-weight: medium;
