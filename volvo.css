@@ -184,3 +184,32 @@ body {
     margin-left: 20%;
     margin-right: 20%;
 }
+
+.shadow-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+.text-box-left h3{
+  color: #1E1E1E;
+  font-size: 20px;
+  font-weight: medium;
+}
+
+.text-box-left p{
+  color: #1E1E1E;
+  font-size: 13px;
+  text-align: left;
+}
+
+.text-box-right p{
+  color: #1E1E1E;
+  font-size: 13px;
+  text-align: left;
+}
