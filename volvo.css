@@ -63,6 +63,8 @@ body {
     font-weight: medium;
     text-align: center;
     font-size: 36px;
+    padding-top: 6%;
+    margin-bottom: 0%;
     background-color: #F1F2F6;
   }
 
@@ -70,8 +72,8 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 100%;
-    padding-top: 4%;
-    padding-bottom: 4%;
+    padding-top: 6%;
+    padding-bottom: 6%;
     background-color: #F1F2F6;
   }
   
@@ -170,6 +172,6 @@ body {
     color: #1E1E1E;
     font-size: 13px;
     text-align: left;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
 }
