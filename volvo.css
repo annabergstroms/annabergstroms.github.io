@@ -187,7 +187,7 @@ body {
 
 .shadow-box {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 60% 40%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-top: 2%;
   margin-left: 20%;
@@ -201,14 +201,14 @@ body {
   font-size: 15px;
   font-weight: medium;
   text-align: left;
-  padding-left: 14%;
+  padding-left: 20%;
 }
 
 .text-box-left p {
   color: #1E1E1E;
   font-size: 13px;
   text-align: left;
-  padding-left: 14%;
+  padding-left: 20%;
 }
 
 .text-box-right h3 {
@@ -217,7 +217,7 @@ body {
   font-weight: medium;
   text-align: left;
   padding-left: 12%;
-  padding-right: 14%;
+  padding-right: 20%;
 }
 
 .text-box-right p {
@@ -225,7 +225,7 @@ body {
   font-size: 13px;
   text-align: left;
   padding-left: 12%;
-  padding-right: 14%;
+  padding-right: 20%;
 }
 
 /*2 DESIGN & PROTOTYPE*/
