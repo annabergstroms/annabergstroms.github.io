@@ -201,15 +201,15 @@ body {
   font-size: 15px;
   font-weight: medium;
   text-align: left;
-  padding-left: 8%;
+  padding-left: 14%;
 }
 
 .text-box-left p {
   color: #1E1E1E;
   font-size: 13px;
   text-align: left;
-  padding-left: 10%;
-  padding-right: 4%;
+  padding-left: 14%;
+  padding-right: 5%;
 }
 
 .text-box-right h3 {
@@ -217,15 +217,16 @@ body {
   font-size: 15px;
   font-weight: medium;
   text-align: left;
-  padding-right: 8%;
+  padding-left: 5%;
+  padding-right: 14%;
 }
 
 .text-box-right p {
   color: #1E1E1E;
   font-size: 13px;
   text-align: left;
-  padding-left: 4%;
-  padding-right: 10%;
+  padding-left: 5%;
+  padding-right: 14%;
 }
 
 /*2 DESIGN & PROTOTYPE*/
