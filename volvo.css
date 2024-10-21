@@ -189,6 +189,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 2%;
   margin-left: 20%;
   margin-right: 20%;
   padding-top: 2%;
@@ -202,6 +203,7 @@ body {
   font-size: 15px;
   font-weight: medium;
   text-align: left;
+  margin-right: 4%;
 }
 
 .text-box-left p {
@@ -216,4 +218,6 @@ body {
   text-align: left;
   padding-top: 4%;
   padding-left: 2%;
+  margin-left: 2%;
 }
+
