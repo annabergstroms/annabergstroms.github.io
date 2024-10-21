@@ -108,7 +108,7 @@ body {
   
   .process1 h3 {
     margin-left: -40%;
-    margin-top: 4%;
+    margin-top: -4%;
     color: #1E1E1E;
     font-size: 20px;
     font-weight: medium;
@@ -117,7 +117,7 @@ body {
   
   .process2 h3 {
     margin-left: 0%;
-    margin-top: 4%;
+    margin-top: -4%;
     color: #1E1E1E;
     font-size: 20px;
     font-weight: medium;
@@ -126,7 +126,7 @@ body {
   
   .process3 h3 {
     margin-left: 40%;
-    margin-top: 4%;
+    margin-top: -4%;
     color: #1E1E1E;
     font-size: 20px;
     font-weight: medium;
