@@ -90,8 +90,7 @@ body {
   
   /*DESIGN PROCESS*/
   .process-container-volvo {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
     width: 100%;
   }
   
@@ -108,40 +107,46 @@ body {
   }
   
   .process1 h3 {
-    left: 30%;
+    margin-left: 30%;
     color: #1E1E1E;
     font-size: 20px;
     font-weight: medium;
+    text-align: center;
   }
   
   .process2 h3 {
-    left: 50%;
+    margin-left: 0%;
     color: #1E1E1E;
     font-size: 20px;
     font-weight: medium;
+    text-align: center;
   }
   
   .process3 h3 {
-    left: 70%;
+    margin-left: 70%;
     color: #1E1E1E;
     font-size: 20px;
     font-weight: medium;
+    text-align: center;
   }
   
   .process1 p {
-    left: 30%;
+    margin-left: 30%;
     color: #1E1E1E;
     font-size: 13px;
+    text-align: center;
   }
   
   .process2 p {
-    left: 50%;
+    margin-left: 0%;
     color: #1E1E1E;
     font-size: 13px;
+    text-align: center;
   }
   
   .process3 p {
-    left: 70%;
+    margin-left: 70%;
     color: #1E1E1E;
     font-size: 13px;
+    text-align: center;
   }
