@@ -208,7 +208,8 @@ body {
   color: #1E1E1E;
   font-size: 13px;
   text-align: left;
-  padding-left: 8%;
+  padding-left: 10%;
+  padding-right: 4%;
 }
 
 .text-box-right h3 {
@@ -223,8 +224,8 @@ body {
   color: #1E1E1E;
   font-size: 13px;
   text-align: left;
-  padding-left: 2%;
-  padding-right: 8%;
+  padding-left: 4%;
+  padding-right: 10%;
 }
 
 /*2 DESIGN & PROTOTYPE*/
