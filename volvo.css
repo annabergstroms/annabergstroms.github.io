@@ -221,3 +221,8 @@ body {
   margin-left: 2%;
 }
 
+.paragraph-center p {
+  color: #1E1E1E;
+  font-size: 13px;
+  text-align: center;
+}
