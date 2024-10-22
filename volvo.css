@@ -227,10 +227,11 @@ body {
 }
 
 /*2 DESIGN & PROTOTYPE*/
-.paragraph-center p {
-  color: #1E1E1E;
-  font-size: 13px;
-  text-align: center;
+.shadow-box1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 2%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .wireframe1 {
@@ -243,45 +244,50 @@ body {
 
 /* Vänstra bilden övre rad*/
 .left-wireframe1 {
-  width: 20%; /* Bredd på bilden */
-  margin-left: 20%;
+  width: 31.3%; /* Bredd på bilden */
+  margin-left: 2%;
   margin-right: 0.5%;
   margin-bottom: 1%;
+  margin-top: 2%;
 }
 
 /* Mittersta bilden övre rad*/
 .center-wireframe1 {
-  width: 20%;
-  margin-right: 0.5%;
+  width: 31.3%;
   margin-left: 0.5%;
+  margin-right: 0.5%;
   margin-bottom: 1%;
+  margin-top: 2%;
 }
 
 /* Högra bilden övre rad*/
 .right-wireframe1 {
-  width: 20%;
-  margin-right: 20%;
+  width: 31.3%;
   margin-left: 0.5%;
   margin-bottom: 1%;
+  margin-top: 2%;
 }
 
 /* Vänstra bilden nedre rad*/
 .left-wireframe2 {
-  width: 20%; /* Bredd på bilden */
-  margin-left: 20%;
+  width: 31.3%; /* Bredd på bilden */
+  margin-left: 2%;
   margin-right: 0.5%;
+  margin-bottom: 2%;
 }
 
 /* Mittersta bilden nedre rad*/
 .center-wireframe2 {
-  width: 20%;
-  margin-right: 0.5%;
+  width: 31.3%;
   margin-left: 0.5%;
+  margin-right: 0.5%;
+  margin-bottom: 2%;
 }
 
 /* Högra bilden nedre rad*/
 .right-wireframe2 {
-  width: 20%;
-  margin-right: 20%;
+  width: 31.3%;
   margin-left: 0.5%;
+  margin-right: 2%;
+  margin-bottom: 2%;
 }
