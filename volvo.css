@@ -233,37 +233,55 @@ body {
   text-align: center;
 }
 
-.image-grid {
+.wireframe1 {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2%; /* Marginal mellan de två raderna */
 }
 
-.row {
+.wireframe2 {
   display: flex;
-  justify-content: space-between;
-  width: 100%;
-  max-width: 100%;
 }
 
-/* Vänstra bilden */
-.left-image {
-  width: 25%; /* Bredd på bilden */
+/* Vänstra bilden övre rad*/
+.left-wireframe1 {
+  width: 20%; /* Bredd på bilden */
   margin-left: 20%;
-  margin-right: 1%;
+  margin-right: 0.5%;
+  margin-bottom: 1%;
 }
 
-/* Mittersta bilden */
-.center-image {
-  width: 25%;
-  margin-right: 1%;
-  margin-left: 1%;
+/* Mittersta bilden övre rad*/
+.center-wireframe1 {
+  width: 20%;
+  margin-right: 0.5%;
+  margin-left: 0.5%;
+  margin-bottom: 1%;
 }
 
-/* Högra bilden */
-.right-image {
-  width: 25%;
+/* Högra bilden övre rad*/
+.right-wireframe1 {
+  width: 20%;
   margin-right: 20%;
-  margin-left: 1%;
+  margin-left: 0.5%;
+  margin-bottom: 1%;
+}
+
+/* Vänstra bilden nedre rad*/
+.left-wireframe2 {
+  width: 20%; /* Bredd på bilden */
+  margin-left: 20%;
+  margin-right: 0.5%;
+}
+
+/* Mittersta bilden nedre rad*/
+.center-wireframe2 {
+  width: 20%;
+  margin-right: 0.5%;
+  margin-left: 0.5%;
+}
+
+/* Högra bilden nedre rad*/
+.right-wireframe2 {
+  width: 20%;
+  margin-right: 20%;
+  margin-left: 0.5%;
 }
