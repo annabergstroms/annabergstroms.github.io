@@ -7,22 +7,21 @@ body {
 
 .navbar ul{
   list-style-type: none;
-  margin-bottom: 4%;
+  margin-top: -40%;
   margin-right: 8%;
   overflow: hidden;
   background-color: transparent;
   position: absolute;
-  left: right 80%;
-  transform: translateX(-80%);
   width: 100%;
 }
+
 .navbar li {
   float: right;
 }
 
 .navbar li a {
   display: block;
-  padding: 14px 16px;
+  padding-right: 3%;
   color: #1E1E1E;
   text-align: center;
   font-size: 18px;
