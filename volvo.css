@@ -18,6 +18,33 @@ body {
     margin-left: 20%;
   }
   
+  .navbar ul{
+    list-style-type: none;
+    margin-top: -45%;
+    margin-left: -10%;
+    overflow: hidden;
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .navbar li {
+    float: right;
+  }
+  
+  .navbar li a {
+    display: block;
+    padding-right: 3%;
+    color: #1E1E1E;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  
+  .navbar li a:hover {
+    font-weight: bold;
+  }
+
   /*VOLVO PAGE*/
 .top-volvo h1 {
     font-size: 54px;
