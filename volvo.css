@@ -300,7 +300,38 @@ body {
 }
 
 /*TEST*/
-
 .workshop img {
   width: 100%;
+}
+
+/*RESULT*/
+.prototype-tpqd {
+  display: flex;
+}
+
+/* Vänstra bilden övre rad*/
+.left-prototype1 {
+  width: 31.3%; /* Bredd på bilden */
+  margin-left: 10%;
+  margin-right: 1%;
+  margin-bottom: 1%;
+  margin-top: 2%;
+}
+
+/* Mittersta bilden övre rad*/
+.center-prototype1 {
+  width: 31.3%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 1%;
+  margin-top: 2%;
+}
+
+/* Högra bilden övre rad*/
+.right-prototyp1 {
+  width: 31.3%;
+  margin-left: 1%;
+  margin-right: 10%;
+  margin-bottom: 1%;
+  margin-top: 2%;
 }
