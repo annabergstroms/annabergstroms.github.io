@@ -305,7 +305,7 @@ body {
 }
 
 /*RESULT*/
-.prototype-tpqd {
+.prototype-tpqd1 {
   display: flex;
 }
 
@@ -331,6 +331,10 @@ body {
   margin-right: 10%;
   margin-bottom: 1%;
   margin-top: 2%;
+}
+
+.prototype-tpqd2 {
+  display: flex;
 }
 
 .left-prototype2 {
