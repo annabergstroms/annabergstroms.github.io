@@ -20,9 +20,8 @@ body {
   
   .navbar ul{
     list-style-type: none;
-    margin-left: 42%;
-    margin-right: 8%;
-    margin-top: -2%;
+    margin-left: 40%;
+    margin-top: 2%;
     overflow: hidden;
     background-color: transparent;
     position: absolute;
@@ -35,7 +34,7 @@ body {
   
   .navbar li a {
     display: block;
-    padding-right: 26px;
+    padding: 20px;
     color: #1E1E1E;
     text-align: center;
     font-size: 18px;
