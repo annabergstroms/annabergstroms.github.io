@@ -310,15 +310,15 @@ body {
 }
 
 .left-prototype1 {
-  width: 26.6%;
-  margin-left: 0%;
+  width: 30%;
+  margin-left: 10%;
   margin-right: 0%;
   margin-bottom: 1%;
   margin-top: 2%;
 }
 
 .center-prototype1 {
-  width: 26.6%;
+  width: 30%;
   margin-left: 0%;
   margin-right: 0%;
   margin-bottom: 1%;
@@ -326,9 +326,9 @@ body {
 }
 
 .right-prototype1 {
-  width: 26.6%;
+  width: 30%;
   margin-left: 0%;
-  margin-right: 0%;
+  margin-right: 10%;
   margin-bottom: 1%;
   margin-top: 2%;
 }
