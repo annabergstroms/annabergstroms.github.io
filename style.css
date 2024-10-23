@@ -11,6 +11,10 @@ body {
   margin-right: 8%;
   overflow: hidden;
   background-color: transparent;
+  position: absolute;
+  left: right 80%;
+  transform: translateX(-80%);
+  width: 100%;
 }
 .navbar li {
   float: right;
