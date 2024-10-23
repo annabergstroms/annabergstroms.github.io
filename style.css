@@ -7,9 +7,10 @@ body {
 
 .navbar ul{
   list-style-type: none;
-  margin-top: 2%;
-  margin-right: 6%;
+  margin-bottom: 4%;
+  margin-right: 8%;
   overflow: hidden;
+  background-color: transparent;
 }
 .navbar li {
   float: right;
