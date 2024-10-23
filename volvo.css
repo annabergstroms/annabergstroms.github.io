@@ -35,7 +35,6 @@ body {
   
   .navbar li a {
     display: block;
-    padding-right: 30px;
     color: #1E1E1E;
     text-align: center;
     font-size: 18px;
@@ -47,8 +46,12 @@ body {
   }
 
   /*VOLVO PAGE*/
-.top-volvo h1 {
+
+  h1 {
     margin-top: 6%;
+  }
+
+.top-volvo h1 {
     font-size: 54px;
     padding-top: 1.5%;
   }
