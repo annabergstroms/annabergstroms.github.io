@@ -20,8 +20,8 @@ body {
   
   .navbar ul{
     list-style-type: none;
-    margin-left: 38%;
-    margin-top: 0%;
+    margin-left: 37.5%;
+    margin-top: -0.5%;
     overflow: hidden;
     background-color: transparent;
     position: absolute;
@@ -48,7 +48,7 @@ body {
   /*VOLVO PAGE*/
 .top-volvo h1 {
     font-size: 54px;
-    padding-top: 8%;
+    padding-top: 6%;
   }
   
   .short-description p {
