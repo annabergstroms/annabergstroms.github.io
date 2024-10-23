@@ -93,11 +93,11 @@ body {
     background-color: #F1F2F6;
   }
   
-  .left-paragraph-tpqd h3 {
+  .left-paragraph-tpqd h4 {
     font-weight: medium;
     text-align: left;
     font-size: 20px;
-    margin-left: 20%;
+    margin-left: 40%;
     margin-right: -20%;
   }
   
@@ -297,4 +297,10 @@ body {
   margin-left: 0.5%;
   margin-right: 2%;
   margin-bottom: 2%;
+}
+
+/*TEST*/
+
+.wireframe1 img {
+  width: 100%;
 }
