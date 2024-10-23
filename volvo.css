@@ -93,7 +93,7 @@ body {
     background-color: #F1F2F6;
   }
   
-  .left-paragraph-tpqd h4 {
+  .left-paragraph-tpqd h3 {
     font-weight: medium;
     text-align: left;
     font-size: 20px;
@@ -203,7 +203,7 @@ body {
   padding-bottom: 2%;
 }
 
-.text-box-left h3 {
+.text-box-left h4 {
   color: #1E1E1E;
   font-size: 15px;
   font-weight: medium;
@@ -218,7 +218,7 @@ body {
   padding-left: 22%;
 }
 
-.text-box-right h3 {
+.text-box-right h4 {
   color: #ffffff;
   font-size: 15px;
   font-weight: medium;
