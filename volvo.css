@@ -311,7 +311,7 @@ body {
 
 /* Vänstra bilden övre rad*/
 .left-prototype1 {
-  width: 31.3%; /* Bredd på bilden */
+  width: 40%; /* Bredd på bilden */
   margin-left: 10%;
   margin-right: 1%;
   margin-bottom: 1%;
@@ -320,7 +320,7 @@ body {
 
 /* Mittersta bilden övre rad*/
 .center-prototype1 {
-  width: 31.3%;
+  width: 40%;
   margin-left: 1%;
   margin-right: 1%;
   margin-bottom: 1%;
@@ -328,8 +328,8 @@ body {
 }
 
 /* Högra bilden övre rad*/
-.right-prototyp1 {
-  width: 31.3%;
+.right-prototype1 {
+  width: 40%;
   margin-left: 1%;
   margin-right: 10%;
   margin-bottom: 1%;
