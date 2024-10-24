@@ -232,6 +232,7 @@ body {
 /*Tematisk analys bild*/
 .tematiskanalys img {
   width: 100%;
+  margin: 2%;
 }
 
 /*Insikter och Behov av tematisk analys*/
