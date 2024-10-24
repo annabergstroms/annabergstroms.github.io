@@ -251,21 +251,24 @@ body {
   font-size: 15px;
   font-weight: medium;
   text-align: left;
-  padding-left: 22%;
+  padding-left: 20%;
+  padding-right: 40%;
 }
 
 .text-box-left p {
   color: #1E1E1E;
   font-size: 13px;
   text-align: left;
-  padding-left: 22%;
+  padding-left: 20%;
+  padding-right: 40%;
 }
 
 .text-box-right h4 {
-  color: #ffffff;
+  color: #1E1E1E;
   font-size: 15px;
   font-weight: medium;
   text-align: left;
+  padding-left: 60%;
   padding-right: 20%;
 }
 
@@ -273,5 +276,6 @@ body {
   color: #1E1E1E;
   font-size: 13px;
   text-align: left;
+  padding-left: 60%;
   padding-right: 20%;
 }
