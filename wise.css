@@ -224,6 +224,54 @@ body {
   margin-right: 20%;
 }
 
+/*Konkurrentanalysbild*/
 .comp img {
   width: 100%;
+}
+
+/*Tematisk analys bild*/
+.tematiskanalys img {
+  width: 100%;
+}
+
+/*Insikter och Behov av tematisk analys*/
+.shadow-box {
+  display: grid;
+  grid-template-columns: 57% 43%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 2%;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.text-box-left h4 {
+  color: #1E1E1E;
+  font-size: 15px;
+  font-weight: medium;
+  text-align: left;
+  padding-left: 22%;
+}
+
+.text-box-left p {
+  color: #1E1E1E;
+  font-size: 13px;
+  text-align: left;
+  padding-left: 22%;
+}
+
+.text-box-right h4 {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: medium;
+  text-align: left;
+  padding-right: 20%;
+}
+
+.text-box-right p {
+  color: #1E1E1E;
+  font-size: 13px;
+  text-align: left;
+  padding-right: 20%;
 }
