@@ -219,7 +219,7 @@ body {
 
 .shadow-box {
   display: grid;
-  grid-template-columns: 33.33% 33.33% 33.33%;
+  grid-template-columns: 29.33% 29.33% 29.33%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-top: 2%;
   margin-left: 20%;
@@ -232,7 +232,7 @@ body {
   display: flex;
   width: 80%;
   margin-bottom: 4%;
-  margin-top: 2%;
+  margin-top: 4%;
 }
 
 .text-box-left h3 {
