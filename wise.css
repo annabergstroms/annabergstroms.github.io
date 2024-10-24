@@ -231,11 +231,11 @@ body {
 
 /*Tematisk analys bild*/
 .tematiskanalys img {
-  width: 90%;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  margin-left: 2%;
-  margin-right: 2%;
+  width: 100%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  margin-left: 4%;
+  margin-right: 4%;
 }
 
 /*Insikter och Behov av tematisk analys*/
