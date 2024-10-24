@@ -425,7 +425,6 @@ body {
   padding-right: 3%;
 }
 
-
 .recommendations h4 {
   color: #1E1E1E;
   font-size: 15px;
@@ -441,4 +440,12 @@ body {
   text-align: left;
   padding-left: 3%;
   padding-right: 6%;
+}
+
+.tematiskanalys2 img {
+  width: 90%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 4%;
+  margin-right: 4%;
 }
