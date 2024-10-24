@@ -219,7 +219,7 @@ body {
 
 .shadow-box {
   display: grid;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: 33.33% 33.33% 33.33%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-top: 2%;
   margin-left: 20%;
@@ -233,8 +233,6 @@ body {
   font-size: 20px;
   font-weight: medium;
   text-align: center;
-  padding-left: 4%;
-  padding-right: 2%;
 }
 
 .text-box-left h4 {
@@ -242,16 +240,16 @@ body {
   font-size: 15px;
   font-weight: medium;
   text-align: left;
-  padding-left: 4%;
-  padding-right: 2%;
+  padding-left: 10%;
+  padding-right: 4%;
 }
 
 .text-box-left p {
   color: #1E1E1E;
   font-size: 13px;
   text-align: left;
-  padding-left: 4%;
-  padding-right: 2%;
+  padding-left: 10%;
+  padding-right: 4%;
 }
 
 .text-box-center h3 {
@@ -259,8 +257,6 @@ body {
   font-size: 20px;
   font-weight: medium;
   text-align: center;
-  padding-left: 2%;
-  padding-right: 2%;
 }
 
 .text-box-center h4 {
@@ -268,16 +264,16 @@ body {
   font-size: 15px;
   font-weight: medium;
   text-align: left;
-  padding-left: 2%;
-  padding-right: 2%;
+  padding-left: 4%;
+  padding-right: 4%;
 }
 
 .text-box-center p {
   color: #1E1E1E;
   font-size: 13px;
   text-align: left;
-  padding-left: 2%;
-  padding-right: 2%;
+  padding-left: 4%;
+  padding-right: 4%;
 }
 
 .text-box-right h3 {
@@ -285,23 +281,21 @@ body {
   font-size: 20px;
   font-weight: medium;
   text-align: center;
-  padding-left: 2%;
-  padding-right: 4%;
 }
 
 .text-box-right h4 {
-  color: #ffffff;
+  color: #1E1E1E;
   font-size: 15px;
   font-weight: medium;
   text-align: left;
-  padding-left: 2%;
-  padding-right: 4%;
+  padding-left: 4%;
+  padding-right: 10%;
 }
 
 .text-box-right p {
   color: #1E1E1E;
   font-size: 13px;
   text-align: left;
-  padding-left: 2%;
-  padding-right: 4%;
+  padding-left: 4%;
+  padding-right: 10%;
 }
