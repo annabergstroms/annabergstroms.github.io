@@ -90,3 +90,55 @@ body {
     margin-bottom: 1%;
     margin-top: 2%;
   }
+
+  /*PROJECT OVERVIEW*/  
+  .heading-project-overview h2 {
+    font-weight: medium;
+    text-align: center;
+    font-size: 36px;
+    padding-top: 4%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-top: -4%;
+    margin-bottom: 0%;
+    margin-left: -1%;
+    margin-right: -1%;
+    background-color: #F1F2F6;
+  }
+
+  .project-overview-wise {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-left: -1%;
+    margin-right: -1%;
+    background-color: #F1F2F6;
+  }
+  
+  .left-paragraph-wise h3 {
+    font-weight: medium;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 40%;
+    margin-right: -20%;
+  }
+  
+  .left-paragraph-wise p {
+    text-align: left;
+    font-size: 13px;
+    margin-left: 40%;
+    margin-right: -20%;
+  }
+  
+  .right-paragraph-wise p {
+    text-align: left;
+    font-size: 13px;
+    margin-left: 30%;
+    margin-right: 40%;
+  }
+  
+  
