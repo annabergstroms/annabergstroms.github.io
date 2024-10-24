@@ -218,8 +218,7 @@ body {
 }
 
 .shadow-box {
-  display: grid;
-  grid-template-columns: 29.33% 29.33% 29.33%;
+  display: flex;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-top: 2%;
   margin-left: 20%;
@@ -236,6 +235,7 @@ body {
 }
 
 .text-box-left h3 {
+  width: 33.33%;
   color: #1E1E1E;
   font-size: 20px;
   font-weight: medium;
@@ -243,6 +243,7 @@ body {
 }
 
 .text-box-left h4 {
+  width: 33.33%;
   color: #1E1E1E;
   font-size: 15px;
   font-weight: medium;
@@ -252,6 +253,7 @@ body {
 }
 
 .text-box-left p {
+  width: 33.33%;
   color: #1E1E1E;
   font-size: 13px;
   text-align: left;
@@ -260,6 +262,7 @@ body {
 }
 
 .text-box-center h3 {
+  width: 33.33%;
   color: #1E1E1E;
   font-size: 20px;
   font-weight: medium;
@@ -267,6 +270,7 @@ body {
 }
 
 .text-box-center h4 {
+  width: 33.33%;
   color: #1E1E1E;
   font-size: 15px;
   font-weight: medium;
@@ -276,6 +280,7 @@ body {
 }
 
 .text-box-center p {
+  width: 33.33%;
   color: #1E1E1E;
   font-size: 13px;
   text-align: left;
@@ -284,6 +289,7 @@ body {
 }
 
 .text-box-right h3 {
+  width: 33.33%;
   color: #1E1E1E;
   font-size: 20px;
   font-weight: medium;
@@ -291,6 +297,7 @@ body {
 }
 
 .text-box-right h4 {
+  width: 33.33%;
   color: #1E1E1E;
   font-size: 15px;
   font-weight: medium;
@@ -300,6 +307,7 @@ body {
 }
 
 .text-box-right p {
+  width: 33.33%;
   color: #1E1E1E;
   font-size: 13px;
   text-align: left;
