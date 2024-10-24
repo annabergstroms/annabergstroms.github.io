@@ -228,6 +228,13 @@ body {
   padding-bottom: 2%;
 }
 
+.shadow-box img {
+  display: flex;
+  width: 25%;
+  margin-bottom: 1%;
+  margin-top: 2%;
+}
+
 .text-box-left h3 {
   color: #1E1E1E;
   font-size: 20px;
