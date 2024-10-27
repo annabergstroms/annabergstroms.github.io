@@ -57,14 +57,13 @@ h3 {
   }
   
   .img-tpqd {
-    /*position: relative;*/
+    position: relative;
     position: flex;
     width: 100%;
   }
   
   .img-tpqd img {
-    /*position: absolute;*/
-    position: flex;
+    position: absolute;
     margin-top: 16%;
   }
   
