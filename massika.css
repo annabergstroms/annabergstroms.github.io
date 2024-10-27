@@ -238,16 +238,16 @@ body {
   }
 
 /*Affinitydiagram bild*/
-.affinity-diagram img [}
+.affinity-diagram img {
     width: 100%;
-  ]
+}
 
 /*Felicity*/
-.felicity img [}
+.felicity img {
     width: 100%;
-  ]
+}
 
 /*Kim*/
-.kim img [}
+.kim img { 
     width: 100%;
-  ]
+}
