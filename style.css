@@ -50,6 +50,44 @@ body {
   width: 100%;
 }
 
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .text1, .text2 {font-size: 18px;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .text1, .text2 {font-size: 30;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .text1, .text2 {font-size: 40;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .text1, .text2 {font-size: 54px;}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .text1, .text2 {font-size: 60px;}
+}
+
+
+
+
+
+
+
+
+
 .text1 {
   top: 28%;
   color: #1E1E1E;
