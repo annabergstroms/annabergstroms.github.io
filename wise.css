@@ -303,7 +303,7 @@ body {
 
 /*Rad 1 - Wireframe 1*/
 .first-wireframe1 {
-  width: 18.5%; /* Bredd på bilden */
+  width: 18.4%; /* Bredd på bilden */
   margin-left: 2%;
   margin-right: 0.5%;
   margin-bottom: 1%;
@@ -312,7 +312,7 @@ body {
 
 /*Rad 1 - Wireframe 2*/
 .second-wireframe1 {
-  width: 18.5%;
+  width: 18.4%;
   margin-left: 0.5%;
   margin-right: 0.5%;
   margin-bottom: 1%;
@@ -321,7 +321,7 @@ body {
 
 /*Rad 1 - Wireframe 3*/
 .third-wireframe1 {
-  width: 18.5%;
+  width: 18.4%;
   margin-left: 0.5%;
   margin-right: 0.5%;
   margin-bottom: 1%;
@@ -330,7 +330,7 @@ body {
 
 /*Rad 1 - Wireframe 4*/
 .four-wireframe1 {
-  width: 18.5%;
+  width: 18.4%;
   margin-left: 0.5%;
   margin-right: 0.5%;
   margin-bottom: 1%;
@@ -339,7 +339,7 @@ body {
 
 /*Rad 1 - Wireframe 5*/
 .fifth-wireframe1 {
-  width: 18.5%;
+  width: 18.4%;
   margin-left: 0.5%;
   margin-bottom: 1%;
   margin-top: 2%;
@@ -347,7 +347,7 @@ body {
 
 /*Rad 2 - Wireframe 1*/
 .first-wireframe2 {
-  width: 18.5%; /* Bredd på bilden */
+  width: 18.4%; /* Bredd på bilden */
   margin-left: 2%;
   margin-right: 0.5%;
   margin-bottom: 2%;
@@ -355,7 +355,7 @@ body {
 
 /*Rad 2 - Wireframe 2*/
 .second-wireframe2 {
-  width: 18.5%;
+  width: 18.4%;
   margin-left: 0.5%;
   margin-right: 0.5%;
   margin-bottom: 2%;
@@ -363,7 +363,7 @@ body {
 
 /*Rad 2 - Wireframe 3*/
 .third-wireframe2 {
-  width: 18.5%;
+  width: 18.4%;
   margin-left: 0.5%;
   margin-right: 0.5%;
   margin-bottom: 2%;
@@ -371,7 +371,7 @@ body {
 
 /*Rad 2 - Wireframe 4*/
 .four-wireframe2 {
-  width: 18.5%;
+  width: 18.4%;
   margin-left: 0.5%;
   margin-right: 2%;
   margin-bottom: 2%;
@@ -454,16 +454,19 @@ body {
 /*RESULT*/
 .prototype-wise1 {
   display: flex;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .prototype-wise2 {
   display: flex;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 /*Rad 1 - Prototyp 1*/
 .prototype1 {
-  width: 20%; /* Bredd på bilden */
-  margin-left: 2%;
+  width: 18%; /* Bredd på bilden */
   margin-right: 0.5%;
   margin-bottom: 1%;
   margin-top: 2%;
@@ -471,7 +474,7 @@ body {
 
 /*Rad 1 - Prototyp 2*/
 .prototype2 {
-  width: 20%;
+  width: 18%;
   margin-left: 0.5%;
   margin-right: 0.5%;
   margin-bottom: 1%;
@@ -480,7 +483,7 @@ body {
 
 /*Rad 1 - Prototyp 3*/
 .prototype3 {
-  width: 20%;
+  width: 18%;
   margin-left: 0.5%;
   margin-right: 0.5%;
   margin-bottom: 1%;
@@ -489,24 +492,22 @@ body {
 
 /*Rad 1 - Prototyp 4*/
 .prototype4 {
-  width: 20%;
+  width: 18%;
   margin-left: 0.5%;
-  margin-right: 0.5%;
   margin-bottom: 1%;
   margin-top: 2%;
 }
 
 /*Rad 2 - Prototyp 1*/
 .prototype6 {
-  width: 20%; /* Bredd på bilden */
-  margin-left: 2%;
+  width: 18%; /* Bredd på bilden */
   margin-right: 0.5%;
   margin-bottom: 2%;
 }
 
 /*Rad 2 - Prototyp 2*/
 .prototype7 {
-  width: 20%;
+  width: 18%;
   margin-left: 0.5%;
   margin-right: 0.5%;
   margin-bottom: 2%;
@@ -514,8 +515,7 @@ body {
 
 /*Rad 2 - Prototyp 3*/
 .prototype8 {
-  width: 20%;
+  width: 18%;
   margin-left: 0.5%;
-  margin-right: 0.5%;
   margin-bottom: 2%;
 }
