@@ -450,3 +450,72 @@ body {
   margin-left: 4%;
   margin-right: 4%;
 }
+
+/*RESULT*/
+.prototype-wise1 {
+  display: flex;
+}
+
+.prototype-wise2 {
+  display: flex;
+}
+
+/*Rad 1 - Prototyp 1*/
+.prototype1 {
+  width: 20%; /* Bredd på bilden */
+  margin-left: 2%;
+  margin-right: 0.5%;
+  margin-bottom: 1%;
+  margin-top: 2%;
+}
+
+/*Rad 1 - Prototyp 2*/
+.prototype2 {
+  width: 20%;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  margin-bottom: 1%;
+  margin-top: 2%;
+}
+
+/*Rad 1 - Prototyp 3*/
+.prototype3 {
+  width: 20%;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  margin-bottom: 1%;
+  margin-top: 2%;
+}
+
+/*Rad 1 - Prototyp 4*/
+.prototype4 {
+  width: 20%;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  margin-bottom: 1%;
+  margin-top: 2%;
+}
+
+/*Rad 2 - Prototyp 1*/
+.prototype6 {
+  width: 20%; /* Bredd på bilden */
+  margin-left: 2%;
+  margin-right: 0.5%;
+  margin-bottom: 2%;
+}
+
+/*Rad 2 - Prototyp 2*/
+.prototype7 {
+  width: 20%;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  margin-bottom: 2%;
+}
+
+/*Rad 2 - Prototyp 3*/
+.prototype8 {
+  width: 20%;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  margin-bottom: 2%;
+}
