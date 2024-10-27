@@ -251,3 +251,22 @@ body {
 .kim img { 
     width: 100%;
 }
+
+
+/*DEVELOP*/
+/*Sitemap*/
+.sitemap img { 
+    width: 100%;
+}
+
+/*User Flow*/
+.userflow img { 
+    width: 100%;
+}
+
+/*Requirement Specification*/
+.requirement1 img { 
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
