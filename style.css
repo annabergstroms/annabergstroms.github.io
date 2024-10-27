@@ -62,12 +62,12 @@ body {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  .text1, .text2 {font-size: 30;}
+  .text1, .text2 {font-size: 30px;}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  .text1, .text2 {font-size: 40;}
+  .text1, .text2 {font-size: 40px;}
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
