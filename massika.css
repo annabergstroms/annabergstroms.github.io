@@ -284,3 +284,71 @@ body {
     padding-top: 4%;
     padding-bottom: 4%;
 }
+
+
+/*PROTOTYPE & TEST*/
+.wireframe1 {
+    display: flex;
+  }
+
+/*Rad 1 - Wireframe 1*/
+.first-wireframe {
+    width: 18.4%; /* Bredd på bilden */
+    margin-left: 2%;
+    margin-right: 0.5%;
+    margin-bottom: 1%;
+    margin-top: 2%;
+  }
+  
+/*Rad 1 - Wireframe 2*/
+.second-wireframe {
+    width: 18.4%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-bottom: 1%;
+    margin-top: 2%;
+  }
+  
+/*Rad 1 - Wireframe 3*/
+.third-wireframe {
+    width: 18.4%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-bottom: 1%;
+    margin-top: 2%;
+  }
+  
+/*Rad 1 - Wireframe 4*/
+.four-wireframe {
+    width: 18.4%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-bottom: 1%;
+    margin-top: 2%;
+  }
+  
+/*Rad 1 - Wireframe 5*/
+.fifth-wireframe {
+    width: 18.4%;
+    margin-left: 0.5%;
+    margin-bottom: 1%;
+    margin-top: 2%;
+  }
+
+/*Analysis of Usability Testing*/
+.analysis-usability img { 
+    width: 100%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+/*Requirement Specification*/
+.requirement2 img { 
+    width: 90%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
