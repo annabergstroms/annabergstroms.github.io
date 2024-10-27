@@ -1,0 +1,217 @@
+body {
+    background-color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: #1E1E1E;
+  }
+
+  h2 {
+    font-weight: medium;
+    text-align: center;
+    font-size: 36px;
+  }
+
+  h3 {
+    font-weight: medium;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 20%;
+  }
+  
+  .navbar ul{
+    list-style-type: none;
+    margin-left: 37.5%;
+    margin-top: -0.5%;
+    overflow: hidden;
+    background-color: transparent;
+    position: absolute;
+    width: 50%;
+  }
+  
+  .navbar li {
+    float: right;
+  }
+  
+  .navbar li a {
+    display: block;
+    padding: 20px;
+    color: #1E1E1E;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  
+  .navbar li a:hover {
+    font-weight: bold;
+  }
+
+  /*MASSIKA PAGE*/
+  .top-massika h1 {
+    font-size: 54px;
+    padding-top: 6%;
+  }
+  
+  .short-description p {
+   margin-top: -2%;
+  }
+
+  .img-massika {
+    display: flex;
+  }
+  
+  .image-massika1 {
+    width: 16%;
+    margin-left: 10%;
+    margin-right: 0.5%;
+    margin-bottom: 4%;
+    margin-top: 2%;
+  }
+  
+  .image-massika2 {
+    width: 16%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-bottom: 4%;
+    margin-top: 2%;
+  }
+  
+  .image-massika3 {
+    width: 16%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-bottom: 4%;
+    margin-top: 2%;
+  }
+
+  .image-massika4 {
+    width: 16%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-bottom: 4%;
+    margin-top: 2%;
+  }
+
+  .image-massika5 {
+    width: 16%;
+    margin-left: 0.5%;
+    margin-right: 10%;
+    margin-bottom: 4%;
+    margin-top: 2%;
+  }
+
+  /*PROJECT OVERVIEW*/  
+  .heading-project-overview h2 {
+    font-weight: medium;
+    text-align: center;
+    font-size: 36px;
+    padding-top: 4%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-top: -4%;
+    margin-bottom: 0%;
+    margin-left: -1%;
+    margin-right: -1%;
+    background-color: #F1F2F6;
+  }
+
+  .project-overview-massika {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-left: -1%;
+    margin-right: -1%;
+    background-color: #F1F2F6;
+  }
+  
+  .left-paragraph-massika h3 {
+    font-weight: medium;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 40%;
+    margin-right: -20%;
+  }
+  
+  .left-paragraph-massika p {
+    text-align: left;
+    font-size: 13px;
+    margin-left: 40%;
+    margin-right: -20%;
+  }
+  
+  .right-paragraph-massika p {
+    text-align: left;
+    font-size: 13px;
+    margin-left: 30%;
+    margin-right: 40%;
+  }
+  
+  /*DESIGN PROCESS*/
+  .process-container-massika {
+    position: relative;
+    width: 100%;
+  }
+  
+  .process-container-massika img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .wise {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+  }
+  
+  .process1 h3 {
+    margin-left: -40%;
+    margin-top: -4%;
+    color: #FD9314;
+    font-size: 20px;
+    font-weight: medium;
+    text-align: center;
+  }
+  
+  .process2 h3 {
+    margin-left: 0%;
+    margin-top: -4%;
+    color: #E84FB0;
+    font-size: 20px;
+    font-weight: medium;
+    text-align: center;
+  }
+  
+  .process3 h3 {
+    margin-left: 36%;
+    margin-top: -4%;
+    color: #7C50ED;
+    font-size: 20px;
+    font-weight: medium;
+    text-align: center;
+  }
+  
+  .process1 p {
+    margin-left: -40%;
+    color: #1E1E1E;
+    font-size: 13px;
+    text-align: center;
+  }
+  
+  .process2 p {
+    margin-left: 0%;
+    color: #1E1E1E;
+    font-size: 13px;
+    text-align: center;
+  }
+  
+  .process3 p {
+    margin-left: 36%;
+    color: #1E1E1E;
+    font-size: 13px;
+    text-align: center;
+  }
+
