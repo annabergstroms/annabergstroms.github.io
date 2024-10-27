@@ -186,7 +186,7 @@ body {
   }
   
   .process3 h3 {
-    margin-left: 36%;
+    margin-left: 40%;
     margin-top: -4%;
     color: #7C50ED;
     font-size: 20px;
@@ -209,9 +209,18 @@ body {
   }
   
   .process3 p {
-    margin-left: 36%;
+    margin-left: 40%;
     color: #1E1E1E;
     font-size: 13px;
     text-align: center;
   }
 
+
+/*1 RESEARCH*/
+.paragraph p {
+    color: #1E1E1E;
+    font-size: 13px;
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+}
