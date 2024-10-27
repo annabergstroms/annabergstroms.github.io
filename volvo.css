@@ -1,51 +1,52 @@
 body {
-    background-color: #ffffff;
-    font-family: "Poppins", sans-serif;
-    text-align: center;
-    color: #1E1E1E;
-  }
+  background-color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: #1E1E1E;
+}
 
-  h2 {
-    font-weight: medium;
-    text-align: center;
-    font-size: 36px;
-  }
+h2 {
+  font-weight: medium;
+  text-align: center;
+  font-size: 36px;
+}
 
-  h3 {
-    font-weight: medium;
-    text-align: left;
-    font-size: 20px;
-    margin-left: 20%;
-  }
-  
-  .navbar ul{
-    list-style-type: none;
-    margin-left: 37.5%;
-    margin-top: -0.5%;
-    overflow: hidden;
-    background-color: transparent;
-    position: absolute;
-    width: 50%;
-  }
-  
-  .navbar li {
-    float: right;
-  }
-  
-  .navbar li a {
-    display: block;
-    padding: 20px;
-    color: #1E1E1E;
-    text-align: center;
-    font-size: 18px;
-    text-decoration: none;
-  }
-  
-  .navbar li a:hover {
-    font-weight: bold;
-  }
+h3 {
+  font-weight: medium;
+  text-align: left;
+  font-size: 20px;
+  margin-left: 20%;
+}
 
-  /*VOLVO PAGE*/
+.navbar ul{
+  list-style-type: none;
+  margin-left: 37.5%;
+  margin-top: -0.5%;
+  overflow: hidden;
+  background-color: transparent;
+  position: absolute;
+  width: 50%;
+}
+
+.navbar li {
+  float: right;
+}
+
+.navbar li a {
+  display: block;
+  padding: 20px;
+  color: #1E1E1E;
+  text-align: center;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  font-weight: bold;
+}
+
+
+/*VOLVO PAGE*/
 .top-volvo h1 {
     font-size: 54px;
     padding-top: 6%;
