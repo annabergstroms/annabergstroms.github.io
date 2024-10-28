@@ -326,7 +326,7 @@ body {
   }
   
   .item1 img {
-    width: 76%;
+    width: 46%;
     height: auto;
     transition: transform 0.3s;
   }
@@ -383,7 +383,7 @@ body {
   }
   
   .item2 img {
-    width: 76%;
+    width: 46%;
     height: auto;
     float: right;
     transition: transform 0.3s;
@@ -438,7 +438,7 @@ body {
   }
   
   .item3 img {
-    width: 76%;
+    width: 46%;
     height: auto;
     float: left;
     transition: transform 0.3s;
