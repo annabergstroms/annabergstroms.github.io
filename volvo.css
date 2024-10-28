@@ -8,6 +8,10 @@
   color: #1E1E1E;
 }
 
+h1{
+  margin-top: 4%;
+}
+
 h2 {
   font-weight: medium;
   text-align: center;
@@ -67,7 +71,7 @@ h3 {
   
   .img-tpqd img {
     position: absolute;
-    margin-top: 20%;
+    margin-top: 6%;
   }
   
   .left-image-tpqd {
@@ -105,7 +109,7 @@ h3 {
     padding-top: 4%;
     padding-left: 1%;
     padding-right: 1%;
-    margin-top: 34%;
+    margin-top: 38%;
     margin-bottom: 0%;
     margin-left: -1%;
     margin-right: -1%;
