@@ -55,21 +55,23 @@ body {
   top: 28%;
   color: #1E1E1E;
   /*font-size: 54px;*/
-  font-size: 5vw;
+  font-size: 4vw;
   font-weight: bold;
 }
 
 .text2 {
   top: 38%;
   color: #1E1E1E;
-  font-size: 54px;
+  /*font-size: 54px;*/
+  font-size: 4vw;
   font-weight: bold;
 }
 
 .text3 {
   top: 58%;
   color: #1E1E1E;
-  font-size: 20px;
+  /*font-size: 20px;*/
+  font-size: 3vw;
   font-weight: bold;
 }
 
