@@ -93,7 +93,8 @@ body {
 .item1 h1 {
   color: #1E1E1E;
   font-weight: bold;
-  font-size: 36px;
+  /*font-size: 36px;*/
+  font-size: 2vw;
   margin-top: 10%;
   padding-left: 62%;
   padding-right: 8%;
@@ -102,7 +103,8 @@ body {
 .item1 p {
   color: #1E1E1E;
   font-weight: medium;
-  font-size: 14px;
+  /*font-size: 14px;*/
+  font-size: 1vw;
   margin-top: -1%;
   padding-left: 62%;
   padding-right: 8%;
@@ -115,7 +117,8 @@ body {
 .lank1 a:link, a:visited {
   color: #1E1E1E;
   font-weight: bold;
-  font-size: 18px;
+  /*font-size: 18px;*/
+  font-size: 1.2vw;
   text-decoration: none;
 }
 
