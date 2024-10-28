@@ -233,3 +233,234 @@ body {
 .lank3 a:hover, a:active {
   color: #1E1E1E;
 }
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: #1E1E1E;
+  }
+  
+  .navbar ul{
+    list-style-type: none;
+    margin-top: -48.98%;
+    margin-left: 38.4%;
+    overflow: hidden;
+    background-color: transparent;
+    position: absolute;
+    width: 50%;
+  }
+  
+  .navbar li {
+    float: right;
+  }
+  
+  .navbar li a {
+    display: block;
+    padding: 20px;
+    color: #1E1E1E;
+    text-align: center;
+    font-size: 1.2vw;
+    text-decoration: none;
+  }
+  
+  .navbar li a:hover {
+    font-weight: bold;
+  }
+  
+  /*INDEX PAGE*/
+  .image-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .text {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+  }
+  
+  .text1 {
+    top: 28%;
+    color: #1E1E1E;
+    /*font-size: 54px;*/
+    font-size: 3.7vw;
+    font-weight: bold;
+  }
+  
+  .text2 {
+    top: 58%;
+    color: #1E1E1E;
+    /*font-size: 20px;*/
+    font-size: 1.3vw;
+    font-weight: bold;
+  }
+  
+  
+  /* VOLVO CARS */
+  .item1 {
+    width: 80%;
+    height: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+    border: 1px solid white;
+  } 
+  
+  .item1 img {
+    width: 60%;
+    height: auto;
+    transition: transform 0.3s;
+  }
+  
+  .item1 img:hover {
+    transform: scale(1.05);
+  }
+  
+  .item1 h1 {
+    color: #1E1E1E;
+    font-weight: bold;
+    /*font-size: 36px;*/
+    font-size: 2.1vw;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  
+  .item1 p {
+    color: #1E1E1E;
+    font-weight: medium;
+    /*font-size: 14px;*/
+    font-size: 1vw;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  
+  .lank1 p {
+    margin-top: 2%;
+  }
+  
+  .lank1 a:link, a:visited {
+    color: #1E1E1E;
+    font-weight: bold;
+    /*font-size: 18px;*/
+    font-size: 1.2vw;
+    text-decoration: none;
+  }
+  
+  .lank1 a:hover, a:active {
+    color: #1E1E1E;
+  }
+  
+  
+  
+  /* WISE */
+  .item2 {
+    width: 80%;
+    height: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+    border: 1px solid white;
+  }
+  
+  .item2 img {
+    width: 60%;
+    height: auto;
+    transition: transform 0.3s;
+  }
+  
+  .item2 img:hover {
+    transform: scale(1.05);
+  }
+  
+  .item2 h1 {
+    color: #1E1E1E;
+    font-weight: bold;
+    font-size: 2.1vw;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  
+  .item2 p {
+    color: #1E1E1E;
+    font-weight: medium;
+    font-size: 1vw;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  
+  .lank2 p {
+    margin-top: 2%;
+  }
+  
+  .lank2 a:link, a:visited {
+    color: #1E1E1E;
+    font-weight: bold;
+    font-size: 1.2vw;
+    text-decoration: none;
+  }
+  
+  .lank2 a:hover, a:active {
+    color: #1E1E1E;
+  }
+  
+  
+  
+  /* MASSIKA */
+  .item3 {
+    width: 80%;
+    height: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+    border: 1px solid white;
+  }
+  
+  .item3 img {
+    width: 60%;
+    height: auto;
+    transition: transform 0.3s;
+  }
+  
+  .item3 img:hover {
+    transform: scale(1.05);
+  }
+  
+  .item3 h1 {
+    color: #1E1E1E;
+    font-weight: bold;
+    font-size: 2.1vw;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  
+  .item3 p {
+    color: #1E1E1E;
+    font-weight: medium;
+    font-size: 1vw;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  
+  .lank3 p {
+    margin-top: 2%;
+  }
+  
+  .lank3 a:link, a:visited {
+    color: #1E1E1E;
+    font-weight: bold;
+    font-size: 1.2vw;
+    text-decoration: none;
+  }
+  
+  .lank3 a:hover, a:active {
+    color: #1E1E1E;
+  }
+}
