@@ -54,7 +54,8 @@ body {
 .text1 {
   top: 28%;
   color: #1E1E1E;
-  font-size: 54px;
+  /*font-size: 54px;*/
+  font-size: 3vw;
   font-weight: bold;
 }
 
