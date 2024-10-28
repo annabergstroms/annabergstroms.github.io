@@ -254,7 +254,7 @@ h3 {
   font-size: 1.05vw;
   font-weight: medium;
   text-align: left;
-  padding-right: 22%;
+  padding-left: 4%; padding-right: 20%;
 }
 
 .text-box-right p {
