@@ -8,13 +8,13 @@ body {
   h2 {
     font-weight: medium;
     text-align: center;
-    font-size: 36px;
+    font-size: 2.1vw;
   }
 
   h3 {
     font-weight: medium;
     text-align: left;
-    font-size: 20px;
+    font-size: 1.3vw;
     margin-left: 20%;
   }
   
@@ -37,7 +37,7 @@ body {
     padding: 20px;
     color: #1E1E1E;
     text-align: center;
-    font-size: 18px;
+    font-size: 1.2vw;
     text-decoration: none;
   }
   
@@ -47,7 +47,7 @@ body {
 
   /*WISE PAGE*/
   .top-wise h1 {
-    font-size: 54px;
+    font-size: 3.7vw;
     padding-top: 6%;
   }
   
@@ -95,7 +95,7 @@ body {
   .heading-project-overview h2 {
     font-weight: medium;
     text-align: center;
-    font-size: 36px;
+    font-size: 2.1vw;
     padding-top: 4%;
     padding-left: 1%;
     padding-right: 1%;
@@ -122,21 +122,21 @@ body {
   .left-paragraph-wise h3 {
     font-weight: medium;
     text-align: left;
-    font-size: 20px;
+    font-size: 1.3vw;
     margin-left: 40%;
     margin-right: -20%;
   }
   
   .left-paragraph-wise p {
     text-align: left;
-    font-size: 13px;
+    font-size: 1vw;
     margin-left: 40%;
     margin-right: -20%;
   }
   
   .right-paragraph-wise p {
     text-align: left;
-    font-size: 13px;
+    font-size: 1vw;
     margin-left: 30%;
     margin-right: 40%;
   }
@@ -189,21 +189,21 @@ body {
   .process1 p {
     margin-left: -40%;
     color: #1E1E1E;
-    font-size: 13px;
+    font-size: 1vw;
     text-align: center;
   }
   
   .process2 p {
     margin-left: 0%;
     color: #1E1E1E;
-    font-size: 13px;
+    font-size: 1vw;
     text-align: center;
   }
   
   .process3 p {
     margin-left: 36%;
     color: #1E1E1E;
-    font-size: 13px;
+    font-size: 1vw;
     text-align: center;
   }
 
@@ -211,7 +211,7 @@ body {
 /*1 RESEARCH*/
   .paragraph p {
     color: #1E1E1E;
-    font-size: 13px;
+    font-size: 1vw;
     text-align: left;
     margin-left: 20%;
     margin-right: 20%;
@@ -261,7 +261,7 @@ body {
 
 .text-box-left p {
   color: #1E1E1E;
-  font-size: 13px;
+  font-size: 1vw;
   text-align: left;
   padding-left: 20%;
   padding-right: 10%;
@@ -278,7 +278,7 @@ body {
 
 .text-box-right p {
   color: #1E1E1E;
-  font-size: 13px;
+  font-size: 1vw;
   text-align: left;
   padding-left: 10%;
   padding-right: 20%;
@@ -402,7 +402,7 @@ body {
 
 .patterns p {
   color: #1E1E1E;
-  font-size: 13px;
+  font-size: 1vw;
   text-align: left;
   padding-left: 15%;
   padding-right: 7.5%;
@@ -419,7 +419,7 @@ body {
 
 .insights p {
   color: #1E1E1E;
-  font-size: 13px;
+  font-size: 1vw;
   text-align: left;
   padding-left: 7.5%;
   padding-right: 7.5%;
@@ -436,7 +436,7 @@ body {
 
 .recommendations p {
   color: #1E1E1E;
-  font-size: 13px;
+  font-size: 1vw;
   text-align: left;
   padding-left: 7.5%;
   padding-right: 15%;

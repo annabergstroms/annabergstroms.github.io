@@ -8,13 +8,13 @@ body {
 h2 {
   font-weight: medium;
   text-align: center;
-  font-size: 36px;
+  font-size: 2.1vw;
 }
 
 h3 {
   font-weight: medium;
   text-align: left;
-  font-size: 20px;
+  font-size: 1.3vw;
   margin-left: 20%;
 }
 
@@ -37,7 +37,7 @@ h3 {
   padding: 20px;
   color: #1E1E1E;
   text-align: center;
-  font-size: 18px;
+  font-size: 1.2vw;
   text-decoration: none;
 }
 
@@ -48,7 +48,7 @@ h3 {
 
 /*VOLVO PAGE*/
 .top-volvo h1 {
-    font-size: 54px;
+  font-size: 3.7vw;
     padding-top: 6%;
   }
   
@@ -98,7 +98,7 @@ h3 {
   .heading-project-overview h2 {
     font-weight: medium;
     text-align: center;
-    font-size: 36px;
+    font-size: 2.1vw;
     padding-top: 4%;
     padding-left: 1%;
     padding-right: 1%;
@@ -125,21 +125,21 @@ h3 {
   .left-paragraph-tpqd h3 {
     font-weight: medium;
     text-align: left;
-    font-size: 20px;
+    font-size: 1.3vw;
     margin-left: 40%;
     margin-right: -20%;
   }
   
   .left-paragraph-tpqd p {
     text-align: left;
-    font-size: 13px;
+    font-size: 1vw;
     margin-left: 40%;
     margin-right: -20%;
   }
   
   .right-paragraph-tpqd p {
     text-align: left;
-    font-size: 13px;
+    font-size: 1vw;
     margin-left: 30%;
     margin-right: 40%;
   }
@@ -193,21 +193,21 @@ h3 {
   .process1 p {
     margin-left: -40%;
     color: #1E1E1E;
-    font-size: 13px;
+    font-size: 1vw;
     text-align: center;
   }
   
   .process2 p {
     margin-left: 0%;
     color: #1E1E1E;
-    font-size: 13px;
+    font-size: 1vw;
     text-align: center;
   }
   
   .process3 p {
     margin-left: 36%;
     color: #1E1E1E;
-    font-size: 13px;
+    font-size: 1vw;
     text-align: center;
   }
 
@@ -215,7 +215,7 @@ h3 {
 /*1 RESEARCH*/
 .paragraph p {
     color: #1E1E1E;
-    font-size: 13px;
+    font-size: 1vw;
     text-align: left;
     margin-left: 20%;
     margin-right: 20%;
@@ -234,7 +234,8 @@ h3 {
 
 .text-box-left h4 {
   color: #1E1E1E;
-  font-size: 15px;
+  /*font-size: 15px;*/
+  font-size: 1.1vw;
   font-weight: medium;
   text-align: left;
   padding-left: 22%;
@@ -242,14 +243,15 @@ h3 {
 
 .text-box-left p {
   color: #1E1E1E;
-  font-size: 13px;
+  font-size: 1vw;
   text-align: left;
   padding-left: 22%;
 }
 
 .text-box-right h4 {
   color: #ffffff;
-  font-size: 15px;
+  /*font-size: 15px;*/
+  font-size: 1.1vw;
   font-weight: medium;
   text-align: left;
   padding-right: 20%;
@@ -257,7 +259,7 @@ h3 {
 
 .text-box-right p {
   color: #1E1E1E;
-  font-size: 13px;
+  font-size: 1vw;
   text-align: left;
   padding-right: 20%;
 }
