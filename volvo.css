@@ -1,4 +1,7 @@
-body {
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  
+  body {
   background-color: #ffffff;
   font-family: "Poppins", sans-serif;
   text-align: center;
@@ -102,7 +105,7 @@ h3 {
     padding-top: 4%;
     padding-left: 1%;
     padding-right: 1%;
-    margin-top: 28%;
+    margin-top: 32%;
     margin-bottom: 0%;
     margin-left: -1%;
     margin-right: -1%;
@@ -388,4 +391,409 @@ h3 {
   margin-right: 10%;
   margin-bottom: 1%;
   margin-top: 2%;
+}
+
+}
+
+
+
+
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  
+  body {
+  background-color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: #1E1E1E;
+}
+
+h2 {
+  font-weight: medium;
+  text-align: center;
+  font-size: 36px;
+}
+
+h3 {
+  font-weight: medium;
+  text-align: left;
+  font-size: 20px;
+  margin-left: 20%;
+}
+
+.navbar ul{
+  list-style-type: none;
+  margin-left: 37.5%;
+  margin-top: -0.5%;
+  overflow: hidden;
+  background-color: transparent;
+  position: absolute;
+  width: 50%;
+}
+
+.navbar li {
+  float: right;
+}
+
+.navbar li a {
+  display: block;
+  padding: 20px;
+  color: #1E1E1E;
+  text-align: center;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  font-weight: bold;
+}
+
+
+/*VOLVO PAGE*/
+.top-volvo h1 {
+    font-size: 54px;
+    padding-top: 6%;
+  }
+  
+  .short-description p {
+   margin-top: -2%;
+  }
+  
+  .img-tpqd {
+    position: relative;
+    position: flex;
+    width: 100%;
+  }
+  
+  .img-tpqd img {
+    position: absolute;
+    margin-top: 16%;
+  }
+  
+  .left-image-tpqd {
+    width: 31%;
+    height: auto;
+    left: 25%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  
+  .center-image-tpqd {
+    width: 46%;
+    height: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  
+  .right-image-tpqd {
+    width: 31%;
+    height: auto;
+    left: 74%;
+    top: 50%;
+    transform: translate(-50%, -8%);
+    z-index: 3;
+  }
+  
+  /*PROJECT OVERVIEW*/  
+  .heading-project-overview h2 {
+    font-weight: medium;
+    text-align: center;
+    font-size: 36px;
+    padding-top: 4%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-top: 32%;
+    margin-bottom: 0%;
+    margin-left: -1%;
+    margin-right: -1%;
+    background-color: #F1F2F6;
+  }
+
+  .project-overview-volvo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-left: -1%;
+    margin-right: -1%;
+    background-color: #F1F2F6;
+  }
+  
+  .left-paragraph-tpqd h3 {
+    font-weight: medium;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 20%;
+    margin-right: -20%;
+  }
+  
+  .left-paragraph-tpqd p {
+    text-align: left;
+    font-size: 13px;
+    margin-left: 20%;
+    margin-right: -20%;
+  }
+  
+  .right-paragraph-tpqd p {
+    text-align: left;
+    font-size: 13px;
+    margin-left: 30%;
+    margin-right: 20%;
+  }
+  
+  
+  /*DESIGN PROCESS*/
+  .process-container-volvo {
+    position: relative;
+    width: 100%;
+  }
+  
+  .process-container-volvo img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .volvo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+  }
+  
+  .process1 h3 {
+    margin-left: -40%;
+    margin-top: -4%;
+    color: #FD9314;
+    font-size: 20px;
+    font-weight: medium;
+    text-align: center;
+  }
+  
+  .process2 h3 {
+    margin-left: 0%;
+    margin-top: -4%;
+    color: #E84FB0;
+    font-size: 20px;
+    font-weight: medium;
+    text-align: center;
+  }
+  
+  .process3 h3 {
+    margin-left: 36%;
+    margin-top: -4%;
+    color: #7C50ED;
+    font-size: 20px;
+    font-weight: medium;
+    text-align: center;
+  }
+  
+  .process1 p {
+    margin-left: -40%;
+    color: #1E1E1E;
+    font-size: 13px;
+    text-align: center;
+  }
+  
+  .process2 p {
+    margin-left: 0%;
+    color: #1E1E1E;
+    font-size: 13px;
+    text-align: center;
+  }
+  
+  .process3 p {
+    margin-left: 36%;
+    color: #1E1E1E;
+    font-size: 13px;
+    text-align: center;
+  }
+
+
+/*1 RESEARCH*/
+.paragraph p {
+    color: #1E1E1E;
+    font-size: 13px;
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.shadow-box {
+  display: grid;
+  grid-template-columns: 57% 43%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 2%;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.text-box-left h4 {
+  color: #1E1E1E;
+  font-size: 15px;
+  font-weight: medium;
+  text-align: left;
+  padding-left: 22%;
+}
+
+.text-box-left p {
+  color: #1E1E1E;
+  font-size: 13px;
+  text-align: left;
+  padding-left: 22%;
+}
+
+.text-box-right h4 {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: medium;
+  text-align: left;
+  padding-right: 20%;
+}
+
+.text-box-right p {
+  color: #1E1E1E;
+  font-size: 13px;
+  text-align: left;
+  padding-right: 20%;
+}
+
+/*2 DESIGN & PROTOTYPE*/
+.shadow-box1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 2%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.wireframe1 {
+  display: flex;
+}
+
+.wireframe2 {
+  display: flex;
+}
+
+/* Vänstra bilden övre rad*/
+.left-wireframe1 {
+  width: 31.3%; /* Bredd på bilden */
+  margin-left: 2%;
+  margin-right: 0.5%;
+  margin-bottom: 1%;
+  margin-top: 2%;
+}
+
+/* Mittersta bilden övre rad*/
+.center-wireframe1 {
+  width: 31.3%;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  margin-bottom: 1%;
+  margin-top: 2%;
+}
+
+/* Högra bilden övre rad*/
+.right-wireframe1 {
+  width: 31.3%;
+  margin-left: 0.5%;
+  margin-bottom: 1%;
+  margin-top: 2%;
+}
+
+/* Vänstra bilden nedre rad*/
+.left-wireframe2 {
+  width: 31.3%; /* Bredd på bilden */
+  margin-left: 2%;
+  margin-right: 0.5%;
+  margin-bottom: 2%;
+}
+
+/* Mittersta bilden nedre rad*/
+.center-wireframe2 {
+  width: 31.3%;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  margin-bottom: 2%;
+}
+
+/* Högra bilden nedre rad*/
+.right-wireframe2 {
+  width: 31.3%;
+  margin-left: 0.5%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+
+/*TEST*/
+.workshop img {
+  width: 100%;
+}
+
+/*RESULT*/
+.prototype-tpqd1 {
+  display: flex;
+}
+
+.left-prototype1 {
+  width: 25%;
+  margin-left: 10%;
+  margin-right: 0.5%;
+  margin-bottom: 1%;
+  margin-top: 2%;
+}
+
+.center-prototype1 {
+  width: 25%;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  margin-bottom: 1%;
+  margin-top: 2%;
+}
+
+.right-prototype1 {
+  width: 25%;
+  margin-left: 0.5%;
+  margin-right: 10%;
+  margin-bottom: 1%;
+  margin-top: 2%;
+}
+
+.prototype-tpqd2 {
+  display: flex;
+}
+
+.left-prototype2 {
+  width: 25%;
+  margin-left: 10%;
+  margin-right: 0.5%;
+  margin-bottom: 1%;
+  margin-top: 2%;
+}
+
+.center-prototype2 {
+  width: 25%;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  margin-bottom: 1%;
+  margin-top: 2%;
+}
+
+.right-prototype2 {
+  width: 25%;
+  margin-left: 0.5%;
+  margin-right: 10%;
+  margin-bottom: 1%;
+  margin-top: 2%;
+}
+
 }
