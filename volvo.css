@@ -243,7 +243,7 @@ h3 {
 .text-box-left h4 {
   color: #1E1E1E;
   /*font-size: 15px;*/
-  font-size: 0.9vw;
+  font-size: 1vw;
   font-weight: medium;
   text-align: left;
   padding-left: 22%;
@@ -259,7 +259,7 @@ h3 {
 .text-box-right h4 {
   color: #ffffff;
   /*font-size: 15px;*/
-  font-size: 0.9vw;
+  font-size: 1vw;
   font-weight: medium;
   text-align: left;
   padding-right: 20%;
