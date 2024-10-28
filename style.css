@@ -69,10 +69,9 @@ body {
 }
 
 
-
 /* VOLVO CARS */
 .item1 {
-  width: 80%;
+  width: 100%;
   height: auto;
   margin-top: 1%;
   margin-left: 10%;
@@ -131,7 +130,7 @@ body {
 
 /* WISE */
 .item2 {
-  width: 80%;
+  width: 100%;
   height: auto;
   margin-left: 10%;
   margin-bottom: 14%;
@@ -186,7 +185,7 @@ body {
 
 /* MASSIKA */
 .item3 {
-  width: 80%;
+  width: 100%;
   height: auto;
   margin-left: 10%;
   margin-bottom: 14%;
@@ -248,6 +247,69 @@ body {
     text-align: center;
     color: #1E1E1E;
   }
+
+  .navbar ul{
+    list-style-type: none;
+    margin-top: -48.98%;
+    margin-left: 38.4%;
+    overflow: hidden;
+    background-color: transparent;
+    position: absolute;
+    width: 50%;
+  }
+  
+  .navbar li {
+    float: right;
+  }
+  
+  .navbar li a {
+    display: block;
+    padding: 20px;
+    color: #1E1E1E;
+    text-align: center;
+    font-size: 1.2vw;
+    text-decoration: none;
+  }
+  
+  .navbar li a:hover {
+    font-weight: bold;
+  }
+  
+
+/*INDEX PAGE*/
+.image-container {
+  position: relative;
+  width: 100%;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.text {
+  position: absolute;
+  width: 100%;
+}
+
+.text1 {
+  top: 28%;
+  color: #1E1E1E;
+  /*font-size: 54px;*/
+  font-size: 3.7vw;
+  font-weight: bold;
+}
+
+.text2 {
+  top: 58%;
+  color: #1E1E1E;
+  /*font-size: 20px;*/
+  font-size: 1.3vw;
+  font-weight: bold;
+}
+
+
+
 
   /* VOLVO CARS */
 .item1 {
