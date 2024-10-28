@@ -279,14 +279,12 @@ body {
   }
   
   .image-container img {
-    width: 100%;
+    width: 60%;
     height: auto;
   }
   
   .text {
     position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
     width: 100%;
   }
   
@@ -308,14 +306,6 @@ body {
   
   
   /* VOLVO CARS */
-  .item1 {
-    width: 80%;
-    height: auto;
-    margin-left: 2%;
-    margin-right: 2%;
-    border: 1px solid white;
-  } 
-  
   .item1 img {
     width: 60%;
     height: auto;
@@ -363,14 +353,6 @@ body {
   
   
   /* WISE */
-  .item2 {
-    width: 80%;
-    height: auto;
-    margin-left: 2%;
-    margin-right: 2%;
-    border: 1px solid white;
-  }
-  
   .item2 img {
     width: 60%;
     height: auto;
@@ -415,14 +397,6 @@ body {
   
   
   /* MASSIKA */
-  .item3 {
-    width: 80%;
-    height: auto;
-    margin-left: 2%;
-    margin-right: 2%;
-    border: 1px solid white;
-  }
-  
   .item3 img {
     width: 60%;
     height: auto;
