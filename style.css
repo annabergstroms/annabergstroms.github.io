@@ -24,7 +24,7 @@ body {
   padding: 20px;
   color: #1E1E1E;
   text-align: center;
-  font-size: 18px;
+  font-size: 1.2vw;
   text-decoration: none;
 }
 
@@ -49,7 +49,6 @@ body {
   transform: translateX(-50%);
   width: 100%;
 }
-
 
 .text1 {
   top: 28%;
