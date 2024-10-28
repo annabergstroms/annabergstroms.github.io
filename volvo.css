@@ -623,8 +623,8 @@ h3 {
     color: #1E1E1E;
     font-size: 13px;
     text-align: left;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .shadow-box {
@@ -632,8 +632,8 @@ h3 {
   grid-template-columns: 57% 43%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-top: 2%;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
   padding-top: 2%;
   padding-bottom: 2%;
 }
@@ -658,22 +658,22 @@ h3 {
   font-size: 15px;
   font-weight: medium;
   text-align: left;
-  padding-right: 20%;
+  padding-right: 10%;
 }
 
 .text-box-right p {
   color: #1E1E1E;
   font-size: 13px;
   text-align: left;
-  padding-right: 20%;
+  padding-right: 10%;
 }
 
 /*2 DESIGN & PROTOTYPE*/
 .shadow-box1 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-top: 2%;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .wireframe1 {
