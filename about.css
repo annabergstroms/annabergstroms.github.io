@@ -38,3 +38,10 @@ h1 {
     padding-top: 6%;
 }
 
+.paragraph p {
+    color: #1E1E1E;
+    font-size: 13px;
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+}
