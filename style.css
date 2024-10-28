@@ -72,9 +72,12 @@ body {
 .item1 {
   width: 80%;
   height: auto;
-  margin-top: 1%;
+  /*margin-top: 1%;
   margin-left: 10%;
-  margin-bottom: 14%;
+  margin-bottom: 14%;*/
+  margin-top: 0.5rem;
+  margin-left: 5rem;
+  margin-bottom: 7rem;
   border: 1px solid white;
 } 
 
@@ -94,9 +97,12 @@ body {
   font-weight: bold;
   /*font-size: 36px;*/
   font-size: 2.1vw;
-  margin-top: 10%;
+  /*margin-top: 10%;
   padding-left: 62%;
-  padding-right: 8%;
+  padding-right: 8%;*/
+  margin-top: 15rem;
+  padding-left: 31rem;
+  padding-right: 4rem;
 }
 
 .item1 p {
@@ -104,13 +110,17 @@ body {
   font-weight: medium;
   /*font-size: 14px;*/
   font-size: 1vw;
-  margin-top: -1%;
+  /*margin-top: -1%;
   padding-left: 62%;
-  padding-right: 8%;
+  padding-right: 8%;*/
+  margin-top: -0.5rem;
+  padding-left: 31rem;
+  padding-right: 4rem;
 }
 
 .lank1 p {
-  margin-top: 6%;
+  /*margin-top: 6%;*/
+  margin-top: 3rem;
 }
 
 .lank1 a:link, a:visited {
