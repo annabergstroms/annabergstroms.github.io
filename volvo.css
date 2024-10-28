@@ -164,7 +164,7 @@ h3 {
   }
   
   .process1 h3 {
-    margin-left: -50%;
+    margin-left: -40%;
     margin-top: -4%;
     color: #FD9314;
     font-size: 20px;
@@ -182,7 +182,7 @@ h3 {
   }
   
   .process3 h3 {
-    margin-left: 45%;
+    margin-left: 36%;
     margin-top: -4%;
     color: #7C50ED;
     font-size: 20px;
@@ -191,7 +191,7 @@ h3 {
   }
   
   .process1 p {
-    margin-left: -50%;
+    margin-left: -40%;
     color: #1E1E1E;
     font-size: 13px;
     text-align: center;
@@ -205,7 +205,7 @@ h3 {
   }
   
   .process3 p {
-    margin-left: 45%;
+    margin-left: 36%;
     color: #1E1E1E;
     font-size: 13px;
     text-align: center;
