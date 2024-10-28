@@ -350,7 +350,7 @@ body {
     font-weight: medium;
     /*font-size: 14px;*/
     font-size: 1vw;
-    margin-top: -1%;
+    margin-top: 0%;
     padding-left: 2%;
     padding-right: 2%;
   }
@@ -377,13 +377,13 @@ body {
   .item2 {
     width: 80%;
     height: auto;
-    margin-left: 10%;
-    margin-bottom: 14%;
+    margin-left: 2%;
+    margin-bottom: 10%;
     border: 1px solid white;
   }
   
   .item2 img {
-    width: 46%;
+    width: 76%;
     height: auto;
     float: right;
     transition: transform 0.3s;
@@ -397,22 +397,22 @@ body {
     color: #1E1E1E;
     font-weight: bold;
     font-size: 2.1vw;
-    margin-top: 10%;
-    padding-left: 8%;
-    padding-right: 64%;
+    margin-top: 0%;
+    padding-left: 2%;
+    padding-right: 2%;
   }
   
   .item2 p {
     color: #1E1E1E;
     font-weight: medium;
     font-size: 1vw;
-    margin-top: -1%;
-    padding-left: 8%;
-    padding-right: 64%;
+    margin-top: 0%;
+    padding-left: 2%;
+    padding-right: 2%;
   }
   
   .lank2 p {
-    margin-top: 6%;
+    margin-top: 2%;
   }
   
   .lank2 a:link, a:visited {
@@ -432,13 +432,13 @@ body {
   .item3 {
     width: 80%;
     height: auto;
-    margin-left: 10%;
-    margin-bottom: 14%;
+    margin-left: 2%;
+    margin-bottom: 10%;
     border: 1px solid white;
   }
   
   .item3 img {
-    width: 46%;
+    width: 76%;
     height: auto;
     float: left;
     transition: transform 0.3s;
@@ -452,22 +452,22 @@ body {
     color: #1E1E1E;
     font-weight: bold;
     font-size: 2.1vw;
-    margin-top: 10%;
-    padding-left: 64%;
-    padding-right: 8%;
+    margin-top: 0%;
+    padding-left: 2%;
+    padding-right: 2%;
   }
   
   .item3 p {
     color: #1E1E1E;
     font-weight: medium;
     font-size: 1vw;
-    margin-top: -1%;
-    padding-left: 64%;
-    padding-right: 8%;
+    margin-top: 0%;
+    padding-left: 2%;
+    padding-right: 2%;
   }
   
   .lank3 p {
-    margin-top: 6%;
+    margin-top: 2%;
   }
   
   .lank3 a:link, a:visited {
