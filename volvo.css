@@ -14,7 +14,7 @@ h2 {
   font-weight: medium;
   text-align: center;
   font-size: 2.1vw;
-  margin-top: 5%;
+  margin-top: 6%;
 }
 
 h3 {
@@ -22,7 +22,7 @@ h3 {
   text-align: left;
   font-size: 1.3vw;
   margin-left: 20%;
-  margin-top: 3%;
+  margin-top: 4%;
 }
 
 .navbar ul{
@@ -242,7 +242,7 @@ h3 {
 .text-box-left h4 {
   color: #1E1E1E;
   /*font-size: 15px;*/
-  font-size: 1.03vw;
+  font-size: 0.9vw;
   font-weight: medium;
   text-align: left;
   padding-left: 22%;
@@ -258,7 +258,7 @@ h3 {
 .text-box-right h4 {
   color: #ffffff;
   /*font-size: 15px;*/
-  font-size: 1vw;
+  font-size: 0.9vw;
   font-weight: medium;
   text-align: left;
   padding-right: 20%;
