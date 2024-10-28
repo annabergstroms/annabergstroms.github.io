@@ -5,6 +5,11 @@ body {
     color: #1E1E1E;
   }
 
+  h1 {
+    font-size: 3.7vw;
+    padding-top: 6%;
+  }
+
   h2 {
     font-weight: medium;
     text-align: center;
@@ -46,9 +51,8 @@ body {
   }
 
   /*MASSIKA PAGE*/
-  .top-massika h1 {
-    font-size: 3.7vw;
-    padding-top: 6%;
+  .top-massika {
+    margin-bottom: 6%;
   }
   
   .short-description p {
