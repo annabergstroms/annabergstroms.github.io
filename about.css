@@ -1,0 +1,40 @@
+body {
+    background-color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: #1E1E1E;
+  }
+  
+  .navbar ul{
+    list-style-type: none;
+    margin-top: -48.98%;
+    margin-left: 38.4%;
+    overflow: hidden;
+    background-color: transparent;
+    position: absolute;
+    width: 50%;
+  }
+  
+  .navbar li {
+    float: right;
+  }
+  
+  .navbar li a {
+    display: block;
+    padding: 20px;
+    color: #1E1E1E;
+    text-align: center;
+    font-size: 1.2vw;
+    text-decoration: none;
+  }
+  
+  .navbar li a:hover {
+    font-weight: bold;
+  }
+  
+/*ABOUT PAGE*/
+h1 {
+    font-size: 54px;
+    padding-top: 6%;
+}
+
