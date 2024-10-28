@@ -1,5 +1,5 @@
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 600px) {
 body {
   background-color: #ffffff;
   font-family: "Poppins", sans-serif;
@@ -316,7 +316,7 @@ body {
   
   /* VOLVO CARS */
   .item1 {
-    width: 100%;
+    width: 80%;
     height: auto;
     margin-top: 1%;
     margin-left: 2%;
@@ -326,7 +326,7 @@ body {
   }
   
   .item1 img {
-    width: 100%;
+    width: 76%;
     height: auto;
     transition: transform 0.3s;
   }
