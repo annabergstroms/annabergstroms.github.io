@@ -58,7 +58,8 @@ body {
   }
   
   .short-description p {
-   margin-top: -2%;
+    font-size: 1vw;
+    margin-top: -2%;
   }
 
   .img-massika {
