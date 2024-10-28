@@ -137,14 +137,14 @@ body {
   
   .left-paragraph-massika p {
     text-align: left;
-    font-size: 1vw;
+    font-size: 0.9vw;
     margin-left: 40%;
     margin-right: -20%;
   }
   
   .right-paragraph-massika p {
     text-align: left;
-    font-size: 1vw;
+    font-size: 0.9vw;
     margin-left: 30%;
     margin-right: 40%;
   }
@@ -197,21 +197,21 @@ body {
   .process1 p {
     margin-left: -40%;
     color: #1E1E1E;
-    font-size: 1vw;
+    font-size: 0.9vw;
     text-align: center;
   }
   
   .process2 p {
     margin-left: 0%;
     color: #1E1E1E;
-    font-size: 1vw;
+    font-size: 0.9vw;
     text-align: center;
   }
   
   .process3 p {
     margin-left: 44%;
     color: #1E1E1E;
-    font-size: 1vw;
+    font-size: 0.9vw;
     text-align: center;
   }
 
@@ -219,7 +219,7 @@ body {
 /*1 RESEARCH*/
 .paragraph p {
     color: #1E1E1E;
-    font-size: 1vw;
+    font-size: 0.9vw;
     text-align: left;
     margin-left: 20%;
     margin-right: 20%;
