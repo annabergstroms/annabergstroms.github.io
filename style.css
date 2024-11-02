@@ -235,9 +235,16 @@ body {
 }
 
 
-
 @media screen and (max-width: 768px) {
-  body {
-      margin: 48px 2rem 0;
+  #work-intro {
+      margin: auto;
+      width: 300px;
   }
+
+  #gradient {
+    left: 50px;
+    top: 65px;
+    width: 400px;
+}
+
 }
