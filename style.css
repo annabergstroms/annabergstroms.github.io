@@ -233,18 +233,3 @@ body {
 .lank3 a:hover, a:active {
   color: #1E1E1E;
 }
-
-
-@media screen and (max-width: 768px) {
-  #work-intro {
-      margin: auto;
-      width: 300px;
-  }
-
-  #gradient {
-    left: 50px;
-    top: 65px;
-    width: 400px;
-}
-
-}
