@@ -233,3 +233,11 @@ body {
 .lank3 a:hover, a:active {
   color: #1E1E1E;
 }
+
+
+
+@media screen and (max-width: 768px) {
+  body {
+      margin: 48px 2rem 0;
+  }
+}
