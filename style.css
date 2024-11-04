@@ -5,7 +5,7 @@ body {
   color: #1E1E1E;
 }
 
-.navbar ul{
+/*.navbar ul{
   list-style-type: none;
   margin-top: -48.98%;
   margin-left: 38.4%;
@@ -30,6 +30,59 @@ body {
 
 .navbar li a:hover {
   font-weight: bold;
+}*/
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav ul {
+  list-style: none;
+  font-size: 16px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.nav-item .active::after {
+  content: "";
+  position: absolute;
+  width: 30%; 
+  height: 2px;
+  left: 10px; 
+  bottom: 1px;   
+  background-color: var(--text-color);
+}
+
+.nav-item {
+  padding: 10px;
+  position: relative;
+}
+
+.nav-item a:hover {
+  font-weight: normal;
+}
+
+.nav-item:hover::after {
+  width: 30%;
+}
+
+.nav-item::after {
+  content: "";
+  position: absolute;
+  width: 0; 
+  height: 2px;
+  left: 10px; 
+  bottom: 1px;   
+  background-color: var(--text-color);
+  transition: 0.3s ease-in-out; 
+}
+
+.nav-right {
+  float: right;
 }
 
 /*INDEX PAGE*/
