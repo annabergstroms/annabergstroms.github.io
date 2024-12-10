@@ -6,7 +6,7 @@ body {
   text-align: center;
 }
 
-.image-container {
+/*.image-container {
   position: relative;
   width: 100%;
 }
@@ -15,6 +15,68 @@ body {
   width: 100%;
   height: auto;
 }
+
+
+/* Grundläggande layout */
+.image-container {
+  position: relative;
+  width: 100%; /* Full bredd */
+  height: auto; /* Automatiskt höjd baserad på innehåll */
+  display: flex;
+  flex-direction: column; /* Ställ in innehåll i kolumnläge */
+  align-items: center;
+  justify-content: center;
+  text-align: center; /* Centrerad text */
+  overflow: hidden; /* För att undvika oönskade överlapp */
+}
+
+.image-container img {
+  width: 100%; /* Gör bilden responsiv */
+  height: auto; /* Bevara proportioner */
+  object-fit: cover; /* Säkerställer att bilden fyller container */
+}
+
+/* Texten i bilden */
+.text {
+  position: absolute; /* Placeras ovanpå bilden */
+  color: #1E1E1E;
+  padding: 10px;
+  width: 80%; /* Gör texten lite mindre än bredden av bilden */
+}
+
+.text1 {
+  font-size: 2rem; /* Grundstorlek */
+  font-weight: bold;
+  top: 30%; /* Placera texten på 30% av bildens höjd */
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centrerad text */
+}
+
+.text2 {
+  font-size: 1.2rem; /* Grundstorlek */
+  top: 60%; /* Placera texten på 60% av bildens höjd */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: normal;
+}
+
+/* Responsiv design */
+@media (max-width: 768px) {
+  .text1 {
+    font-size: 1.5rem; /* Gör texten mindre på mobiler */
+    top: 25%; /* Justera placering */
+  }
+
+  .text2 {
+    font-size: 1rem; /* Gör texten mindre på mobiler */
+    top: 50%;
+  }
+
+  .image-container {
+    padding: 10px; /* Liten marginal runt innehållet */
+  }
+}
+
 
 /* Navigationsmeny ovanpå bilden */
 .navbar {
@@ -328,7 +390,7 @@ main {
   border: 1px solid #fff;
   border-radius: 8px;
   padding: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -354,8 +416,8 @@ main {
   color: #1E1E1E;
   font-size: 1rem;
   margin-bottom: 15px;
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .lank a {
