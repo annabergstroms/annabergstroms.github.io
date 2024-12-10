@@ -14,8 +14,8 @@ body {
 .image-container img {
   width: 100%;
   height: auto;
+  display: block;
 }
-
 
 /* Grundläggande layout */
 .image-container {
@@ -79,9 +79,14 @@ body {
 
 /* Navigationsmeny */
 .navbar {
-  position: relative;
-  background-color: transparent;
-  padding: 10px 20px;
+  position: absolute;  /* Gör så att menyn kan placeras ovanpå bilden */
+  top: 10px;           /* Lite utrymme från toppen */
+  right: 10px;         /* Lite utrymme från höger */
+  z-index: 1;          /* Ser till att menyn är över bilden */
+}
+
+.navbar a {
+  display: none;
 }
 
 /* Meny på skrivbord */
@@ -152,6 +157,7 @@ body {
   }
 }
 
+/*MIN GAMLA*/
 /*.navbar ul{
   list-style-type: none;
   margin-top: -48.98%;
@@ -178,30 +184,6 @@ body {
 .navbar li a:hover {
   font-weight: bold;
 }*/
-
-
-/* Text över bakgrundsbilden */
-.text {
-  position: absolute;
-  width: 100%;
-  text-align: center;
-  color: #1E1E1E;
-  font-weight: bold;
-  z-index: 5;
-}
-
-.text1 {
-  top: 28%;
-  font-size: 3.7vw;
-}
-
-.text2 {
-  top: 58%;
-  font-size: 1.3vw;
-}
-
-
-
 
 /* VOLVO CARS */
 /*.item1 {
