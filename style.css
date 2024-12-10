@@ -47,7 +47,7 @@ body {
 .text1 {
   font-size: 2rem; /* Grundstorlek */
   font-weight: bold;
-  top: 30%; /* Placera texten på 30% av bildens höjd */
+  top: 34%; /* Placera texten på 30% av bildens höjd */
   left: 50%;
   transform: translate(-50%, -50%); /* Centrerad text */
 }
@@ -77,7 +77,6 @@ body {
   }
 }
 
-
 /* Navigationsmeny ovanpå bilden */
 .navbar {
   position: absolute;
@@ -88,6 +87,8 @@ body {
   /*background: rgba(255, 255, 255, 0.6);*/ /* Genomskinlig bakgrund */
   padding: 10px 0;
   z-index: 10;
+  margin: 20px; /* Lägg till avstånd från toppen */
+  right: 20px; /* Placera menyn 20px från högerkant */
 }
 
 .navbar ul {
