@@ -45,9 +45,9 @@ body {
 }
 
 .text1 {
-  font-size: 2rem; /* Grundstorlek */
+  font-size: 4rem; /* Grundstorlek */
   font-weight: bold;
-  top: 34%; /* Placera texten på 30% av bildens höjd */
+  top: 40%; /* Placera texten på 30% av bildens höjd */
   left: 50%;
   transform: translate(-50%, -50%); /* Centrerad text */
 }
@@ -57,7 +57,7 @@ body {
   top: 60%; /* Placera texten på 60% av bildens höjd */
   left: 50%;
   transform: translate(-50%, -50%);
-  font-weight: normal;
+  font-weight: bold;
 }
 
 /* Responsiv design */
