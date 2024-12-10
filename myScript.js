@@ -10,12 +10,8 @@
 
 
 
-
-    document.addEventListener("DOMContentLoaded", function () {
-        const hamburger = document.getElementById("hamburger");
-        const navLinks = document.getElementById("nav-links");
+    function toggleMenu() {
+        var menu = document.getElementById('menu');
+        menu.classList.toggle('active');
+      }
       
-        hamburger.addEventListener("click", function () {
-          navLinks.classList.toggle("active");
-        });
-      });

@@ -77,72 +77,78 @@ body {
   }
 }
 
-/* Navigationsmeny ovanpå bilden */
+/* Navigationsmeny */
 .navbar {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  /*background: rgba(255, 255, 255, 0.6);*/ /* Genomskinlig bakgrund */
-  padding: 10px 0;
-  z-index: 10;
-  margin: 20px; /* Lägg till avstånd från toppen */
-  right: 20px; /* Placera menyn 20px från högerkant */
+  position: relative;
+  background-color: transparent;
+  padding: 10px 20px;
 }
 
-.navbar ul {
-  list-style: none;
+/* Meny på skrivbord */
+.menu {
+  list-style-type: none;
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
+  background-color: transparent;
 }
 
-.navbar li {
-  margin: 0 15px;
+.menu li {
+  margin-left: 20px;
 }
 
-.navbar li a {
+.menu li a {
   text-decoration: none;
   color: #1E1E1E;
-  /*font-weight: bold;*/
-  font-size: 1rem;
+  font-size: 1.2vw;
+  padding: 10px;
 }
 
-.navbar li a:hover {
-  /*text-decoration: underline;*/
+.menu li a:hover {
   font-weight: bold;
 }
 
-/* Hamburgarmeny för små skärmar */
-.menu-icon {
-  display: none;
-  font-size: 24px;
+/* Stilar för hamburgermenyn */
+.hamburger-icon {
+  font-size: 30px;
+  color: #1E1E1E;
   cursor: pointer;
-  position: absolute;
-  right: 10px;
-  top: 15px;
+  display: none;
 }
 
-@media (max-width: 768px) {
-  .navbar ul {
-    display: none;
+/* Mobilstilar */
+@media screen and (max-width: 768px) {
+  .hamburger-icon {
+    display: block; /* Visa hamburgermenyn på mobil */
+  }
+
+  .menu {
+    display: none; /* Dölj menyn på mobila enheter */
     flex-direction: column;
     position: absolute;
-    top: 100%;
-    left: 0;
-    background: rgba(255, 255, 255, 0.9);
+    top: 60px;
+    right: 0;
+    background-color: #ffffff;
     width: 100%;
-    padding: 0;
+    padding: 10px 0;
   }
 
-  .navbar ul.active {
-    display: flex;
+  .menu li {
+    text-align: center;
+    width: 100%;
+    margin: 0;
   }
 
-  .menu-icon {
+  .menu li a {
+    font-size: 1.5em;
+    padding: 20px;
     display: block;
+    color: #1E1E1E;
+  }
+
+  .menu.active {
+    display: block; /* Visa menyn när den är aktiv */
   }
 }
 
