@@ -63,13 +63,13 @@ body {
 /* Responsiv design */
 @media (max-width: 768px) {
   .text1 {
-    font-size: 1.5rem; /* Gör texten mindre på mobiler */
-    top: 25%; /* Justera placering */
+    font-size: 1.4rem; /* Gör texten mindre på mobiler */
+    top: 40%; /* Justera placering */
   }
 
   .text2 {
-    font-size: 1rem; /* Gör texten mindre på mobiler */
-    top: 50%;
+    font-size: 0.8rem; /* Gör texten mindre på mobiler */
+    top: 60%;
   }
 
   .image-container {
