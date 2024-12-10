@@ -10,6 +10,7 @@ body {
 .image-container {
   position: relative;
   width: 100%;
+  height: auto;
 }
 
 .image-container img {
@@ -18,54 +19,12 @@ body {
   display: block;
 }
 
-/* Texten */
-.text {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  text-align: center;
-  width: 100%;
-}
-
-.text1 {
-  top: 40%;
-  color: #1E1E1E;
-  font-size: 3.8rem;
-  font-weight: bold;
-}
-
-.text2 {
-  top: 60%;
-  color: #1E1E1E;
-  font-size: 1.2rem;
-  font-weight: bold;
-}
-
-
-
-/* Responsiv design */
-@media (max-width: 768px) {
-  .text1 {
-    font-size: 1.4rem; /* Gör texten mindre på mobiler */
-    top: 40%; /* Justera placering */
-  }
-
-  .text2 {
-    font-size: 0.8rem; /* Gör texten mindre på mobiler */
-    top: 60%;
-  }
-
-  .image-container {
-    padding: 10px; /* Liten marginal runt innehållet */
-  }
-}
-
 /* Navigationsmeny */
 .navbar {
   position: absolute;
-  top: 20px;         /* Utrymme från toppen */
-  right: 20px;       /* Utrymme från höger */
-  z-index: 10;       /* Se till att den är ovanpå bilden */
+  top: 10px; /* Avstånd från toppen */
+  right: 10px; /* Avstånd från höger */
+  z-index: 10; /* Se till att menyn ligger ovanpå bilden */
 }
 
 .navbar .menu {
@@ -73,7 +32,7 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-  gap: 20px;         /* Avstånd mellan menylänkar */
+  gap: 20px;
 }
 
 .navbar .menu li a {
@@ -81,7 +40,7 @@ body {
   color: #1E1E1E;
   font-size: 18px;
   padding: 8px 12px;
-  background: rgba(255, 255, 255, 0.8); /* Lätt bakgrund för bättre läsbarhet */
+  background: rgba(255, 255, 255, 0.8); /* Transparent bakgrund */
   border-radius: 5px;
 }
 
@@ -89,7 +48,7 @@ body {
   background-color: #ddd;
 }
 
-/* Hamburgermenyn (endast på små skärmar) */
+/* Hamburgermenyn (mobilskärm) */
 .navbar .hamburger {
   font-size: 30px;
   color: #1E1E1E;
@@ -97,7 +56,6 @@ body {
   display: none;
 }
 
-/* Mobilstilar */
 @media screen and (max-width: 768px) {
   .navbar .hamburger {
     display: block; /* Visa hamburgermenyn på mobil */
@@ -108,7 +66,7 @@ body {
     flex-direction: column;
     position: absolute;
     top: 50px;
-    right: 0;
+    right: 10px;
     background-color: white;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -117,19 +75,53 @@ body {
   }
 
   .navbar .menu.active {
-    display: flex; /* Visa menyn när hamburgaren klickas */
+    display: flex; /* Visa menyn när hamburgaren är aktiverad */
   }
 
   .navbar .menu li {
-    text-align: left;
     margin: 5px 0;
   }
 
   .navbar .menu li a {
-    padding: 10px;
     width: 100%;
+    padding: 10px;
   }
 }
+
+/* Text på bilden */
+.text {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: #1E1E1E;
+}
+
+.text1 {
+  top: 28%;
+  font-size: 3.5vw;
+  font-weight: bold;
+}
+
+.text2 {
+  top: 50%;
+  font-size: 2vw;
+  font-weight: medium;
+}
+
+/* Responsiv design för mindre skärmar */
+@media screen and (max-width: 768px) {
+  .text1 {
+    font-size: 5vw; /* Anpassad storlek för mobil */
+    top: 20%;
+  }
+
+  .text2 {
+    font-size: 3vw;
+    top: 35%;
+  }
+}
+
 
 /*MIN GAMLA*/
 /*.navbar ul{
