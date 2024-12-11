@@ -22,8 +22,8 @@ body {
 /* Navigationsmeny */
 .navbar {
   position: absolute;
-  top: 40px; /* Avstånd från toppen */
-  right: 60px; /* Avstånd från höger */
+  top: 60px; /* Avstånd från toppen */
+  right: 80px; /* Avstånd från höger */
   z-index: 10; /* Se till att menyn ligger ovanpå bilden */
 }
 
