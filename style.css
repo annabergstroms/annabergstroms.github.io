@@ -100,8 +100,8 @@ body {
 }
 
 .text1 {
-  top: 28%;
-  font-size: 3.7vw;
+  top: 30%;
+  font-size: 3.8vw;
   font-weight: bold;
 }
 
@@ -114,21 +114,21 @@ body {
 /* Responsiv design för mindre skärmar */
 @media screen and (min-width: 601px) and (max-width: 768px) {
   .text1 {
-    top: 20%;
-    font-size: 3.3vw;
+    top: 30%;
+    font-size: 3.8vw;
   }
   
   .text2 {
-    top: 86%;
-    font-size: 1vw;
+    top: 60%;
+    font-size: 1.3vw;
   }
 }
 
 /* Responsiv design för mindre skärmar */
 @media screen and (max-width: 600px) {
   .text1 {
-    top: 12%;
-    font-size: 3vw;
+    top: 30%;
+    font-size: 4vw;
   }
   
   .text2 {
