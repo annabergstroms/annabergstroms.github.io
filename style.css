@@ -404,7 +404,7 @@ main {
 @media (max-width: 768px) {
   main {
     flex-direction: column; /* Byt till vertikalt läge */
-    margin-top: 10%;
+    margin-top: 6%;
   }
 
   .item {
@@ -413,5 +413,12 @@ main {
 
   .item img {
     width: 80%; /* Gör bilden responsiv inom sin box */
+  }
+}
+
+/* Responsiv design för mindre skärmar */
+@media screen and (max-width: 600px) {
+  main {
+    margin-top: 10%;
   }
 }
