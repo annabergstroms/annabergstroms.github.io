@@ -29,7 +29,7 @@ body {
 
 .navbar .menu {
   list-style-type: none;
-  margin: 35px;
+  margin: 20px;
   padding: 70px;
   display: flex;
   gap: 20px;
