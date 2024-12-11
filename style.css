@@ -11,13 +11,19 @@ body {
   position: relative;
   width: 100%;
   height: auto;
-  margin-top: 4%;
 }
 
 .image-container img {
   width: 100%;
   height: auto;
   display: block;
+}
+
+/* Responsiv design för mindre skärmar */
+@media screen and (max-width: 768px) {
+  .image-container {
+    margin-top: 4%;
+  }
 }
 
 /* Navigationsmeny */
