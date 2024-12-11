@@ -389,8 +389,12 @@ main {
   }
 
   .item {
-    width: 96%; /* Full bredd för varje objekt */
-    margin-left: 2%;
-    margin-right: 2%;
+    width: 90%; /* Full bredd för varje objekt */
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .item img {
+    width: 80%; /* Gör bilden responsiv inom sin box */
   }
 }
