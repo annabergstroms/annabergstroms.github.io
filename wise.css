@@ -1,229 +1,229 @@
-/*body {
-    background-color: #ffffff;
-    font-family: "Poppins", sans-serif;
-    text-align: center;
-    color: #1E1E1E;
-  }
+body {
+  background-color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: #1E1E1E;
+}
 
-  h1 {
-    font-size: 3.7vw;
-    padding-top: 6%;
-  }
+h1 {
+  font-size: 3.7vw;
+  padding-top: 6%;
+}
 
-  h2 {
-    font-weight: medium;
-    text-align: center;
-    font-size: 2.1vw;
-    margin-top: 6%;
-  }
+h2 {
+  font-weight: medium;
+  text-align: center;
+  font-size: 2.1vw;
+  margin-top: 6%;
+}
 
-  h3 {
-    font-weight: medium;
-    text-align: left;
-    font-size: 1.3vw;
-    margin-left: 20%;
-    margin-top: 4%;
-  }
+h3 {
+  font-weight: medium;
+  text-align: left;
+  font-size: 1.3vw;
+  margin-left: 20%;
+  margin-top: 4%;
+}
   
-  .navbar ul{
-    list-style-type: none;
-    margin-left: 37.5%;
-    margin-top: -0.5%;
-    overflow: hidden;
-    background-color: transparent;
-    position: absolute;
-    width: 50%;
-  }
+.navbar ul{
+  list-style-type: none;
+  margin-left: 37.5%;
+  margin-top: -0.5%;
+  overflow: hidden;
+  background-color: transparent;
+  position: absolute;
+  width: 50%;
+}
   
-  .navbar li {
-    float: right;
-  }
+.navbar li {
+  float: right;
+}
   
-  .navbar li a {
-    display: block;
-    padding: 20px;
-    color: #1E1E1E;
-    text-align: center;
-    font-size: 1.2vw;
-    text-decoration: none;
-  }
+.navbar li a {
+  display: block;
+  padding: 20px;
+  color: #1E1E1E;
+  text-align: center;
+  font-size: 1.2vw;
+  text-decoration: none;
+}
   
-  .navbar li a:hover {
-    font-weight: bold;
-  }*/
+.navbar li a:hover {
+  font-weight: bold;
+}*/
 
-  /*WISE PAGE*/
-  /*.top-wise {
-    margin-bottom: 6%;
-  }
+/*WISE PAGE*/
+.top-wise {
+  margin-bottom: 6%;
+}
   
-  .short-description p {
-   margin-top: -2%;
-   font-size: 1vw;
-  }
+.short-description p {
+  margin-top: -2%;
+  font-size: 1vw;
+}
 
-  .img-wise {
-    display: flex;
-  }
+.img-wise {
+  display: flex;
+}
   
-  .image-wise1 {
-    width: 16%;
-    margin-left: 16%;
-    margin-right: 0.5%;
-    margin-bottom: 4%;
-    margin-top: 2%;
-  }
+.image-wise1 {
+  width: 16%;
+  margin-left: 16%;
+  margin-right: 0.5%;
+  margin-bottom: 4%;
+  margin-top: 2%;
+}
   
-  .image-wise2 {
-    width: 16%;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
-    margin-bottom: 4%;
-    margin-top: 2%;
-  }
+.image-wise2 {
+  width: 16%;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  margin-bottom: 4%;
+  margin-top: 2%;
+}
   
-  .image-wise3 {
-    width: 16%;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
-    margin-bottom: 4%;
-    margin-top: 2%;
-  }
+.image-wise3 {
+  width: 16%;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  margin-bottom: 4%;
+  margin-top: 2%;
+}
 
-  .image-wise4 {
-    width: 16%;
-    margin-left: 0.5%;
-    margin-right: 16%;
-    margin-bottom: 4%;
-    margin-top: 2%;
-  }*/
+.image-wise4 {
+  width: 16%;
+  margin-left: 0.5%;
+  margin-right: 16%;
+  margin-bottom: 4%;
+  margin-top: 2%;
+}
 
-  /*PROJECT OVERVIEW*/  
-  /*.heading-project-overview h2 {
-    font-weight: medium;
-    text-align: center;
-    font-size: 2.1vw;
-    padding-top: 4%;
-    padding-left: 1%;
-    padding-right: 1%;
-    margin-top: -4%;
-    margin-bottom: 0%;
-    margin-left: -1%;
-    margin-right: -1%;
-    background-color: #F1F2F6;
-  }
+/*PROJECT OVERVIEW*/  
+  .heading-project-overview h2 {
+  font-weight: medium;
+  text-align: center;
+  font-size: 2.1vw;
+  padding-top: 4%;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-top: -4%;
+  margin-bottom: 0%;
+  margin-left: -1%;
+  margin-right: -1%;
+  background-color: #F1F2F6;
+}
 
-  .project-overview-wise {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 100%;
-    padding-top: 4%;
-    padding-bottom: 4%;
-    padding-left: 1%;
-    padding-right: 1%;
-    margin-left: -1%;
-    margin-right: -1%;
-    background-color: #F1F2F6;
-  }
+.project-overview-wise {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-left: -1%;
+  margin-right: -1%;
+  background-color: #F1F2F6;
+}
   
-  .left-paragraph-wise h3 {
-    font-weight: medium;
-    text-align: left;
-    font-size: 1.3vw;
-    margin-left: 40%;
-    margin-right: -20%;
-  }
+.left-paragraph-wise h3 {
+  font-weight: medium;
+  text-align: left;
+  font-size: 1.3vw;
+  margin-left: 40%;
+  margin-right: -20%;
+}
   
-  .left-paragraph-wise p {
-    text-align: left;
-    font-size: 0.9vw;
-    margin-left: 40%;
-    margin-right: -20%;
-  }
+.left-paragraph-wise p {
+  text-align: left;
+  font-size: 0.9vw;
+  margin-left: 40%;
+  margin-right: -20%;
+}
+
+.right-paragraph-wise p {
+  text-align: left;
+  font-size: 0.9vw;
+  margin-left: 30%;
+  margin-right: 40%;
+  margin-bottom: 4%;
+}
   
-  .right-paragraph-wise p {
-    text-align: left;
-    font-size: 0.9vw;
-    margin-left: 30%;
-    margin-right: 40%;
-    margin-bottom: 4%;
-  }*/
+/*DESIGN PROCESS*/
+.process-container-wise {
+  position: relative;
+  width: 100%;
+  margin-bottom: 4%;
+}
   
-  /*DESIGN PROCESS*/
-  /*.process-container-wise {
-    position: relative;
-    width: 100%;
-    margin-bottom: 4%;
-  }
+.process-container-wise img {
+  width: 100%;
+  height: auto;
+}
   
-  .process-container-wise img {
-    width: 100%;
-    height: auto;
-  }
+.wise {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+}
+
+.process1 h3 {
+  margin-left: -40%;
+  margin-top: -4%;
+  color: #FD9314;
+  font-size: 1.3vw;
+  font-weight: medium;
+  text-align: center;
+}
   
-  .wise {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-  }
+.process2 h3 {
+  margin-left: 0%;
+  margin-top: -4%;
+  color: #E84FB0;
+  font-size: 1.3vw;
+  font-weight: medium;
+  text-align: center;
+}
   
-  .process1 h3 {
-    margin-left: -40%;
-    margin-top: -4%;
-    color: #FD9314;
-    font-size: 1.3vw;
-    font-weight: medium;
-    text-align: center;
-  }
+.process3 h3 {
+  margin-left: 36%;
+  margin-top: -4%;
+  color: #7C50ED;
+  font-size: 1.3vw;
+  font-weight: medium;
+  text-align: center;
+}
   
-  .process2 h3 {
-    margin-left: 0%;
-    margin-top: -4%;
-    color: #E84FB0;
-    font-size: 1.3vw;
-    font-weight: medium;
-    text-align: center;
-  }
+.process1 p {
+  margin-left: -40%;
+  color: #1E1E1E;
+  font-size: 0.9vw;
+  text-align: center;
+}
   
-  .process3 h3 {
-    margin-left: 36%;
-    margin-top: -4%;
-    color: #7C50ED;
-    font-size: 1.3vw;
-    font-weight: medium;
-    text-align: center;
-  }
+.process2 p {
+  margin-left: 0%;
+  color: #1E1E1E;
+  font-size: 0.9vw;
+  text-align: center;
+}
   
-  .process1 p {
-    margin-left: -40%;
-    color: #1E1E1E;
-    font-size: 0.9vw;
-    text-align: center;
-  }
-  
-  .process2 p {
-    margin-left: 0%;
-    color: #1E1E1E;
-    font-size: 0.9vw;
-    text-align: center;
-  }
-  
-  .process3 p {
-    margin-left: 36%;
-    color: #1E1E1E;
-    font-size: 0.9vw;
-    text-align: center;
-  }*/
+.process3 p {
+  margin-left: 36%;
+  color: #1E1E1E;
+  font-size: 0.9vw;
+  text-align: center;
+}
 
 
 /*1 RESEARCH*/
-  /*.paragraph p {
-    color: #1E1E1E;
-    font-size: 0.9vw;
-    text-align: left;
-    margin-left: 20%;
-    margin-right: 20%;
+  .paragraph p {
+  color: #1E1E1E;
+  font-size: 0.9vw;
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .shadow-box1 {
@@ -232,24 +232,24 @@
   margin-left: 20%;
   margin-right: 20%;
   margin-bottom: 2%;
-}*/
+}
 
 /*Konkurrentanalysbild*/
-/*.comp img {
+  .comp img {
   width: 100%;
-}*/
+}
 
 /*Tematisk analys bild*/
-/*.tematiskanalys img {
+  .tematiskanalys img {
   width: 90%;
   margin-top: 3%;
   margin-bottom: 3%;
   margin-left: 4%;
   margin-right: 4%;
-}*/
+}
 
 /*Insikter och Behov av tematisk analys*/
-/*.shadow-box {
+  .shadow-box {
   display: grid;
   grid-template-columns: 50% 50%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -262,9 +262,9 @@
 }
 
 .text-box-left h4 {
-  color: #1E1E1E;*/
+  color: #1E1E1E;
   /*font-size: 15px;*/
-  /*font-size: 1.05vw;
+  font-size: 1.05vw;
   font-weight: medium;
   text-align: left;
   padding-left: 20%;
@@ -280,9 +280,9 @@
 }
 
 .text-box-right h4 {
-  color: #1E1E1E;*/
+  color: #1E1E1E;
   /*font-size: 15px;*/
-  /*font-size: 1.05vw;
+  font-size: 1.05vw;
   font-weight: medium;
   text-align: left;
   padding-left: 10%;
@@ -295,11 +295,11 @@
   text-align: left;
   padding-left: 10%;
   padding-right: 20%;
-}*/
+}
 
 
 /*2 DESIGN & PROTOTYPE*/
-/*.shadow-box1 {
+  .shadow-box1 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-top: 2%;
   margin-left: 20%;
@@ -313,46 +313,46 @@
 
 .wireframe2 {
   display: flex;
-}*/
+}
 
 /*Rad 1 - Wireframe 1*/
-/*.first-wireframe1 {
+  .first-wireframe1 {
   width: 18.4%; /* Bredd på bilden */
-  /*margin-left: 2%;
+  margin-left: 2%;
   margin-right: 0.5%;
   margin-bottom: 1%;
   margin-top: 2%;
-}*/
+}
 
 /*Rad 1 - Wireframe 2*/
-/*.second-wireframe1 {
+  .second-wireframe1 {
   width: 18.4%;
   margin-left: 0.5%;
   margin-right: 0.5%;
   margin-bottom: 1%;
   margin-top: 2%;
-}*/
+}
 
 /*Rad 1 - Wireframe 3*/
-/*.third-wireframe1 {
+  .third-wireframe1 {
   width: 18.4%;
   margin-left: 0.5%;
   margin-right: 0.5%;
   margin-bottom: 1%;
   margin-top: 2%;
-}*/
+}
 
 /*Rad 1 - Wireframe 4*/
-/*.four-wireframe1 {
+  .four-wireframe1 {
   width: 18.4%;
   margin-left: 0.5%;
   margin-right: 0.5%;
   margin-bottom: 1%;
   margin-top: 2%;
-}*/
+}
 
 /*Rad 1 - Wireframe 5*/
-/*.fifth-wireframe1 {
+  .fifth-wireframe1 {
   width: 18.4%;
   margin-left: 0.5%;
   margin-bottom: 1%;
@@ -360,15 +360,15 @@
 }
 
 /*Rad 2 - Wireframe 1*/
-/*.first-wireframe2 {
+  .first-wireframe2 {
   width: 18.4%; /* Bredd på bilden */
-  /*margin-left: 2%;
+  margin-left: 2%;
   margin-right: 0.5%;
   margin-bottom: 2%;
 }
 
 /*Rad 2 - Wireframe 2*/
-/*.second-wireframe2 {
+  .second-wireframe2 {
   width: 18.4%;
   margin-left: 0.5%;
   margin-right: 0.5%;
@@ -376,7 +376,7 @@
 }
 
 /*Rad 2 - Wireframe 3*/
-/*.third-wireframe2 {
+  .third-wireframe2 {
   width: 18.4%;
   margin-left: 0.5%;
   margin-right: 0.5%;
@@ -384,7 +384,7 @@
 }
 
 /*Rad 2 - Wireframe 4*/
-/*.four-wireframe2 {
+  .four-wireframe2 {
   width: 18.4%;
   margin-left: 0.5%;
   margin-right: 2%;
@@ -394,7 +394,7 @@
 
 /*TEST*/
 /*Insikter och Behov av tematisk analys*/
-/*.shadow-box2 {
+  .shadow-box2 {
   display: grid;
   grid-template-columns: 33.33% 33.33% 33.33%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -409,7 +409,7 @@
 .patterns h4 {
   color: #1E1E1E;
   /*font-size: 15px;*/
-  /*font-size: 1.05vw;
+  font-size: 1.05vw;
   font-weight: medium;
   text-align: left;
   padding-left: 15%;
@@ -427,7 +427,7 @@
 .insights h4 {
   color: #1E1E1E;
   /*font-size: 15px;*/
-  /*font-size: 1.05vw;
+  font-size: 1.05vw;
   font-weight: medium;
   text-align: left;
   padding-left: 7.5%;
@@ -445,7 +445,7 @@
 .recommendations h4 {
   color: #1E1E1E;
   /*font-size: 15px;*/
-  /*font-size: 1.05vw;
+  font-size: 1.05vw;
   font-weight: medium;
   text-align: left;
   padding-left: 7.5%;
@@ -461,7 +461,7 @@
 }
 
 /*Tematisk analys bild 2*/
-/*.tematiskanalys2 img {
+  .tematiskanalys2 img {
   width: 90%;
   margin-top: 3%;
   margin-bottom: 3%;
@@ -470,7 +470,7 @@
 }
 
 /*RESULT*/
-/*.prototype-wise1 {
+  .prototype-wise1 {
   display: flex;
   margin-left: 20%;
   margin-right: 20%;
@@ -483,15 +483,15 @@
 }
 
 /*Rad 1 - Prototyp 1*/
-/*.prototype1 {
+  .prototype1 {
   width: 25%; /* Bredd på bilden */
-  /*margin-right: 0.5%;
+  margin-right: 0.5%;
   margin-bottom: 1%;
   margin-top: 2%;
 }
 
 /*Rad 1 - Prototyp 2*/
-/*.prototype2 {
+  .prototype2 {
   width: 25%;
   margin-left: 0.5%;
   margin-right: 0.5%;
@@ -500,7 +500,7 @@
 }
 
 /*Rad 1 - Prototyp 3*/
-/*.prototype3 {
+  .prototype3 {
   width: 25%;
   margin-left: 0.5%;
   margin-right: 0.5%;
@@ -509,7 +509,7 @@
 }
 
 /*Rad 1 - Prototyp 4*/
-/*.prototype4 {
+  .prototype4 {
   width: 25%;
   margin-left: 0.5%;
   margin-bottom: 1%;
@@ -517,14 +517,14 @@
 }
 
 /*Rad 2 - Prototyp 1*/
-/*.prototype5 {
+  .prototype5 {
   width: 25%; /* Bredd på bilden */
-  /*margin-right: 0.5%;
+  margin-right: 0.5%;
   margin-bottom: 2%;
 }
 
 /*Rad 2 - Prototyp 2*/
-/*.prototype6 {
+  .prototype6 {
   width: 25%;
   margin-left: 0.5%;
   margin-right: 0.5%;
@@ -532,7 +532,7 @@
 }
 
 /*Rad 2 - Prototyp 2*/
-/*.prototype7 {
+  .prototype7 {
   width: 25%;
   margin-left: 0.5%;
   margin-right: 0.5%;
@@ -540,231 +540,8 @@
 }
 
 /*Rad 2 - Prototyp 3*/
-/*.prototype8 {
+  .prototype8 {
   width: 25%;
   margin-left: 0.5%;
   margin-bottom: 2%;
 }
-
-
-
-
-
-/* Global inställningar */
-body {
-  font-family: 'Poppins', sans-serif;
-  margin: 0;
-  padding: 0;
-  line-height: 1.6;
-  box-sizing: border-box;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-/* Grundläggande responsiva inställningar */
-.container {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-/* Navbar */
-.navbar {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-}
-
-.navbar ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  gap: 20px;
-}
-
-.navbar ul li a {
-  text-decoration: none;
-  color: #1E1E1E;
-  padding: 10px 15px;
-  background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 5px;
-}
-
-/* Top Section */
-.top-wise {
-  text-align: center;
-  padding: 20px;
-}
-
-.top-wise h1 {
-  font-size: 3rem;
-  margin-bottom: 10px;
-}
-
-.short-description p {
-  font-size: 1.2rem;
-  margin-bottom: 20px;
-}
-
-.img-wise {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 15px;
-}
-
-.img-wise img {
-  flex: 1 1 calc(25% - 15px); /* Fyra bilder per rad */
-  border-radius: 10px;
-}
-
-/* Project Overview */
-.project-overview-wise {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  padding: 20px 0;
-}
-
-.project-overview-wise .left-paragraph-wise,
-.project-overview-wise .right-paragraph-wise {
-  flex: 1 1 calc(50% - 20px); /* Två kolumner */
-}
-
-.right-paragraph-wise p {
-  margin-bottom: 10px;
-}
-
-/* Process Section */
-.process-container-wise {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  padding: 20px;
-}
-
-.process-container-wise img {
-  flex: 1 1 100%;
-  margin-bottom: 20px;
-}
-
-.process-container-wise .wise {
-  flex: 1 1 calc(33.33% - 20px); /* Tre kolumner */
-  background-color: #f4f4f4;
-  padding: 15px;
-  border-radius: 10px;
-  text-align: center;
-}
-
-/* Shadow Boxes */
-.shadow-box, .shadow-box1, .shadow-box2 {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  padding: 20px;
-  margin: 20px 0;
-  background: #f9f9f9;
-  border-radius: 10px;
-}
-
-.shadow-box .text-box-left,
-.shadow-box .text-box-right,
-.shadow-box2 .patterns,
-.shadow-box2 .insights,
-.shadow-box2 .recommendations {
-  flex: 1 1 calc(50% - 20px); /* Två kolumner */
-  padding: 15px;
-  background-color: #fff;
-  border-radius: 10px;
-}
-
-/* Prototype Section */
-.prototype-wise1, .prototype-wise2 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 15px;
-  padding: 20px;
-}
-
-.prototype-wise1 img, .prototype-wise2 img {
-  flex: 1 1 calc(25% - 15px); /* Fyra bilder per rad */
-  border-radius: 10px;
-}
-
-/* Mobilvänlig design */
-@media screen and (max-width: 768px) {
-  /* Navbar */
-  .navbar ul {
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 10px;
-  }
-
-  /* Top Section */
-  .img-wise img {
-    flex: 1 1 calc(50% - 15px); /* Två bilder per rad */
-  }
-
-  /* Project Overview */
-  .project-overview-wise {
-    flex-direction: column;
-  }
-
-  .project-overview-wise .left-paragraph-wise,
-  .project-overview-wise .right-paragraph-wise {
-    flex: 1 1 100%;
-  }
-
-  /* Process Section */
-  .process-container-wise .wise {
-    flex: 1 1 calc(50% - 20px); /* Två kolumner */
-  }
-
-  /* Shadow Boxes */
-  .shadow-box .text-box-left,
-  .shadow-box .text-box-right,
-  .shadow-box2 .patterns,
-  .shadow-box2 .insights,
-  .shadow-box2 .recommendations {
-    flex: 1 1 100%;
-  }
-
-  /* Prototype Section */
-  .prototype-wise1 img, .prototype-wise2 img {
-    flex: 1 1 calc(50% - 15px); /* Två bilder per rad */
-  }
-}
-
-@media screen and (max-width: 480px) {
-  /* Navbar */
-  .navbar ul {
-    align-items: flex-start;
-  }
-
-  /* Top Section */
-  .top-wise h1 {
-    font-size: 2rem;
-  }
-
-  .img-wise img {
-    flex: 1 1 100%; /* En bild per rad */
-  }
-
-  /* Process Section */
-  .process-container-wise .wise {
-    flex: 1 1 100%; /* En kolumn */
-  }
-
-  /* Prototype Section */
-  .prototype-wise1 img, .prototype-wise2 img {
-    flex: 1 1 100%; /* En bild per rad */
-  }
-}
-
