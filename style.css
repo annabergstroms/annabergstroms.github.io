@@ -134,6 +134,10 @@ body {
     top: 86%;
     font-size: 1rem;
   }
+
+  .image-container img {
+    top: 4%;
+  }
 }
 
 /*MIN GAMLA*/
