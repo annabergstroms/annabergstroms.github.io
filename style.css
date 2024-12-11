@@ -22,16 +22,15 @@ body {
 /* Navigationsmeny */
 .navbar {
   position: absolute;
-  top: 20px; /* Avstånd från toppen */
-  top: 20px; /* Avstånd från toppen */
-  right: 50px; /* Avstånd från höger */
+  top: 10px; /* Avstånd från toppen */
+  right: 10px; /* Avstånd från höger */
   z-index: 10; /* Se till att menyn ligger ovanpå bilden */
 }
 
 .navbar .menu {
   list-style-type: none;
   margin: 20px;
-  padding: 50px;
+  padding: 30px;
   display: flex;
   gap: 20px;
 }
@@ -66,12 +65,12 @@ body {
     display: none; /* Dölj menyn som standard */
     flex-direction: column;
     position: absolute;
-    top: 50px;
-    right: 10px;
+    /*top: 50px;
+    right: 10px;*/
     background-color: white;
     border: 1px solid #ddd;
     border-radius: 5px;
-    width: 100%;
+    width: 0%;
     padding: 10px;
   }
 
@@ -100,8 +99,8 @@ body {
 }
 
 .text1 {
-  top: 30%;
-  font-size: 3.8rem;
+  top: 28%;
+  font-size: 3.6rem;
   font-weight: bold;
 }
 
@@ -115,7 +114,7 @@ body {
 @media screen and (max-width: 768px) {
   .text1 {
     font-size: 1.5rem; /* Anpassad storlek för mobil */
-    top: 40%;
+    top: 20%;
   }
 
   .text2 {
