@@ -29,8 +29,8 @@ body {
 
 .navbar .menu {
   list-style-type: none;
-  margin: 18px;
-  padding: 35px;
+  margin: 20px;
+  padding: 40px;
   display: flex;
   gap: 20px;
 }
@@ -95,9 +95,6 @@ body {
     text-decoration: none;
   }
 
-  .navbar .menu li a:hover {
-    background-color: #ddd;
-  }
 }
 
 /* Text på bilden */
