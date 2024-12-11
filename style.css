@@ -405,7 +405,6 @@ main {
 @media (max-width: 768px) {
   main {
     flex-direction: column; /* Byt till vertikalt läge */
-    margin-top: 6%;
   }
 
   .item {
