@@ -58,7 +58,7 @@ body {
   .navbar .hamburger {
     display: block; /* Visa hamburgermenyn på mobil */
     background-color: white;
-    width: 100%;
+    padding-left: 730px;
   }
 
   .navbar .menu {
