@@ -389,9 +389,7 @@ main {
   }
 
   .item {
-    width: 90%; /* Full bredd för varje objekt */
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 80%; /* Full bredd för varje objekt */
   }
 
   .item img {
