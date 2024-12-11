@@ -115,6 +115,19 @@ body {
   font-weight: bold;
 }
 
+/* Responsiv design för mindre skärmar */
+@media screen and (max-width: 768px) {
+  .text1 {
+    top: 24%;
+    font-size: 3.6rem;
+  }
+  
+  .text2 {
+    top: 70%;
+    font-size: 1.2rem;
+  }
+}
+
 /*MIN GAMLA*/
 /*.navbar ul{
   list-style-type: none;
