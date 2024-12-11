@@ -550,18 +550,27 @@
 
 
 
-
 /* Global inställningar */
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
   line-height: 1.6;
+  box-sizing: border-box;
 }
 
 img {
   max-width: 100%;
   height: auto;
+  display: block;
+}
+
+/* Grundläggande responsiva inställningar */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 /* Navbar */
@@ -594,7 +603,8 @@ img {
 }
 
 .top-wise h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
+  margin-bottom: 10px;
 }
 
 .short-description p {
@@ -610,8 +620,7 @@ img {
 }
 
 .img-wise img {
-  flex: 1 1 calc(50% - 10px); /* Justera för att få två bilder per rad */
-  max-width: 100%;
+  flex: 1 1 calc(25% - 15px); /* Fyra bilder per rad */
   border-radius: 10px;
 }
 
@@ -620,28 +629,22 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  padding: 20px;
+  padding: 20px 0;
 }
 
 .project-overview-wise .left-paragraph-wise,
 .project-overview-wise .right-paragraph-wise {
-  flex: 1 1 45%; /* Dela 50-50 men kan justeras responsivt */
+  flex: 1 1 calc(50% - 20px); /* Två kolumner */
 }
 
 .right-paragraph-wise p {
   margin-bottom: 10px;
 }
 
-.heading-project-overview h2 {
-  text-align: center;
-  font-size: 2rem;
-}
-
 /* Process Section */
 .process-container-wise {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
   gap: 20px;
   padding: 20px;
 }
@@ -652,7 +655,7 @@ img {
 }
 
 .process-container-wise .wise {
-  flex: 1 1 calc(33.33% - 20px);
+  flex: 1 1 calc(33.33% - 20px); /* Tre kolumner */
   background-color: #f4f4f4;
   padding: 15px;
   border-radius: 10px;
@@ -675,14 +678,10 @@ img {
 .shadow-box2 .patterns,
 .shadow-box2 .insights,
 .shadow-box2 .recommendations {
-  flex: 1 1 calc(50% - 10px);
+  flex: 1 1 calc(50% - 20px); /* Två kolumner */
   padding: 15px;
   background-color: #fff;
   border-radius: 10px;
-}
-
-.shadow-box1 img, .shadow-box2 img {
-  flex: 1 1 100%;
 }
 
 /* Prototype Section */
@@ -695,21 +694,25 @@ img {
 }
 
 .prototype-wise1 img, .prototype-wise2 img {
-  flex: 1 1 calc(25% - 10px);
+  flex: 1 1 calc(25% - 15px); /* Fyra bilder per rad */
   border-radius: 10px;
 }
 
 /* Mobilvänlig design */
 @media screen and (max-width: 768px) {
+  /* Navbar */
   .navbar ul {
     flex-direction: column;
+    align-items: flex-end;
     gap: 10px;
   }
 
+  /* Top Section */
   .img-wise img {
-    flex: 1 1 100%;
+    flex: 1 1 calc(50% - 15px); /* Två bilder per rad */
   }
 
+  /* Project Overview */
   .project-overview-wise {
     flex-direction: column;
   }
@@ -719,10 +722,12 @@ img {
     flex: 1 1 100%;
   }
 
+  /* Process Section */
   .process-container-wise .wise {
-    flex: 1 1 100%;
+    flex: 1 1 calc(50% - 20px); /* Två kolumner */
   }
 
+  /* Shadow Boxes */
   .shadow-box .text-box-left,
   .shadow-box .text-box-right,
   .shadow-box2 .patterns,
@@ -731,18 +736,35 @@ img {
     flex: 1 1 100%;
   }
 
+  /* Prototype Section */
   .prototype-wise1 img, .prototype-wise2 img {
-    flex: 1 1 calc(50% - 10px);
+    flex: 1 1 calc(50% - 15px); /* Två bilder per rad */
   }
 }
 
 @media screen and (max-width: 480px) {
+  /* Navbar */
   .navbar ul {
     align-items: flex-start;
   }
 
+  /* Top Section */
+  .top-wise h1 {
+    font-size: 2rem;
+  }
+
+  .img-wise img {
+    flex: 1 1 100%; /* En bild per rad */
+  }
+
+  /* Process Section */
+  .process-container-wise .wise {
+    flex: 1 1 100%; /* En kolumn */
+  }
+
+  /* Prototype Section */
   .prototype-wise1 img, .prototype-wise2 img {
-    flex: 1 1 100%;
+    flex: 1 1 100%; /* En bild per rad */
   }
 }
 
