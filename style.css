@@ -30,7 +30,7 @@ body {
 .navbar .menu {
   list-style-type: none;
   margin: 20px;
-  padding: 70px;
+  padding: 20px;
   display: flex;
   gap: 20px;
 }
