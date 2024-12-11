@@ -389,6 +389,6 @@ main {
   }
 
   .item {
-    width: 100%; /* Full bredd för varje objekt */
+    width: 90%; /* Full bredd för varje objekt */
   }
 }
