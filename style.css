@@ -331,7 +331,7 @@ main {
   width: 90%;
   margin: 0 auto;
   display: flex;
-  flex-wrap: wrap; /* Gör det möjligt att bryta rader vid behov */
+  /*flex-wrap: wrap; /* Gör det möjligt att bryta rader vid behov */
   justify-content: space-between; /* Jämnt avstånd mellan elementen */
   gap: 20px; /* Utrymme mellan bilder och texter */
 }
@@ -389,6 +389,6 @@ main {
   }
 
   .item {
-    width: 90%; /* Full bredd för varje objekt */
+    width: 98%; /* Full bredd för varje objekt */
   }
 }
