@@ -69,10 +69,10 @@ h3 {
     display: none; /* Dölj menyn som standard */
     flex-direction: column;
     position: fixed;
-    top: 0px;
-    right: 0px;
+    top: 4px;
+    right: -60px;
     background-color: white;
-    width: 4768px;
+    width: 100%;
     padding: 10px;
     text-align: center;
   }
