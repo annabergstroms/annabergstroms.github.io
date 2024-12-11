@@ -24,14 +24,14 @@ body {
   position: absolute;
   top: 20px; /* Avstånd från toppen */
   top: 20px; /* Avstånd från toppen */
-  right: 20px; /* Avstånd från höger */
+  right: 50px; /* Avstånd från höger */
   z-index: 10; /* Se till att menyn ligger ovanpå bilden */
 }
 
 .navbar .menu {
   list-style-type: none;
   margin: 20px;
-  padding: 20px;
+  padding: 50px;
   display: flex;
   gap: 20px;
 }
@@ -71,7 +71,7 @@ body {
     background-color: white;
     border: 1px solid #ddd;
     border-radius: 5px;
-    width: 150px;
+    width: 100%;
     padding: 10px;
   }
 
@@ -96,10 +96,11 @@ body {
   transform: translateX(-50%);
   text-align: center;
   color: #1E1E1E;
+  width: 100%;
 }
 
 .text1 {
-  top: 40%;
+  top: 30%;
   font-size: 3.8rem;
   font-weight: bold;
 }
@@ -107,7 +108,7 @@ body {
 .text2 {
   top: 60%;
   font-size: 1.2rem;
-  font-weight: medium;
+  font-weight: bold;
 }
 
 /* Responsiv design för mindre skärmar */
