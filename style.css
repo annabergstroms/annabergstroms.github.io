@@ -120,6 +120,8 @@ body {
   .text1 {
     font-size: 2rem; /* Anpassad storlek för mobil */
     top: 28%;
+    margin-right: 6%;
+    margin-left: 6%;
   }
 
   .text2 {
