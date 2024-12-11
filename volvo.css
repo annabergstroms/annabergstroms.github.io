@@ -25,31 +25,71 @@ h3 {
   margin-top: 4%;
 }
 
-.navbar ul{
-  list-style-type: none;
-  margin-left: 37.5%;
-  margin-top: -0.5%;
-  overflow: hidden;
-  background-color: transparent;
+/* Navigationsmeny */
+.navbar {
   position: absolute;
-  width: 50%;
+  top: 10px; /* Avstånd från toppen */
+  right: 10px; /* Avstånd från höger */
+  z-index: 10; /* Se till att menyn ligger ovanpå bilden */
 }
 
-.navbar li {
-  float: right;
+.navbar .menu {
+  list-style-type: none;
+  margin-top: 40px;
+  margin-right: 66px;
+  display: flex;
+  gap: 20px;
 }
 
-.navbar li a {
-  display: block;
-  padding: 20px;
-  color: #1E1E1E;
-  text-align: center;
-  font-size: 1.2vw;
+.navbar .menu li a {
   text-decoration: none;
+  color: #1E1E1E;
+  font-size: 18px;
+  padding: 8px 12px;
 }
 
-.navbar li a:hover {
+.navbar .menu li a:hover {
   font-weight: bold;
+}
+
+/* Hamburgermenyn (mobilskärm) */
+.navbar .hamburger {
+  font-size: 30px;
+  color: #1E1E1E;
+  cursor: pointer;
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar .hamburger {
+    display: block; /* Visa hamburgermenyn på mobil */
+  }
+
+  .navbar .menu {
+    display: none; /* Dölj menyn som standard */
+    flex-direction: column;
+    position: fixed;
+    top: 4px;
+    right: -66px;
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .navbar .menu.active {
+    display: flex; /* Visa menyn när hamburgaren är aktiverad */
+  }
+
+  .navbar .menu li {
+    margin: 5px 0;
+  }
+
+  .navbar .menu li a {
+    width: 100%;
+    padding: 10px;
+  }
+
 }
 
 
