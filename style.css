@@ -40,8 +40,6 @@ body {
   color: #1E1E1E;
   font-size: 18px;
   padding: 8px 12px;
-  /*background: rgba(255, 255, 255, 0.8);*/ /* Transparent bakgrund */
-  /*border-radius: 5px;*/
 }
 
 .navbar .menu li a:hover {
@@ -54,8 +52,6 @@ body {
   color: #1E1E1E;
   cursor: pointer;
   display: none;
-  top: 0px; /* Avstånd från toppen */
-  right: 0px; /* Avstånd från höger */
 }
 
 @media screen and (max-width: 768px) {
@@ -67,7 +63,7 @@ body {
     display: none; /* Dölj menyn som standard */
     flex-direction: column;
     position: absolute;
-    top: 30px;
+    top: 20px;
     right: 0px;
     background-color: white;
     width: 150px;
