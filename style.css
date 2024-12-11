@@ -54,6 +54,8 @@ body {
   color: #1E1E1E;
   cursor: pointer;
   display: none;
+  top: 10px; /* Avstånd från toppen */
+  right: 10px; /* Avstånd från höger */
 }
 
 @media screen and (max-width: 768px) {
