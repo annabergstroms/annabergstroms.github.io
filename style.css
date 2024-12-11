@@ -11,6 +11,7 @@ body {
   position: relative;
   width: 100%;
   height: auto;
+  margin-top: 4%;
 }
 
 .image-container img {
@@ -112,7 +113,7 @@ body {
 @media screen and (max-width: 768px) {
   .text1 {
     font-size: 3.7vw; /* Anpassad storlek för mobil */
-    top: 24%;
+    top: 28%;
   }
 
   .text2 {
