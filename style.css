@@ -21,7 +21,7 @@ body {
 
 /* Responsiv design för mindre skärmar */
 @media screen and (max-width: 768px) {
-  .image-container img{
+  .image-container {
     margin-top: 4%;
   }
 }
@@ -29,8 +29,8 @@ body {
 /* Navigationsmeny */
 .navbar {
   position: absolute;
-  top: 10px; /* Avstånd från toppen */
-  right: 10px; /* Avstånd från höger */
+  top: 0px; /* Avstånd från toppen */
+  right: 0px; /* Avstånd från höger */
   z-index: 10; /* Se till att menyn ligger ovanpå bilden */
 }
 
