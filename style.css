@@ -119,12 +119,16 @@ body {
   .text2 {
     top: 86%;
   }
+
+  .image-container {
+    padding-top: 70px;
+  }
 }
 
 /* Responsiv design för mindre skärmar */
 @media screen and (max-width: 600px) {
   .text1 {
-    top: 12%;
+    top: 14%;
     font-size: 3.4rem;
   }
   
