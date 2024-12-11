@@ -29,8 +29,8 @@ body {
 
 .navbar .menu {
   list-style-type: none;
-  margin: 20px;
-  padding: 30px;
+  margin: 18px;
+  padding: 35px;
   display: flex;
   gap: 20px;
 }
@@ -65,26 +65,38 @@ body {
     display: none; /* Dölj menyn som standard */
     flex-direction: column;
     position: absolute;
-    /*top: 50px;
-    right: 10px;*/
-    background-color: white;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    width: 0%;
-    padding: 10px;
+    top: 0;
+    left: 0;
+    width: 100%; /* Täck hela bredden */
+    background-color: white; /* Vit bakgrund */
+    padding: 10px 0;
+    border: none;
+    z-index: 20;
+    transition: max-height 0.3s ease-in-out;
+    max-height: 0; /* Animering för öppning/stängning */
+    overflow: hidden; /* Dölj innehåll när menyn är stängd */
   }
 
   .navbar .menu.active {
-    display: flex; /* Visa menyn när hamburgaren är aktiverad */
+    display: flex; 
+    max-height: 300px; /* Tillräckligt för att visa alla länkar */
   }
 
   .navbar .menu li {
-    margin: 5px 0;
+    width: 100%; /* Se till att varje länk tar upp hela bredden */
+    text-align: center;
   }
 
   .navbar .menu li a {
-    width: 100%;
-    padding: 10px;
+    display: block;
+    padding: 15px 0;
+    color: #1E1E1E;
+    font-size: 16px;
+    text-decoration: none;
+  }
+
+  .navbar .menu li a:hover {
+    background-color: #ddd;
   }
 }
 
@@ -118,7 +130,7 @@ body {
   }
 
   .text2 {
-    font-size: 1rem;
+    font-size: 0.8rem;
     top: 60%;
   }
 }
