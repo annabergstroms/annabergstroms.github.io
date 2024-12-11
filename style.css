@@ -41,8 +41,8 @@ body {
   color: #1E1E1E;
   font-size: 18px;
   padding: 8px 12px;
-  /*background: rgba(255, 255, 255, 0.8);/ /* Transparent bakgrund */
-  border-radius: 5px;*/
+  /*background: rgba(255, 255, 255, 0.8);*/ /* Transparent bakgrund */
+  /*border-radius: 5px;*/
 }
 
 .navbar .menu li a:hover {
