@@ -111,12 +111,12 @@ body {
 /* Responsiv design för mindre skärmar */
 @media screen and (max-width: 768px) {
   .text1 {
-    top: 20%;
-    font-size: 2.7rem;
+    top: 10%;
+    font-size: 2.5rem;
   }
   
   .text2 {
-    top: 70%;
+    top: 90%;
     font-size: 1rem;
   }
 }
