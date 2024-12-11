@@ -113,8 +113,8 @@ body {
 /* Responsiv design för mindre skärmar */
 @media screen and (min-width: 601px) and (max-width: 768px) {
   .text1 {
-    top: 28%;
-    font-size: 3rem;
+    top: 20%;
+    font-size: 3.5vw;
   }
   
   .text2 {
