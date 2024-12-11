@@ -101,13 +101,13 @@ body {
 
 .text1 {
   top: 30%;
-  font-size: 3.8vw;
+  font-size: 3.7rem;
   font-weight: bold;
 }
 
 .text2 {
   top: 60%;
-  font-size: 1.3vw;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
@@ -115,12 +115,10 @@ body {
 @media screen and (min-width: 601px) and (max-width: 768px) {
   .text1 {
     top: 30%;
-    font-size: 3.8vw;
   }
   
   .text2 {
     top: 60%;
-    font-size: 1.3vw;
   }
 }
 
@@ -128,12 +126,10 @@ body {
 @media screen and (max-width: 600px) {
   .text1 {
     top: 30%;
-    font-size: 4vw;
   }
   
   .text2 {
     top: 90%;
-    font-size: 1vw;
   }
 }
 
