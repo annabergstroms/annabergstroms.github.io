@@ -65,8 +65,8 @@ body {
     position: absolute;
     top: 0px;
     right: 0px;
-    /*background-color: white;*/
-    width: 10px;
+    background-color: white;
+    width: 200px;
     padding: 10px;
     text-align: center;
   }
@@ -389,6 +389,8 @@ main {
   }
 
   .item {
-    width: 98%; /* Full bredd för varje objekt */
+    width: 96%; /* Full bredd för varje objekt */
+    margin-left: 2%;
+    margin-right: 2%;
   }
 }
