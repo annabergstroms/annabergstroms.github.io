@@ -70,7 +70,7 @@ body {
     display: none; /* Dölj menyn som standard */
     flex-direction: column;
     position: fixed;
-    top: 4px;
+    top: 10px;
     right: -60px;
     background-color: white;
     width: 100%;
@@ -105,28 +105,16 @@ body {
 
 .text1 {
   top: 28%;
-  font-size: 3.7vw;
+  font-size: 3.6rem;
   font-weight: bold;
 }
 
 .text2 {
   top: 60%;
-  font-size: 1.3vw;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
-/* Responsiv design för mindre skärmar */
-@media screen and (max-width: 768px) {
-  .text1 {
-    font-size: 3.7vw; /* Anpassad storlek för mobil */
-    top: 28%;
-  }
-
-  .text2 {
-    font-size: 1.3vw;
-    top: 60%;
-  }
-}
 
 
 /*MIN GAMLA*/
