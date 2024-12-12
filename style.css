@@ -64,9 +64,9 @@ body {
   .navbar .menu {
     display: none; /* Dölj menyn som standard */
     flex-direction: column;
-    position: absolute;
+    position: fixed;
     top: 4px;
-    /*right: -66;*/
+    right: -66;
     background-color: white;
     width: 100%;
     padding: 10px;
