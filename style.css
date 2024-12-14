@@ -123,6 +123,7 @@ header ul li:hover {
   top: 0;
   width: 100%;
   z-index: -1;
+  margin-top: 2%;
 }
 
 #work-hello {
