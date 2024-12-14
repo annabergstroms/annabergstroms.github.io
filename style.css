@@ -168,7 +168,7 @@ header ul li:hover {
 
 
 /* CONTENT*/
-#content-container{
+#content-container {
   width: 90%;
   margin-left: 5%;
   margin-right: 5%;
@@ -227,14 +227,16 @@ header ul li:hover {
 }
 
 /* Responsiv design */
-@media only screen and (max-width: 768) {
-  #content-container {
+@media only screen and (max-width: 768px) {
+  #content-container { 
     flex-direction: column; /* Byt till vertikalt läge */
     margin-top: 6%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   .item {
-    width: 92%; /* Full bredd för varje objekt */
+    width: 90%; /* Full bredd för varje objekt */
   }
 
   .item img {
