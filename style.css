@@ -119,7 +119,7 @@ header ul li:hover {
   top: 0;
   width: 100%;
   z-index: -1;
-  margin-top: 2%;
+  margin-top: 6%;
 }
 
 #work-hello {
@@ -142,8 +142,12 @@ header ul li:hover {
 }
 
 @media only screen and (max-width: 768px) {
+  #gradient {
+    margin-top: 10%;
+  }
+  
   #work-hello {
-    font-size: 2.7rem;
+    font-size: 2.6rem;
     padding-left: 4%;
     padding-right: 4%;
   }
@@ -154,73 +158,6 @@ header ul li:hover {
     padding-right: 4%;
   }
 }
-
-
-/*.image-container {
-  width: 100%;
-  height: auto;
-}
-
-.image-container img {
-  width: 100%;
-}
-
-.image-container .text {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  text-align: center;
-  color: #1E1E1E;
-  width: 100%;
-}
-
-.text1 {
-  top: 28%;
-  font-size: 3.6rem;
-  font-weight: bold;
-}
-
-.text2 {
-  top: 60%;
-  font-size: 1.2rem;
-  font-weight: bold;
-}
-
-@media screen and (min-width: 601px) and (max-width: 768px) {
-  .text1 {
-    top: 20%;
-  }
-  
-  .text2 {
-    top: 90%;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .text1 {
-    top: 14%;
-    font-size: 3.4rem;
-  }
-  
-  .text2 {
-    top: 86%;
-    font-size: 1.2rem;
-  }
-}
-
-/* Responsiv design för mindre skärmar */
-/*@media screen and (max-width: 496px) {
-  .text1 {
-    top: 14%;
-    font-size: 2.7rem;
-  }
-  
-  .text2 {
-    top: 86%;
-    font-size: 1.2rem;
-  }
-}*/
-
 
 
 
@@ -284,7 +221,7 @@ header ul li:hover {
 }
 
 /* Responsiv design */
-@media (max-width: 768px) {
+@media only screen and (max-width: 768) {
   #content-container {
     flex-direction: column; /* Byt till vertikalt läge */
     margin-top: 6%;
