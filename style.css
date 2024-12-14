@@ -16,7 +16,7 @@ header {
   padding: 0 20px;
   background-color: #ffffff;
   height: 50px;
-  display: flex-end;
+  display: flex;
   justify-content: space-between;
 }
 
@@ -231,7 +231,7 @@ header ul li:hover {
 
 /* Responsiv design */
 @media (max-width: 768px) {
-  main {
+  .content-container {
     flex-direction: column; /* Byt till vertikalt läge */
     margin-top: 6%;
   }
@@ -247,14 +247,14 @@ header ul li:hover {
 
 /* Responsiv design för mindre skärmar */
 @media screen and (max-width: 600px) {
-  main {
+  .content-container {
     margin-top: 10%;
   }
 }
 
 /* Responsiv design för mindre skärmar */
 @media screen and (max-width: 496px) {
-  main {
+  .content-container {
     margin-top: 18%;
   }
 
