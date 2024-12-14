@@ -141,6 +141,20 @@ header ul li:hover {
   width: 100%;
 }
 
+@media only screen and (max-width: 768px) {
+  #work-hello {
+    font-size: 2.7rem;
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+  
+  #work-statement {
+    font-size: 1.7rem;
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+}
+
 
 /*.image-container {
   width: 100%;
