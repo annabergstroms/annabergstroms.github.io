@@ -16,7 +16,7 @@ header {
   padding: 0 20px;
   background-color: #ffffff;
   height: 50px;
-  display: flex;
+  display: flex-end;
   justify-content: space-between;
 }
 
