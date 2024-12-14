@@ -39,8 +39,8 @@ header ul a {
 }
 
 header ul li {
-  padding: 5px;
-  margin-left: 10px;
+  padding-top: 40px;
+  padding-right: 80px;
 }
 
 header ul li:hover {
@@ -124,7 +124,7 @@ header ul li:hover {
 }
 
 #work-hello {
-  margin-top: 10%;
+  margin-top: 8%;
   font-size: 3.6rem;
   font-weight: bold;
   text-align: center;
