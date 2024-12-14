@@ -123,7 +123,6 @@ header ul li:hover {
   top: 0;
   width: 100%;
   z-index: -1;
-  margin-top: 4%;
 }
 
 #work-hello {
@@ -147,11 +146,11 @@ header ul li:hover {
 
 @media only screen and (max-width: 768px) {
   #gradient {
-    margin-top: 14%;
+    margin-top: 16%;
   }
   
   #work-hello {
-    margin-top: 4%;
+    margin-top: 3%;
     font-size: 2.6rem;
     padding-left: 4%;
     padding-right: 4%;
@@ -232,13 +231,12 @@ header ul li:hover {
 @media only screen and (max-width: 768px) {
   #content-container { 
     flex-direction: column; /* Byt till vertikalt läge */
-    margin-top: 6%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-top: 4%;
   }
 
   .item {
     width: 90%; /* Full bredd för varje objekt */
+    margin-top: 4%;
   }
 
   .item img {
