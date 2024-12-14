@@ -40,7 +40,8 @@ header ul a {
 
 header ul li {
   padding-top: 40px;
-  padding-right: 80px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 header ul li:hover {
@@ -109,6 +110,9 @@ header ul li:hover {
 
 
 
+
+
+
 /* HERO */
 #work-intro {
   width: 100%;
@@ -162,6 +166,8 @@ header ul li:hover {
 
 
 
+
+/* CONTENT*/
 #content-container{
   width: 90%;
   margin-left: 5%;
