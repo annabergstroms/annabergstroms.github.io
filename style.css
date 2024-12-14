@@ -123,7 +123,7 @@ header ul li:hover {
   z-index: -1;
 }
 
-#work-hello h1 {
+#work-hello {
 margin-top: 20%;
 font-size: 3.6rem;
 font-weight: bold;
@@ -132,7 +132,7 @@ color: #1E1E1E;
 width: 100%;
 }
 
-#work-statement h2{
+#work-statement {
 margin-top: 4%;
 font-size: 1.2rem;
 font-weight: bold;
@@ -211,7 +211,7 @@ width: 100%;
 
 
 
-.content-container {
+#content-container{
   width: 90%;
   margin: 0 auto;
   display: flex;
@@ -268,7 +268,7 @@ width: 100%;
 
 /* Responsiv design */
 @media (max-width: 768px) {
-  .content-container {
+  #content-container {
     flex-direction: column; /* Byt till vertikalt läge */
     margin-top: 6%;
   }
@@ -284,14 +284,14 @@ width: 100%;
 
 /* Responsiv design för mindre skärmar */
 @media screen and (max-width: 600px) {
-  .content-container {
+  #content-container {
     margin-top: 10%;
   }
 }
 
 /* Responsiv design för mindre skärmar */
 @media screen and (max-width: 496px) {
-  .content-container {
+  #content-container {
     margin-top: 18%;
   }
 
