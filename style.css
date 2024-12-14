@@ -19,6 +19,16 @@ body {
   display: block;
 }
 
+/* För mobilskärm (skärmar mindre än 768px breda) */
+@media (max-width: 768px) {
+  .image-container img {
+    width: 150%; /* Gör bilden inzoomad */
+    height: auto;
+    object-position: center center; /* Fokusera på mitten av bilden */
+    object-fit: cover; /* Bilden fyller behållaren och klipps om nödvändigt */
+  }
+}
+
 /* Navigationsmeny */
 .navbar {
   position: absolute;
