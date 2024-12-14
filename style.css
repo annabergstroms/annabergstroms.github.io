@@ -236,12 +236,13 @@ header ul li:hover {
 
 /* Layout för .item */
 .item {
-  width: 30%; /* Tre objekt per rad på större skärmar */
+  width: 40%; /* Tre objekt per rad på större skärmar */
   text-align: center;
   background-color: #fff;
   border: 1px solid #fff;
   border-radius: 8px;
   padding: 20px;
+  margin-top: 10%;
   margin-bottom: 10%;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
