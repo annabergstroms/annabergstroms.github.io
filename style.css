@@ -12,11 +12,11 @@ body {
 }
 
 /* NAV */
-header a{
+.header-nav a{
   text-decoration: none;
 }
 
-header {
+.header-nav {
   padding: 0 20px;
   background-color: #ffffff;
   height: 50px;
@@ -24,7 +24,7 @@ header {
   justify-content: space-between;
 }
 
-ul {
+.header-nav ul {
   list-style: none;
   height: 100%;
   display: flex;
@@ -32,16 +32,16 @@ ul {
   justify-content: space-around;
 }
 
-ul a {
+.header-nav ul a {
   color: #1E1E1E;
 }
 
-ul li {
+.header-nav ul li {
   padding: 5px;
   margin-left: 10px;
 }
 
-ul li:hover {
+.header-nav ul li:hover {
   transform: scale(1.1);
   transition: 0.3s;
   font-weight: bold;
