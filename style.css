@@ -12,7 +12,11 @@ body {
 }
 
 /* NAV */
-.navbar {
+.navigation a {
+  text-decoration: none;
+}
+
+.navigation {
   padding: 0 20px;
   background-color: #ffffff;
   height: 50px;
@@ -20,7 +24,7 @@ body {
   justify-content: space-between;
 }
 
-.navbar ul {
+.navigation ul {
   list-style: none;
   height: 100%;
   display: flex;
@@ -28,17 +32,17 @@ body {
   justify-content: space-around;
 }
 
-.navbar ul a {
+.navigation ul a {
   color: #1E1E1E;
   text-decoration: none;
 }
 
-.navbar ul li {
+.navigation ul li {
   padding: 5px;
   margin-left: 10px;
 }
 
-.navbar ul li:hover {
+.navigation ul li:hover {
   transform: scale(1.1);
   transition: 0.3s;
   font-weight: bold;
@@ -94,7 +98,7 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-  .navbar {
+  .navigation nav {
     display: none;
   }
 
