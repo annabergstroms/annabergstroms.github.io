@@ -5,24 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Anna Bergström</title>
   <link rel="stylesheet" href="style.css">
-  <script src="myScript.js" defer></script>
+  <script src="myScript.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 
 
 <body>
-  <div class="image-container">
-    <img src="../images/nystart1.png" alt="Bakgrundsbild">
-    <!--<nav class="navbar">
-      <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
-      <ul class="menu" id="menu">
-        <li><a href="#home">Home</a></li>
-        <li><a href="about.html">About me</a></li>
-      </ul>
-    </nav>-->
-    <div class="text text1">Hello! I am Anna,<br>a UX/UI Designer with coding skills.</div>
-    <div class="text text2">Welcome to My Design World</div> 
-  </div>
+  <header>
+    <div class="image-container">
+      <img src="../images/nystart1.png" alt="Bakgrundsbild">
+      <nav>
+        <ul>
+          <li><a href="index.html">Work</a></li>
+          <li><a href="about.html">About me</a></li>
+          <li><a href="cv.html">CV</a></li>
+        </ul>
+      </nav>
+      <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <ul class="mobile-menu">
+          <li><a href="index.html">Work</a></li>
+          <li><a href="about.html">About me</a></li>
+          <li><a href="cv.html">CV</a></li>
+        </ul>
+      </div>
+      <div class="text text1">Hello! I am Anna,<br>a UX/UI Designer with coding skills.</div>
+      <div class="text text2">Welcome to My Design World</div> 
+    </div>
+  </header>
   
 
   <main>
