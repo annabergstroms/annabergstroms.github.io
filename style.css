@@ -106,17 +106,17 @@ ul li:hover {
 
 
 /* HERO */
-.container {
+.image-container {
   width: 100%;
   height: auto;
   position: relative;
 }
 
-.container img {
+.image-container img {
   width: 100%;
 }
 
-.container .text {
+.image-container .text {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
