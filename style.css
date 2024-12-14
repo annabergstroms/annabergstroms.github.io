@@ -20,6 +20,11 @@ header {
   justify-content: space-between;
 }
 
+#brand {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 header ul {
   list-style: none;
   height: 100%;
