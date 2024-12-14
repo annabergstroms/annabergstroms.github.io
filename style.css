@@ -123,7 +123,7 @@ header ul li:hover {
   top: 0;
   width: 100%;
   z-index: -1;
-  margin-top: 2%;
+  margin-top: 3%;
 }
 
 #work-hello {
@@ -147,7 +147,7 @@ header ul li:hover {
 
 @media only screen and (max-width: 768px) {
   #gradient {
-    margin-top: 16%;
+    margin-top: 20%;
   }
   
   #work-hello {
