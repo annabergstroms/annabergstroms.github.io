@@ -17,7 +17,7 @@ header a{
 }
 
 header {
-  padding: 10px 20px;
+  padding: 0 20px;
   background-color: #ffffff;
   height: 50px;
   display: flex;
@@ -48,7 +48,7 @@ ul li:hover {
 }
 
 #hamburger-icon {
-  margin: 0;
+  margin: 10px 0;
   display: none;
   cursor: pointer;
 }
@@ -89,6 +89,7 @@ ul li:hover {
   left: 0;
   height: calc(100vh - 50px);
   width: 100%;
+  background-color: #ffffff;
 }
 
 .mobile-menu li {
