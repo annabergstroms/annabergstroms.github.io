@@ -1,11 +1,12 @@
 body {
-  /*margin: 0;*/
+  margin: 0;
   font-family: "Poppins", sans-serif;
   background-color: #ffffff;
   color: #1E1E1E;
   text-align: center;
 }
 
+/* NAV */
 header a{
   text-decoration: none;
 }
@@ -15,7 +16,6 @@ header {
   height: 50px;
   display: flex;
   justify-content: space-between;
-  z-index: 10; /* Se till att menyn ligger ovanpå bilden */
 }
 
 ul {
@@ -100,7 +100,7 @@ ul li:hover {
 }
 
 
-/* Bild och behållare */
+/* HERO */
 .image-container {
   position: relative;
   width: 100%;
@@ -113,7 +113,6 @@ ul li:hover {
   display: block;
 }
 
-/* Text på bilden */
 .text {
   position: absolute;
   left: 50%;
