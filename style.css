@@ -244,4 +244,12 @@ main {
   main {
     margin-top: 18%;
   }
+
+  .item {
+    width: 92%; /* Full bredd för varje objekt */
+  }
+
+  .item img {
+    width: 78%; /* Gör bilden responsiv inom sin box */
+  }
 }
