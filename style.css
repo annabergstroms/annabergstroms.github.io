@@ -1,9 +1,14 @@
-body {
+* {
+  padding: 0;
   margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /*margin: 0;*/
   font-family: "Poppins", sans-serif;
   background-color: #ffffff;
   color: #1E1E1E;
-  text-align: center;
 }
 
 /* NAV */
@@ -101,19 +106,17 @@ ul li:hover {
 
 
 /* HERO */
-.image-container {
+.container {
+  width: 100%;
+  height: auto;
   position: relative;
-  width: 100%;
-  height: auto;
 }
 
-.image-container img {
+.container img {
   width: 100%;
-  height: auto;
-  display: block;
 }
 
-.text {
+.container .text {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
