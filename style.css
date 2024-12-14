@@ -123,7 +123,7 @@ header ul li:hover {
   z-index: -1;
 }
 
-#work-hello {
+#work-hello h1 {
 margin-top: 20%;
 font-size: 3.6rem;
 font-weight: bold;
@@ -132,7 +132,7 @@ color: #1E1E1E;
 width: 100%;
 }
 
-#work-statement {
+#work-statement h2{
 margin-top: 4%;
 font-size: 1.2rem;
 font-weight: bold;
@@ -140,6 +140,8 @@ text-align: center;
 color: #1E1E1E;
 width: 100%;
 }
+
+
 /*.image-container {
   width: 100%;
   height: auto;
