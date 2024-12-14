@@ -236,11 +236,11 @@ header ul li:hover {
   }
 
   .item {
-    width: 90%; /* Full bredd för varje objekt */
+    width: 96%; /* Full bredd för varje objekt */
     margin-top: 4%;
   }
 
   .item img {
-    width: 78%; /* Gör bilden responsiv inom sin box */
+    width: 80%; /* Gör bilden responsiv inom sin box */
   }
 }
