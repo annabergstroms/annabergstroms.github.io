@@ -13,10 +13,9 @@ body {
 
 /* NAV */
 header {
-  padding-top: 40px;
-  padding-right: 80px;
+  padding: 0 20px;
   background-color: #ffffff;
-  height: 100px;
+  height: 80px;
   display: flex;
   justify-content: space-between;
 }
@@ -99,7 +98,7 @@ header ul li:hover {
   margin-bottom: 10px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   header nav {
     display: none;
   }
@@ -213,7 +212,7 @@ header ul li:hover {
 
 
 #content-container{
-  width: 100%;
+  width: 80%;
   margin-left: 10%;
   margin-right: 10%;
   display: flex;
@@ -275,28 +274,6 @@ header ul li:hover {
   #content-container {
     flex-direction: column; /* Byt till vertikalt läge */
     margin-top: 6%;
-  }
-
-  .item {
-    width: 94%; /* Full bredd för varje objekt */
-  }
-
-  .item img {
-    width: 80%; /* Gör bilden responsiv inom sin box */
-  }
-}
-
-/* Responsiv design för mindre skärmar */
-@media screen and (max-width: 600px) {
-  #content-container {
-    margin-top: 10%;
-  }
-}
-
-/* Responsiv design för mindre skärmar */
-@media screen and (max-width: 496px) {
-  #content-container {
-    margin-top: 18%;
   }
 
   .item {
