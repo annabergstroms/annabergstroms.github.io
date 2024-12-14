@@ -119,7 +119,7 @@ header ul li:hover {
   top: 0;
   width: 100%;
   z-index: -1;
-  margin-top: 10%;
+  margin-top: 2%;
 }
 
 #work-hello {
@@ -148,7 +148,7 @@ header ul li:hover {
   }
   
   #work-statement {
-    font-size: 1.7rem;
+    font-size: 1rem;
     padding-left: 4%;
     padding-right: 4%;
   }
