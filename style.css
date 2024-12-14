@@ -144,7 +144,7 @@ body {
 }
 
 /* Responsiv design för mindre skärmar */
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 496px) {
   .text1 {
     top: 14%;
     font-size: 2.8rem;
@@ -240,7 +240,7 @@ main {
 }
 
 /* Responsiv design för mindre skärmar */
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 496px) {
   main {
     margin-top: 18%;
   }
