@@ -163,9 +163,9 @@ header ul li:hover {
 
 
 #content-container{
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
   display: flex;
   /*flex-wrap: wrap; /* Gör det möjligt att bryta rader vid behov */
   justify-content: space-between; /* Jämnt avstånd mellan elementen */
@@ -174,7 +174,7 @@ header ul li:hover {
 
 /* Layout för .item */
 .item {
-  width: 40%; /* Tre objekt per rad på större skärmar */
+  width: 32%; /* Tre objekt per rad på större skärmar */
   text-align: center;
   background-color: #fff;
   border: 1px solid #fff;
