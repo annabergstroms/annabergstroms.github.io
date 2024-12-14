@@ -137,8 +137,11 @@ ul li:hover {
   font-weight: bold;
 }
 
-/* Responsiv design för mindre skärmar */
 @media screen and (min-width: 601px) and (max-width: 768px) {
+  .image-container {
+    padding-top: 70px;
+  }
+  
   .text1 {
     top: 20%;
   }
@@ -146,14 +149,13 @@ ul li:hover {
   .text2 {
     top: 90%;
   }
-
-  .image-container {
-    padding-top: 70px;
-  }
 }
 
-/* Responsiv design för mindre skärmar */
 @media screen and (max-width: 600px) {
+  .image-container {
+    padding-top: 90px;
+  }
+  
   .text1 {
     top: 14%;
     font-size: 3.4rem;
@@ -163,15 +165,14 @@ ul li:hover {
     top: 86%;
     font-size: 1.2rem;
   }
-
-  .image-container {
-    padding-top: 90px;
-  }
-
 }
 
 /* Responsiv design för mindre skärmar */
 @media screen and (max-width: 496px) {
+  .image-container {
+    padding-top: 100px;
+  }
+  
   .text1 {
     top: 14%;
     font-size: 2.7rem;
@@ -181,11 +182,6 @@ ul li:hover {
     top: 86%;
     font-size: 1.2rem;
   }
-
-  .image-container {
-    padding-top: 100px;
-  }
-
 }
 
 
