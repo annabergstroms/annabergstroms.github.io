@@ -283,6 +283,10 @@ h3 {
 
 /*DESIGN PROCESS*/
 
+.design-process {
+  width: 100%;
+}
+
 #design-process-desktop {
   width: 100%;
 }
@@ -297,6 +301,7 @@ h3 {
   }
   
   #design-process-mobile {
+    display: block;
     width: 100%;
   }
 }
