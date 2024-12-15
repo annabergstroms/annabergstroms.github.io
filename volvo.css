@@ -460,11 +460,12 @@ h3 {
     grid-template-columns: 1fr;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 4%;
+    margin-top: 6%;
+    padding-bottom: 6%;
   }
 
   .text-box-left h4 { 
-    padding-top: 4%;
+    padding-top: 6%;
   }
 
 
