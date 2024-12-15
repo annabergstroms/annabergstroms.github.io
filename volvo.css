@@ -184,7 +184,7 @@ h3 {
 }
 
 /* PROJECT OVERVIEW */  
-.heading-project-overview {
+#heading-project-overview {
   font-weight: medium;
   text-align: center;
   font-size: 2rem;
@@ -243,7 +243,7 @@ h3 {
 }
   
 @media only screen and (max-width: 768px) { 
-  .project-overview-volvo {
+  #project-overview-volvo {
     grid-template-columns: 1fr;
   }
 
