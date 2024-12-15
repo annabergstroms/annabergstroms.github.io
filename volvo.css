@@ -131,6 +131,54 @@ h3 {
 }
 
 #top-volvo {
+  margin-top: 2%;
+  margin-bottom: 6%;
+}
+
+#project-name {
+  font-size: 1vw;
+  text-align: center;
+}
+
+.img-tpqd {
+  width: 100%;
+}
+
+.img-tpqd img {
+  position: absolute;
+  margin-top: 4%;
+}
+
+.left-image-tpqd {
+  width: 31%;
+  height: auto;
+  margin-left: 10%;
+  padding-top: 4%;
+  /*top: 50%;Ä/
+  /*transform: translate(-50%, -50%);*/
+  z-index: 1;
+}
+  
+.center-image-tpqd {
+  width: 46%;
+  height: auto;
+  margin-left: 27%;
+  margin-right:27%;
+
+  /*transform: translate(-50%, -50%);*/
+  z-index: 2;
+}
+  
+.right-image-tpqd {
+  width: 31%;
+  height: auto;
+  margin-left: 60%;
+  padding-top: 12%;
+  /*transform: translate(-50%, -8%);*/
+  z-index: 3;
+}
+
+/*#top-volvo {
   margin-bottom: 6%;
 }
 
@@ -142,6 +190,7 @@ h3 {
 .img-tpqd {
   /*position: relative;*/
   /*position: flex;*/
+  /*position: absolute;
   width: 100%;
 }
   

@@ -139,7 +139,6 @@ header ul li:hover {
   margin-top: 4%;
   margin-bottom: 10%;
   font-size: 1.2rem;
-  font-weight: bold;
   text-align: center;
   color: #1E1E1E;
   width: 100%;
@@ -173,7 +172,7 @@ header ul li:hover {
   }
   
   #work-statement {
-    margin-top: 5%;
+    margin-top: 6%;
     font-size: 1rem;
     padding-left: 4%;
     padding-right: 4%;
