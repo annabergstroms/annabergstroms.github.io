@@ -140,7 +140,7 @@ h3 {
 }
   
 .img-tpqd {
-  position: relative;
+  /*position: relative;*/
   position: flex;
   width: 100%;
 }
