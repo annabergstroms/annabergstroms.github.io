@@ -123,7 +123,7 @@ header ul li:hover {
   top: 0;
   width: 100%;
   z-index: -1;
-  margin-top: 3%;
+  margin-top: 4%;
 }
 
 #work-hello {
@@ -162,7 +162,7 @@ header ul li:hover {
     height: auto;
     z-index: -1;
     margin-top: 6%;
-    margin-bottom: 20%;
+    margin-bottom: 22%;
   }
   
   #work-hello {
@@ -247,7 +247,7 @@ header ul li:hover {
 @media only screen and (max-width: 768px) {
   #content-container { 
     flex-direction: column; /* Byt till vertikalt läge */
-    margin-top: 20%;
+    margin-top: 24%;
   }
 
   .item {
