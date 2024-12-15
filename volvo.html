@@ -5,158 +5,172 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Anna Bergström</title>
   <link rel="stylesheet" href="volvo.css">
-  <script src="myScript.js" defer></script>
+  <script src="myScript.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <nav class="navbar">
-        <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
-        <ul class="menu" id="menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About me</a></li>
-        </ul>
-    </nav>
-      
-<div class="top-volvo">
-    <h1>Volvo Cars</h1>
-    <div class="short-description">
-        <p>Team Product Quality Dashboard</p>
-    </div>
-    <div class="img-tpqd">
-        <img src="../images/tpqd2.png" alt="Beskrivning av bilden" class="left-image-tpqd">
-        <img src="../images/tpqd1.png" alt="Beskrivning av bilden" class="center-image-tpqd">
-        <img src="../images/tpqd3.png" alt="Beskrivning av bilden" class="right-image-tpqd">
-    </div>
-</div>
+    <header>
+        <div id="brand"><a href="index.html"></a></div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Work</a></li>
+            <li><a href="about.html">About me</a></li>
+            <li><a href="cv.html">CV</a></li>
+          </ul>
+        </nav>
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+          <ul class="mobile-menu">
+            <li><a href="index.html">Work</a></li>
+            <li><a href="about.html">About me</a></li>
+            <li><a href="cv.html">CV</a></li>
+          </ul>
+        </div>
+      </header>
+    
+    <section>
+        <div class="top-volvo">
+        <h1>Volvo Cars</h1>
+        <div class="short-description">
+            <p>Team Product Quality Dashboard</p>
+        </div>
+        <div class="img-tpqd">
+            <img src="../images/tpqd2.png" alt="Beskrivning av bilden" class="left-image-tpqd">
+            <img src="../images/tpqd1.png" alt="Beskrivning av bilden" class="center-image-tpqd">
+            <img src="../images/tpqd3.png" alt="Beskrivning av bilden" class="right-image-tpqd">
+        </div>
+        </div>
 
-<div class="heading-project-overview">
-    <h2>Project Overview</h2>
-</div>
+        <div class="heading-project-overview">
+            <h2>Project Overview</h2>
+        </div>
 
-<div class="project-overview-volvo">
-    <div class="left-paragraph-tpqd">
-        <h3>Summary and Challenge</h3>
-        <p>Volvo Cars' development teams have multiple sources of quality information, but lacked an efficient solution that brings this information together in a meaningful way. The challenge was to provide a user-friendly platform for the teams to access and act on their quality  information. To address this, we designed and developed the Team Product Quality Dashboard, based on user research, design, feedback, and iteration.
-            <br>
-            <br>
-            The dashboard delivers a comprehensive overview and actionable insights, allowing teams to quickly identify, prioritize, and respond to the quality information. It is team-based and customizable, enabling each team to adapt it to their specific needs. The solution received strong positive feedback from both developers and management, confirming its value in streamlining quality management.
-            <br>
-            <br>
-            As the project was internal to Volvo Cars, some aspects of the process and prototype cannot be shared.
-        </p>
-    </div>
-    <div class="right-paragraph-tpqd">
-        <p><b>Tools used</b><br>Figma, Miro and Confluence</p>
-        <p><b>The team</b><br>2 UX-Designers and 2 Developers</p>
-        <p><b>My role</b><br>UX-Designer (user research, interaction design, wireframing, prototyping and usability testing)</p>
-        <p><b>Time period</b><br>8 weeks (summer 2024)</p>
-    </div>
-</div>
+        <div class="project-overview-volvo">
+            <div class="left-paragraph-tpqd">
+                <h3>Summary and Challenge</h3>
+                    <p>Volvo Cars' development teams have multiple sources of quality information, but lacked an efficient solution that brings this information together in a meaningful way. The challenge was to provide a user-friendly platform for the teams to access and act on their quality  information. To address this, we designed and developed the Team Product Quality Dashboard, based on user research, design, feedback, and iteration.
+                    <br>
+                    <br>
+                    The dashboard delivers a comprehensive overview and actionable insights, allowing teams to quickly identify, prioritize, and respond to the quality information. It is team-based and customizable, enabling each team to adapt it to their specific needs. The solution received strong positive feedback from both developers and management, confirming its value in streamlining quality management.
+                    <br>
+                    <br>
+                    As the project was internal to Volvo Cars, some aspects of the process and prototype cannot be shared.
+                    </p>
+            </div>
+            <div class="right-paragraph-tpqd">
+                <p><b>Tools used</b><br>Figma, Miro and Confluence</p>
+                <p><b>The team</b><br>2 UX-Designers and 2 Developers</p>
+                <p><b>My role</b><br>UX-Designer (user research, interaction design, wireframing, prototyping and usability testing)</p>
+                <p><b>Time period</b><br>8 weeks (summer 2024)</p>
+            </div>
+        </div>
 
-<h2>Design Process</h2>
+        <h2>Design Process</h2>
 
-<div class="process-container-volvo">
-    <img src="../images/volvoprocess.png" alt="Beskrivning av bilden">
-    <div class="volvo process1"><h3>1 Research</h3><p>User Interviews<br>Synthesis</p></div>
-    <div class="volvo process2"><h3>2 Design & Prototype</h3><p>Prototype</p></div>
-    <div class="volvo process3"><h3>3 Test</h3><p>Workshop<br>Synthesis</p></div>
-</div>
+        <div class="process-container-volvo">
+            <img src="../images/volvoprocess.png" alt="Beskrivning av bilden">
+            <div class="volvo process1"><h3>1 Research</h3><p>User Interviews<br>Synthesis</p></div>
+            <div class="volvo process2"><h3>2 Design & Prototype</h3><p>Prototype</p></div>
+            <div class="volvo process3"><h3>3 Test</h3><p>Workshop<br>Synthesis</p></div>
+        </div>
 
-<h2>1 Research</h2>
-<h3>User Interviews</h3>
-<div class="paragraph">
-    <p>Based on 11 user interviews with developers from different development teams at the company, we identified key user needs and problems that we needed to solve to make it easier for developers to get an overview of their quality information and other relevant information and data.
-    </p>
-</div>
+        <h2>1 Research</h2>
+        <h3>User Interviews</h3>
+        <div class="paragraph">
+            <p>Based on 11 user interviews with developers from different development teams at the company, we identified key user needs and problems that we needed to solve to make it easier for developers to get an overview of their quality information and other relevant information and data.
+            </p>
+        </div>
 
-<h3>Synthesis</h3>
-<div class="paragraph">
-    <p>We conducted design synthesis to turn interview data into actionable insights. The goal was to identify relationships between data insghits to uncover the underlying needs and behaviors that help developers work more effectively.
-    </p>
-</div>
-<div class="shadow-box">
-    <div class="text-box-left">
-        <h4>What do we need to do to solve our users' problems</h4>
-        <p>- Minimize the number of clicks</p>
-        <p>- Present an overview of KPIs</p>
-        <p>- Customize alerts and KPI overview</p>
-    </div>
-    <div class="text-box-right">
-        <h4>text text text</h4>
-        <p>- Make historical data easy to navigate</p>
-        <p>- Integrate scanner data</p>
-        <p>- Provide permanent links</p>
-    </div>
-</div>
+        <h3>Synthesis</h3>
+        <div class="paragraph">
+            <p>We conducted design synthesis to turn interview data into actionable insights. The goal was to identify relationships between data insghits to uncover the underlying needs and behaviors that help developers work more effectively.
+            </p>
+        </div>
+        <div class="shadow-box">
+            <div class="text-box-left">
+                <h4>What do we need to do to solve our users' problems</h4>
+                <p>- Minimize the number of clicks</p>
+                <p>- Present an overview of KPIs</p>
+                <p>- Customize alerts and KPI overview</p>
+            </div>
+            <div class="text-box-right">
+                <h4>text text text</h4>
+                <p>- Make historical data easy to navigate</p>
+                <p>- Integrate scanner data</p>
+                <p>- Provide permanent links</p>
+            </div>
+        </div>
 
-<h2>2 Design & Prototype</h2>
-<h3>Prototype</h3>
-<div class="paragraph">
-    <p>Based on the user research, we produced sketches, created wireframes and designed prototypes of the website/dashboard.</p>
-</div>
+        <h2>2 Design & Prototype</h2>
+        <h3>Prototype</h3>
+        <div class="paragraph">
+            <p>Based on the user research, we produced sketches, created wireframes and designed prototypes of the website/dashboard.</p>
+        </div>
 
-<div class="shadow-box1">
-    <!-- Övre raden med bilder -->
-    <div class="wireframe1">
-        <img src="../images/wireframe1.png" alt="Bild 1" class="left-wireframe1">
-        <img src="../images/wireframe2.png" alt="Bild 2" class="center-wireframe1">
-        <img src="../images/wireframe3.png" alt="Bild 3" class="right-wireframe1">
-    </div>
-    <!-- Undre raden med bilder -->
-    <div class="wireframe2">
-      <img src="../images/wireframe4.png" alt="Bild 4" class="left-wireframe2">
-       <img src="../images/wireframe5.png" alt="Bild 5" class="center-wireframe2">
-       <img src="../images/wireframe6.png" alt="Bild 6" class="right-wireframe2">
-    </div>
-</div>
+        <div class="shadow-box1">
+            <!-- Övre raden med bilder -->
+            <div class="wireframe1">
+                <img src="../images/wireframe1.png" alt="Bild 1" class="left-wireframe1">
+                <img src="../images/wireframe2.png" alt="Bild 2" class="center-wireframe1">
+                <img src="../images/wireframe3.png" alt="Bild 3" class="right-wireframe1">
+            </div>
+             <!-- Undre raden med bilder -->
+            <div class="wireframe2">
+                <img src="../images/wireframe4.png" alt="Bild 4" class="left-wireframe2">
+                <img src="../images/wireframe5.png" alt="Bild 5" class="center-wireframe2">
+                <img src="../images/wireframe6.png" alt="Bild 6" class="right-wireframe2">
+            </div>
+        </div>
 
-<h2>3 Test</h2>
-<h3>Workshop</h3>
-<div class="paragraph">
-    <p>We held a workshop with 12 developers to gather feedback on the prototype, ensuring that our design decisions were in line with their needs. This allowed us to validate our design and make necessary adjustments based on their input.
-    </p>
-</div>
+        <h2>3 Test</h2>
+        <h3>Workshop</h3>
+        <div class="paragraph">
+            <p>We held a workshop with 12 developers to gather feedback on the prototype, ensuring that our design decisions were in line with their needs. This allowed us to validate our design and make necessary adjustments based on their input.
+            </p>
+        </div>
 
-<h3>Synthesis</h3>
-<div class="paragraph">
-    <p>We performed design synthesis to translate the feedback gathered from the workshop into actionable insights. This process helped us distill key takeaways and identify specific areas for improvement, guiding the next steps in refining the prototype.
-    </p>
-</div>
+        <h3>Synthesis</h3>
+        <div class="paragraph">
+            <p>We performed design synthesis to translate the feedback gathered from the workshop into actionable insights. This process helped us distill key takeaways and identify specific areas for improvement, guiding the next steps in refining the prototype.
+            </p>
+        </div>
 
-<div class="shadow-box1">
-    <div class="workshop">
-        <img src="../images/workshop.jpg" alt="Summary of Workshop">
-    </div>
-</div>
+        <div class="shadow-box1">
+            <div class="workshop">
+                <img src="../images/workshop.jpg" alt="Summary of Workshop">
+            </div>
+        </div>
 
-<h2>Result</h2>
-<h3>Interactive Prototype</h3>
-<div class="paragraph">
-    <p>The insights from the workshop were taken into account when iterating the prototype. In addition, we implemented Volvo Cars' design system.
-    </p>
-</div>
+        <h2>Result</h2>
+        <h3>Interactive Prototype</h3>
+        <div class="paragraph">
+            <p>The insights from the workshop were taken into account when iterating the prototype. In addition, we implemented Volvo Cars' design system.
+            </p>
+        </div>
 
-<div class="prototype-tpqd1">
-    <img src="../images/filter.png" alt="Bild 1" class="left-prototype1">
-    <img src="../images/test.png" alt="Bild 2" class="center-prototype1">
-    <img src="../images/details.png" alt="Bild 3" class="right-prototype1">
-</div>
-<div class="prototype-tpqd2">
-    <img src="../images/kpi-setings.png" alt="Bild 1" class="left-prototype2">
-    <img src="../images/kpi-benchmark.png" alt="Bild 2" class="center-prototype2">
-    <img src="../images/scan.png" alt="Bild 3" class="right-prototype2">
-</div>
+        <div class="prototype-tpqd1">
+            <img src="../images/filter.png" alt="Bild 1" class="left-prototype1">
+            <img src="../images/test.png" alt="Bild 2" class="center-prototype1">
+            <img src="../images/details.png" alt="Bild 3" class="right-prototype1">
+        </div>
+        <div class="prototype-tpqd2">
+            <img src="../images/kpi-setings.png" alt="Bild 1" class="left-prototype2">
+            <img src="../images/kpi-benchmark.png" alt="Bild 2" class="center-prototype2">
+            <img src="../images/scan.png" alt="Bild 3" class="right-prototype2">
+        </div>
 
-<h3>What I Learned</h3>
-<div class="paragraph">
-    <p>In this project, I collaborated closely with developers, which highlighted the critical role of effective communication in ensuring a smooth workflow. I spent significant time working in Figma, where I became comfortable using the tool to create and refine designs.
-    </p>
-</div>
+        <h3>What I Learned</h3>
+        <div class="paragraph">
+            <p>In this project, I collaborated closely with developers, which highlighted the critical role of effective communication in ensuring a smooth workflow. I spent significant time working in Figma, where I became comfortable using the tool to create and refine designs.
+            </p>
+        </div>
 
-<br>
-<br>
-<br>
-
+        <br>
+        <br>
+        <br>
+    </section>
 </body>
 </html>
