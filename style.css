@@ -145,9 +145,22 @@ header ul li:hover {
   width: 100%;
 }
 
+#gradient2 {
+  display: none;
+}
+
 @media only screen and (max-width: 768px) {
   #gradient {
-    margin-top: 20%;
+    display: none;
+  }
+
+  #gradient2 {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+    margin-top: 2%;
   }
   
   #work-hello {
