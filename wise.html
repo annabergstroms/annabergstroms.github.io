@@ -5,52 +5,66 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Anna Bergström</title>
   <link rel="stylesheet" href="wise.css">
-  <script src="myScript.js" defer></script>
+  <script src="myScript.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <nav class="navbar">
-        <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
-        <ul class="menu" id="menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About me</a></li>
-        </ul>
-    </nav>
+    <header>
+        <div id="brand"><a href="index.html"></a></div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Work</a></li>
+            <li><a href="about.html">About me</a></li>
+            <li><a href="cv.html">CV</a></li>
+          </ul>
+        </nav>
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+          <ul class="mobile-menu">
+            <li><a href="index.html">Work</a></li>
+            <li><a href="about.html">About me</a></li>
+            <li><a href="cv.html">CV</a></li>
+          </ul>
+        </div>
+      </header>
           
-    <div class="top-wise">
-        <h1>Wise</h1>
-        <div class="short-description">
-            <p>Take control and manage your money</p>
+    <section>
+        <div id="top-wise">
+            <h1>Wise</h1>
+            <p id="project-name">Take control and manage your money</p>
+            <div class="img-wise">
+                <img src="../images/start.png" alt="Beskrivning av bilden" class="image-wise1">
+                <img src="../images/income.png" alt="Beskrivning av bilden" class="image-wise2">
+                <img src="../images/goals.png" alt="Beskrivning av bilden" class="image-wise3">
+                <img src="../images/goal.png" alt="Beskrivning av bilden" class="image-wise4">
+            </div>
         </div>
-        <div class="img-wise">
-            <img src="../images/start.png" alt="Beskrivning av bilden" class="image-wise1">
-            <img src="../images/income.png" alt="Beskrivning av bilden" class="image-wise2">
-            <img src="../images/goals.png" alt="Beskrivning av bilden" class="image-wise3">
-            <img src="../images/goal.png" alt="Beskrivning av bilden" class="image-wise4">
-        </div>
-    </div>
+    </section>
 
-    <div class="heading-project-overview">
-        <h2>Project Overview</h2>
-    </div>
-    
-    <div class="project-overview-wise">
-        <div class="left-paragraph-wise">
-            <h3>Summary and Challenge</h3>
-            <p>In recent years, more and more young adults have struggled with managing their finances, particularly saving, despite the availability of finance apps. Most young adults don’t have large savings or the ability to save large sums; instead, they save smaller amounts regularly. 
-                <br>
-                <br>
-                For my master's thesis, I developed Wise, a personal finance management app designed to meet the needs and preferences of young adults. I conducted a competitive analysis and semi-structured interviews with the target group. Using the interview data, I created a prototype, which was then tested and refined based on user feedback.            
-            </p>
+    <section>
+        <div class="project-overview">
+            <h2 class="project-overview-heading">Project Overview</h2>
+            <div class="project-overview-text">
+                <div class="left-paragraph-wise">
+                    <h3>Summary and Challenge</h3>
+                    <p>In recent years, more and more young adults have struggled with managing their finances, particularly saving, despite the availability of finance apps. Most young adults don’t have large savings or the ability to save large sums; instead, they save smaller amounts regularly. 
+                    <br>
+                    <br>
+                    For my master's thesis, I developed Wise, a personal finance management app designed to meet the needs and preferences of young adults. I conducted a competitive analysis and semi-structured interviews with the target group. Using the interview data, I created a prototype, which was then tested and refined based on user feedback.            
+                    </p>
+                </div>
+                <div class="right-paragraph-wise">
+                    <p><b>Tools used</b><br>Figma and Miro</p>
+                    <p><b>The team</b><br>Self directed</p>
+                    <p><b>My role</b><br>UX-Designer (user research, interaction design, wireframing, prototyping and usability testing)</p>
+                    <p><b>Time period</b><br>20 weeks (spring 2024)</p>
+                </div>
+            </div>
         </div>
-        <div class="right-paragraph-wise">
-            <p><b>Tools used</b><br>Figma and Miro</p>
-            <p><b>The team</b><br>Self directed</p>
-            <p><b>My role</b><br>UX-Designer (user research, interaction design, wireframing, prototyping and usability testing)</p>
-            <p><b>Time period</b><br>20 weeks (spring 2024)</p>
-        </div>
-    </div>
+    </section>
 
     <h2>Design Process</h2>
     <div class="process-container-wise">
