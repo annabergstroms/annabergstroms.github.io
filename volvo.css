@@ -560,6 +560,10 @@ h3 {
 }
 
 /* RESULT */
+.prototype-tpqd {
+  margin-bottom: 4%;
+}
+
 .prototype-tpqd1 {
   display: flex;
 }
@@ -614,4 +618,11 @@ h3 {
   margin-right: 10%;
   margin-bottom: 1%;
   margin-top: 2%;
+}
+
+@media only screen and (max-width: 768px) { 
+  .prototype-tpqd {
+    margin-top: 6%;
+    margin-bottom: 8%;
+  }
 }
