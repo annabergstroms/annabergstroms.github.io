@@ -107,7 +107,6 @@ header ul li:hover {
   }
 }
 
-
 /* VOLVO PAGE */
 h1 {
   font-size: 3.6rem;
@@ -174,69 +173,21 @@ h3 {
   z-index: 3;
 }
 
-@media only screen and (max-width: 768px) { h1 {    font-size: 2.6rem;} #project-name {
-  font-size: 1rem;
-}}
-
-
-
-
-
-
-
-/*#top-volvo {
-  margin-bottom: 6%;
+@media only screen and (max-width: 768px) { 
+  h1 {
+    font-size: 2.6rem;
+  } 
+    
+  #project-name {
+    font-size: 1rem;
+  }
 }
 
-#project-name {
-  font-size: 1vw;
-  text-align: center;
-}
-  
-.img-tpqd {
-  /*position: relative;*/
-  /*position: flex;*/
-  /*position: absolute;
-  width: 100%;
-}
-  
-.img-tpqd img {
-  position: absolute;
-  margin-top: 10%;
-}
-  
-.left-image-tpqd {
-  width: 31%;
-  height: auto;
-  left: 25%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 1;
-}
-  
-.center-image-tpqd {
-  width: 46%;
-  height: auto;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-}
-  
-.right-image-tpqd {
-  width: 31%;
-  height: auto;
-  left: 74%;
-  top: 50%;
-  transform: translate(-50%, -8%);
-  z-index: 3;
-}
-  
-/*PROJECT OVERVIEW*/  
-.heading-project-overview h2 {
+/* PROJECT OVERVIEW */  
+.heading-project-overview {
   font-weight: medium;
   text-align: center;
-  font-size: 2.1vw;
+  font-size: 2rem;
   padding-top: 4%;
   padding-left: 1%;
   padding-right: 1%;
@@ -247,7 +198,7 @@ h3 {
   background-color: #F1F2F6;
 }
 
-.project-overview-volvo {
+.project-overview-text {
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 100%;
@@ -263,27 +214,65 @@ h3 {
 .left-paragraph-tpqd h3 {
   font-weight: medium;
   text-align: left;
-  font-size: 1.3vw;
+  font-size: 1.5rem;
   margin-left: 40%;
   margin-right: -20%;
 }
   
 .left-paragraph-tpqd p {
   text-align: left;
-  font-size: 0.9vw;
+  font-size: 1rem;
   margin-left: 40%;
   margin-right: -20%;
 }
-  
+
+.right-paragraph-tpqd h3 {
+  font-weight: medium;
+  text-align: left;
+  font-size: 1.5rem;
+  margin-left: 30%;
+  margin-right: 40%;
+}
+
 .right-paragraph-tpqd p {
   text-align: left;
-  font-size: 0.9vw;
+  font-size: 1rem;
   margin-left: 30%;
   margin-right: 40%;
   margin-bottom: 4%;
 }
   
+@media only screen and (max-width: 768px) { 
+  .project-overview-volvo {
+    grid-template-columns: 1fr;
+  }
+
+  .left-paragraph-tpqd h3 {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+    
+  .left-paragraph-tpqd p {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
   
+  .right-paragraph-tpqd h3 {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .right-paragraph-tpqd p {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+}
+
+
+
+
+
 /*DESIGN PROCESS*/
 .process-container-volvo {
   position: relative;
