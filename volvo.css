@@ -11,26 +11,6 @@ body {
   color: #1E1E1E;
 }
 
-h1 {
-  font-size: 3.6rem;
-  padding-top: 6%;
-}
-
-h2 {
-  font-weight: medium;
-  text-align: center;
-  font-size: 2rem;
-  margin-top: 6%;
-}
-
-h3 {
-  font-weight: medium;
-  text-align: left;
-  font-size: 1.2rem;
-  margin-left: 20%;
-  margin-top: 4%;
-}
-
 /* NAV */
 header {
   padding: 10px 20px;
@@ -129,13 +109,34 @@ header ul li:hover {
 
 
 /*VOLVO PAGE*/
-.top-volvo {
+h1 {
+  font-size: 3.6rem;
+  text-align: center;
+  padding-top: 6%;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: medium;
+  text-align: center;
+  margin-top: 6%;
+}
+
+h3 {
+  font-size: 1.2rem;
+  text-align: left;
+  font-weight: medium;
+  margin-left: 20%;
+  margin-top: 4%;
+}
+
+#top-volvo {
   margin-bottom: 6%;
-  }
-  
-.short-description p {
+}
+
+#project-name {
   font-size: 1vw;
-  margin-top: -2%;
+  text-align: center;
 }
   
 .img-tpqd {
