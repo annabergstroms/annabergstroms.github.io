@@ -132,7 +132,6 @@ h3 {
 /* HERO */
 #top-volvo {
   margin-top: 1%;
-  margin-bottom: 6%;
 }
 
 #project-name {
@@ -186,8 +185,7 @@ h3 {
 /* PROJECT OVERVIEW */
 .project-overview {
   background-color: #F1F2F6;
-  /*margin-left: -1%;
-  margin-right: -1%;*/
+  margin-top: 40%; 
 }
 
 .project-overview-heading {
