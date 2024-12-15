@@ -556,6 +556,7 @@ h3 {
 /* TEST */
 .workshop {
   width: 100%;
+  height: auto;
 }
 
 /* RESULT */
