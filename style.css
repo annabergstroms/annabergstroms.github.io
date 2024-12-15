@@ -160,7 +160,8 @@ header ul li:hover {
     top: 0;
     width: 100%;
     z-index: -1;
-    margin-top: 2%;
+    margin-top: 4%;
+    margin-bottom: 4%;
   }
   
   #work-hello {
