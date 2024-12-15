@@ -129,6 +129,20 @@ h3 {
   margin-top: 4%;
 }
 
+#paragraph {
+  font-size: 1rem;
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+@media only screen and (max-width: 768px) {
+  #paragraph {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
 /* HERO */
 #top-volvo {
   margin-top: 1%;
@@ -145,7 +159,7 @@ h3 {
 
 .img-tpqd img {
   position: absolute;
-  margin-top: 4%;
+  margin-top: 3%;
 }
 
 .left-image-tpqd {
@@ -185,21 +199,21 @@ h3 {
 /* PROJECT OVERVIEW */
 .project-overview {
   background-color: #F1F2F6;
-  margin-top: 40%; 
+  margin-top: 42%; 
 }
 
 .project-overview-heading {
   text-align: center;
   font-size: 2rem;
-  padding-top: 4%;
+  padding-top: 6%;
 }
 
 .project-overview-text {
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 100%;
-  padding-top: 4%;
-  padding-bottom: 8%;
+  padding-top: 2%;
+  padding-bottom: 6%;
 }
   
 .left-paragraph-tpqd h3 {
@@ -237,8 +251,13 @@ h3 {
 }
   
 @media only screen and (max-width: 768px) { 
+  .project-overview-heading {
+    padding-top: 8%;
+  }
+  
   .project-overview-text {
     grid-template-columns: 1fr;
+    padding-bottom: 8%;
   }
 
   .left-paragraph-tpqd h3 {
@@ -262,51 +281,66 @@ h3 {
   }
 }
 
-
-
-
-
 /*DESIGN PROCESS*/
-.process-container-volvo {
+
+#design-process-desktop {
+  width: 100%;
+}
+
+#design-process-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) { 
+  #design-process-desktop {
+    display: none;
+  }
+  
+  #design-process-mobile {
+    width: 100%;
+  }
+}
+
+/*.design-process {
   position: relative;
   width: 100%;
 }
   
-.process-container-volvo img {
+.design-process img {
   width: 100%;
   height: auto;
 }
   
 .volvo {
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
   width: 100%;
 }
   
 .process1 h3 {
-  margin-left: -40%;
   margin-top: -4%;
+  margin-bottom: 1%;
+  margin-left: -40%;
   color: #FD9314;
-  font-size: 1.3vw;
+  font-size: 1.2rem;
   font-weight: medium;
   text-align: center;
 }
   
 .process2 h3 {
-  margin-left: 0%;
   margin-top: -4%;
+  margin-bottom: 1%;
   color: #E84FB0;
-  font-size: 1.3vw;
+  font-size: 1.2rem;
   font-weight: medium;
   text-align: center;
 }
   
 .process3 h3 {
-  margin-left: 36%;
   margin-top: -4%;
+  margin-bottom: 1%;
+  margin-left: 34%;
   color: #7C50ED;
-  font-size: 1.3vw;
+  font-size: 1.2rem;
   font-weight: medium;
   text-align: center;
 }
@@ -314,23 +348,57 @@ h3 {
 .process1 p {
   margin-left: -40%;
   color: #1E1E1E;
-  font-size: 0.9vw;
+  font-size: 1rem;
   text-align: center;
 }
   
 .process2 p {
-  margin-left: 0%;
   color: #1E1E1E;
-  font-size: 0.9vw;
+  font-size: 1rem;
   text-align: center;
 }
   
 .process3 p {
-  margin-left: 36%;
+  margin-left: 34%;
   color: #1E1E1E;
-  font-size: 0.9vw;
+  font-size: 1rem;
   text-align: center;
 }
+
+@media only screen and (max-width: 768px) {
+  .process1 h3 {
+    margin-top: -4%;
+    margin-bottom: 1%;
+    margin-left: -40%;
+  }
+    
+  .process2 h3 {
+    margin-top: -4%;
+    margin-bottom: 1%;
+  }
+    
+  .process3 h3 {
+    margin-top: -4%;
+    margin-bottom: 1%;
+    margin-left: 34%;
+  }
+    
+  .process1 p {
+    margin-left: -40%;
+  }
+    
+  .process3 p {
+    margin-left: 34%;
+  }
+}
+
+
+
+
+
+
+
+
 
 
 /*1 RESEARCH*/
