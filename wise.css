@@ -288,13 +288,36 @@ h3 {
 
 
 /*DESIGN PROCESS*/
-.process-container-wise {
+.design-process {
+  width: 100%;
+}
+
+#design-process-desktop {
+  width: 100%;
+}
+
+#design-process-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) { 
+  #design-process-desktop {
+    display: none;
+  }
+  
+  #design-process-mobile {
+    display: block;
+    width: 100%;
+  }
+}
+
+/*.design-process {
   position: relative;
   width: 100%;
   margin-bottom: 4%;
 }
   
-.process-container-wise img {
+.design-process img {
   width: 100%;
   height: auto;
 }
@@ -355,15 +378,7 @@ h3 {
 }
 
 
-/*1 RESEARCH*/
-  .paragraph p {
-  color: #1E1E1E;
-  font-size: 0.9vw;
-  text-align: left;
-  margin-left: 20%;
-  margin-right: 20%;
-}
-
+/*1 RESEARCH */
 .shadow-box1 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-top: 2%;
@@ -372,13 +387,11 @@ h3 {
   margin-bottom: 2%;
 }
 
-/*Konkurrentanalysbild*/
-  .comp img {
+#konkurrensanalys-img {
   width: 100%;
 }
 
-/*Tematisk analys bild*/
-  .tematiskanalys img {
+#tematiskanalys {
   width: 90%;
   margin-top: 3%;
   margin-bottom: 3%;
@@ -386,10 +399,9 @@ h3 {
   margin-right: 4%;
 }
 
-/*Insikter och Behov av tematisk analys*/
-  .shadow-box {
+.shadow-box {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 60% 40%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-top: 2%;
   margin-left: 20%;
@@ -401,39 +413,73 @@ h3 {
 
 .text-box-left h4 {
   color: #1E1E1E;
-  /*font-size: 15px;*/
-  font-size: 1.05vw;
+  font-size: 1rem;
   font-weight: medium;
   text-align: left;
-  padding-left: 20%;
-  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
 .text-box-left p {
   color: #1E1E1E;
-  font-size: 0.9vw;
+  font-size: 1rem;
   text-align: left;
-  padding-left: 20%;
-  padding-right: 10%;
+  padding-left: 10%;
+  padding-bottom: 1%;
 }
 
 .text-box-right h4 {
   color: #1E1E1E;
-  /*font-size: 15px;*/
-  font-size: 1.05vw;
+  font-size: 1rem;
   font-weight: medium;
   text-align: left;
-  padding-left: 10%;
-  padding-right: 20%;
+  padding-right: 10%;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
 .text-box-right p {
   color: #1E1E1E;
-  font-size: 0.9vw;
+  font-size: 1rem;
   text-align: left;
-  padding-left: 10%;
-  padding-right: 20%;
+  padding-right: 10%;
+  padding-bottom: 1%;
 }
+
+@media only screen and (max-width: 768px) { 
+  .shadow-box1 {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 4%;
+  }
+  
+  .shadow-box {
+    grid-template-columns: 1fr;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 6%;
+    padding-bottom: 6%;
+  }
+
+  .text-box-left h4 { 
+    padding-top: 6%;
+  }
+
+
+  .text-box-right h4 {
+    display: none;
+  }
+
+  .text-box-right p { 
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+
+
+
 
 
 /*2 DESIGN & PROTOTYPE*/
