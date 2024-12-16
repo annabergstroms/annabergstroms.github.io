@@ -631,3 +631,11 @@ h3 {
     margin-bottom: 8%;
   }
 }
+
+/* FOOTER */
+.copyright p {
+  font-size: 0.8rem;
+  text-align: center;
+  color: #1E1E1E;
+  margin-bottom: 6%;
+}

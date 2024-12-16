@@ -648,5 +648,12 @@ h3 {
   .prototype8 {
     width: 26%;
   }
-  
+}
+
+/* FOOTER */
+.copyright p {
+  font-size: 0.8rem;
+  text-align: center;
+  color: #1E1E1E;
+  margin-bottom: 6%;
 }

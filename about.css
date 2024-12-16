@@ -95,3 +95,11 @@ h1 {
     margin-right: 10%;
   }
 }
+
+/* FOOTER */
+.copyright p {
+  font-size: 0.8rem;
+  text-align: center;
+  color: #1E1E1E;
+  margin-bottom: 6%;
+}

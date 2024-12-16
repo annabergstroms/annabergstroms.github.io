@@ -204,7 +204,6 @@ header ul li:hover {
   border-radius: 8px;
   padding: 20px;
   margin-top: 10%;
-  margin-bottom: 10%;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -262,7 +261,8 @@ header ul li:hover {
 
 /* FOOTER */
 .copyright p {
-  font-size: 0.5rem;
+  font-size: 0.8rem;
   text-align: center;
   color: #1E1E1E;
+  margin-bottom: 6%;
 }
