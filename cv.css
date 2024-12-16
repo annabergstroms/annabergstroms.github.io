@@ -118,6 +118,8 @@ h2 {
     font-size: 2rem;
     font-weight: medium;
     text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
     margin-top: 4%;
 }
   
@@ -126,33 +128,37 @@ h3 {
     text-align: left;
     font-weight: medium;
     margin-left: 20%;
+    margin-right: 20%;
     margin-top: 2%;
 }
 
 #info {
     font-size: 1rem;
     text-align: left;
-    font-style: oblique;
+    font-weight: thin;
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 4%;
 }
 
 #content {
-  font-size: 1rem;
-  text-align: left;
-  margin-left: 20%;
-  margin-right: 20%;
-  margin-top: 2%;
+    font-size: 1rem;
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
 }
 
 @media only screen and (max-width: 768px) {
     h2 {
+        margin-left: 10%;
+        margin-right: 10%;
         margin-top: 10%;
     }
       
     h3 {
         margin-left: 10%;
+        margin-right: 10%;
         margin-top: 6%;
     }
 
@@ -168,9 +174,26 @@ h3 {
 }
 
 /* FOOTER */
-.copyright p {
-  font-size: 0.8rem;
-  text-align: center;
-  color: #1E1E1E;
-  margin-bottom: 6%;
-}
+#footer {
+    position: relative;
+    bottom: 0;
+    padding: 104px 0px 32px 0px;
+  }
+  
+  #footer div {
+    justify-content: center;
+  }
+  
+  .copyright {
+    display: flex;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .copyright p {
+    font-size: 0.8rem;
+    text-align: center;
+    color: #1E1E1E;
+    margin-bottom: 6%;
+    position: relative;
+  }

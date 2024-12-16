@@ -130,9 +130,26 @@ h1 {
 }
 
 /* FOOTER */
+#footer {
+  position: relative;
+  bottom: 0;
+  padding: 104px 0px 32px 0px;
+}
+
+#footer div {
+  justify-content: center;
+}
+
+.copyright {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
 .copyright p {
   font-size: 0.8rem;
   text-align: center;
   color: #1E1E1E;
   margin-bottom: 6%;
+  position: relative;
 }
