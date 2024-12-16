@@ -73,17 +73,24 @@ body {
   }
 
 }
-  
-/*ABOUT PAGE*/
+ 
+/* ABOUT PAGE */
 h1 {
-    font-size: 54px;
-    padding-top: 6%;
+  font-size: 3.6rem;
+  text-align: center;
+  padding-top: 2%;
 }
 
-.paragraph p {
-    color: #1E1E1E;
-    font-size: 13px;
-    text-align: left;
-    margin-left: 20%;
-    margin-right: 20%;
+#paragraph {
+  font-size: 1rem;
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+@media only screen and (max-width: 768px) {
+  #paragraph {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 }
