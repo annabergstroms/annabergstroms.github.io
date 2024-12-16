@@ -167,7 +167,7 @@ h3 {
   
 .image-massika1 {
   width: 15%;
-  margin-left: 10%;
+  margin-left: 10.5%;
   margin-right: 0.2%;
   margin-bottom: 4%;
   margin-top: 2%;
@@ -200,7 +200,7 @@ h3 {
 .image-massika5 {
   width: 15%;
   margin-left: 0.2%;
-  margin-right: 10%;
+  margin-right: 10.5%;
   margin-bottom: 4%;
   margin-top: 2%;
 }
@@ -299,13 +299,6 @@ h3 {
     margin-right: 10%;
   }
 }
-
-
-
-
-
-
-
   
 /* DESIGN PROCESS */
 .design-process {
@@ -401,10 +394,10 @@ h3 {
 /* RESEARCH */
 .shadow-box-img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-top: 2%;
+  margin-top: 4%;
   margin-left: 20%;
   margin-right: 20%;
-  margin-bottom: 2%;
+  margin-bottom: 4%;
 }
 
 #konkurrensanalys-img {
@@ -434,7 +427,6 @@ h3 {
   .shadow-box-img {
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 4%;
   }
 }
 
@@ -451,12 +443,13 @@ h3 {
   padding-bottom: 2%;
 }
 
-#requirement1 img { 
+#requirement1 { 
   width: 90%;
-  padding-left: 2%;
-  padding-right: 2%;
-  padding-top: 4%;
-  padding-bottom: 4%;
+  height: auto;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 6%;
+  padding-bottom: 6%;
 }
 
 /* PROTOTYPE & TEST */
@@ -529,6 +522,7 @@ h3 {
 /* RESULT */
 .prototype-massika1 {
   display: flex;
+  margin-top: 4%;
   margin-left: 20%;
   margin-right: 20%;
 }
@@ -601,4 +595,11 @@ h3 {
   width: 25%;
   margin-left: 0.5%;
   margin-bottom: 2%;
+}
+
+
+@media only screen and (max-width: 768px) { 
+  .prototype-massika1 {
+    margin-top: 6%;
+  }
 }
