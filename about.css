@@ -130,20 +130,10 @@ h1 {
 }
 
 /* FOOTER */
-#footer {
-  position: relative;
+footer {
+  position: fixed;
   bottom: 0;
-  padding: 104px 0px 32px 0px;
-}
-
-#footer div {
-  justify-content: center;
-}
-
-.copyright {
-  display: flex;
-  text-align: center;
-  align-items: center;
+  padding: 20% 0% 10% 0%;
 }
 
 .copyright p {
