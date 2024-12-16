@@ -206,6 +206,10 @@ h3 {
   .image-wise4 {
     margin-right: 15%;
   }
+
+  .img-wise {
+    margin-top: 6%;
+  }
 }
 
 /* PROJECT OVERVIEW */
@@ -386,7 +390,7 @@ h3 {
 /*1 RESEARCH */
 .shadow-box-img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-top: 4%;
+  margin-top: 2%;
   margin-left: 20%;
   margin-right: 20%;
   margin-bottom: 4%;
@@ -398,7 +402,7 @@ h3 {
 }
 
 #tematiskanalys-img {
-  width: 90%;
+  width: 92%;
   height: auto;
   margin-top: 3%;
   margin-bottom: 3%;
@@ -468,7 +472,7 @@ h3 {
     grid-template-columns: 1fr;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 6%;
+    margin-top: 6%; margin-bottom: 6%;
     padding-bottom: 6%;
   }
 
@@ -639,7 +643,7 @@ h3 {
 
 /*Tematisk analys bild 2*/
 #tematiskanalys-img2 {
-  width: 90%;
+  width: 92%;
   height: auto;
   margin-top: 3%;
   margin-bottom: 3%;
@@ -747,4 +751,38 @@ h3 {
   width: 25%;
   margin-left: 0.5%;
   margin-bottom: 2%;
+}
+
+@media only screen and (max-width: 768px) {
+  .prototype1 {
+    width: 26;
+  }
+
+  .prototype2 {
+    width: 26;
+  }
+
+  .prototype3 {
+    width: 26;
+  }
+
+  .prototype4 {
+    width: 26;
+  }
+
+  .prototype5 {
+    width: 26;
+  }
+
+  .prototype6 {
+    width: 26;
+  }
+
+  .prototype7 {
+    width: 26;
+  }
+  .prototype8 {
+    width: 26;
+  }
+
 }

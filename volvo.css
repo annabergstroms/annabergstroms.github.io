@@ -163,7 +163,6 @@ h3 {
 }
 
 .img-tpqd {
-  /*position: absolute;*/
   width: 100%;
 }
 
@@ -203,6 +202,11 @@ h3 {
     
   #project-name {
     font-size: 1rem;
+  }
+
+  .img-tpqd {
+    margin-top: 6%;
+    margin-bottom: 6%;
   }
 }
 

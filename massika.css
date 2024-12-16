@@ -213,6 +213,10 @@ h3 {
   .image-massika5 {
     margin-right: 8%;
   }
+
+  .img-massika {
+    margin-top: 6%;
+  }
 }
 
 /* PROJECT OVERVIEW */
@@ -394,7 +398,7 @@ h3 {
 /* RESEARCH */
 .shadow-box-img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-top: 4%;
+  margin-top: 2%;
   margin-left: 20%;
   margin-right: 20%;
   margin-bottom: 4%;
@@ -406,7 +410,7 @@ h3 {
 }
 
 #affinity-diagram {
-  width: 90%;
+  width: 94%;
   padding-left: 1%;
   padding-right: 1%;
   padding-top: 3%;
@@ -432,24 +436,24 @@ h3 {
 
 /* DEVELOP */
 #sitemap { 
-  width: 90%;
+  width: 94%;
   padding-top: 2%;
   padding-bottom: 2%;
 }
 
 #userflow { 
-  width: 90%;
+  width: 94%;
   padding-top: 2%;
   padding-bottom: 2%;
 }
 
 #requirement1 { 
-  width: 90%;
+  width: 94%;
   height: auto;
   padding-left: 4%;
   padding-right: 4%;
   padding-top: 6%;
-  padding-bottom: 6%;
+  padding-bottom: 4%;
 }
 
 /* PROTOTYPE & TEST */
@@ -502,20 +506,19 @@ h3 {
 }
 
 #analysis-usability { 
-  width: 90%;
+  width: 94%;
   padding-left: 3%;
   padding-right: 3%;
   padding-top: 3%;
   padding-bottom: 3%;
 }
 
-
 #requirement2 { 
-  width: 90%;
+  width: 94%;
   padding-left: 4%;
   padding-right: 4%;
   padding-top: 4%;
-  padding-bottom: 4%;
+  padding-bottom: 2%;
 }
 
 
@@ -602,4 +605,37 @@ h3 {
   .prototype-massika1 {
     margin-top: 6%;
   }
+
+  .prototype1 {
+    width: 26%;
+  }
+
+  .prototype2 {
+    width: 26%;
+  }
+
+  .prototype3 {
+    width: 26%;
+  }
+
+  .prototype4 {
+    width: 26%;
+  }
+
+  .prototype5 {
+    width: 26%;
+  }
+
+  .prototype6 {
+    width: 26%;
+  }
+
+  .prototype7 {
+    width: 26%;
+  }
+
+  .prototype8 {
+    width: 26%;
+  }
+  
 }
