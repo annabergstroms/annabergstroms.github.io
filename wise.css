@@ -198,6 +198,16 @@ h3 {
   margin-top: 2%;
 }
 
+@media only screen and (max-width: 768px) {
+  .image-wise1 {
+    margin-left: 10%;
+  }
+
+  .image-wise4 {
+    margin-right: 10%;
+  }
+}
+
 /*PROJECT OVERVIEW*/
 .project-overview {
   background-color: #F1F2F6;
@@ -636,7 +646,32 @@ h3 {
   margin-right: 4%;
 }
 
+@media only screen and (max-width: 768px) { 
+  .shadow-box-text1 {
+    grid-template-columns: 1fr;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 6%;
+    padding-bottom: 6%;
+  }
+
+  .patterns h4 { 
+    padding-top: 6%;
+  }
+
+  .insights h4 {
+    padding-top: 6%;
+  }
+
+  .recommendations h4 {
+    padding-top: 6%;
+  }
+}
+
 /* RESULT */
+.prototype-wise {
+  margin-top: 4%;
+}
 .prototype-wise1 {
   display: flex;
   margin-left: 20%;
