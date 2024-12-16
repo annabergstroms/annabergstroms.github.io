@@ -208,7 +208,7 @@ h3 {
   }
 }
 
-/*PROJECT OVERVIEW*/
+/* PROJECT OVERVIEW */
 .project-overview {
   background-color: #F1F2F6;
   margin-top: 4%; 
@@ -293,11 +293,7 @@ h3 {
   }
 }
 
-
-
-
-
-/*DESIGN PROCESS*/
+/* DESIGN PROCESS */
 .design-process {
   width: 100%;
 }
@@ -386,7 +382,6 @@ h3 {
   font-size: 0.9vw;
   text-align: center;
 }
-
 
 /*1 RESEARCH */
 .shadow-box-img {
@@ -487,7 +482,7 @@ h3 {
   }
 }
 
-/*2 DESIGN & PROTOTYPE */
+/* 2 DESIGN & PROTOTYPE */
 .wireframe1 {
   display: flex;
 }
