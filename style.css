@@ -266,6 +266,26 @@ footer {
   padding: 20% 0% 10% 0%;
 }
 
+.socials {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 4%;
+}
+
+.socials a {
+  padding: 4%;
+}
+
+#linkedin {
+  width: 12%;
+  height: auto;
+}
+
+#mail {
+  width: 12%;
+  height: auto;
+}
+
 .copyright p {
   font-size: 0.8rem;
   text-align: center;
