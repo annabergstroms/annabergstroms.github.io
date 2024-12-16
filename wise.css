@@ -389,10 +389,12 @@ h3 {
 
 #konkurrensanalys-img {
   width: 100%;
+  height: auto;
 }
 
 #tematiskanalys {
   width: 90%;
+  height: auto;
   margin-top: 3%;
   margin-bottom: 3%;
   margin-left: 4%;
