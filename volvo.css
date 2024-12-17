@@ -648,22 +648,22 @@ footer {
 }
 
 .social-left {
-  padding-left: 85%;
-  padding-right: 5%;
+	margin-left: 87%;
+  margin-right: 5%;
 }
 
 .social-right {
-  padding-left: 5%;
-  padding-right: 85%;
+	margin-left: 5%;
+  margin-right: 87%;
 }
 
 #linkedin {
-  width: 60%;
+  width: 100%;
   height: auto;
 }
 
 #mail {
-  width: 60%;
+  width: 100%;
   height: auto;
 }
 
@@ -672,16 +672,4 @@ footer {
   text-align: center;
   color: #1E1E1E;
   position: relative;
-}
-
-@media only screen and (max-width: 768px) {
-  #linkedin {
-    width: 100%;
-    height: auto;
-  }
-  
-  #mail {
-    width: 100%;
-    height: auto;
-  }
 }
