@@ -275,28 +275,19 @@ footer {
 .socials {
   display: grid;
   grid-template-columns: 50% 50%;
+  gap: 10;
   margin-bottom: 1%;
   margin-left: 20%;
   margin-right: 20%;
 }
 
-.social-left {
-  padding-left: 85%;
-  padding-right: 5%;
-}
-
-.social-right {
-  padding-left: 5%;
-  padding-right: 85%;
-}
-
 #linkedin {
-  width: 60%;
+  width: 80%;
   height: auto;
 }
 
 #mail {
-  width: 60%;
+  width: 80%;
   height: auto;
 }
 
@@ -309,12 +300,12 @@ footer {
 
 @media only screen and (max-width: 768px) {
   #linkedin {
-    width: 80%;
+    width: 100%;
     height: auto;
   }
   
   #mail {
-    width: 80%;
+    width: 100%;
     height: auto;
   }
 }
