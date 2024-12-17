@@ -263,7 +263,6 @@ header ul li:hover {
 .footer {
   position: fixed;
   bottom: 0;
-  padding: 20% 0% 10% 0%;
 }
 
 .socials {
@@ -273,16 +272,16 @@ header ul li:hover {
 }
 
 .socials a {
-  padding: 4%;
+  padding: 1%;
 }
 
 #linkedin {
-  width: 12%;
+  width: 20%;
   height: auto;
 }
 
 #mail {
-  width: 12%;
+  width: 20%;
   height: auto;
 }
 
