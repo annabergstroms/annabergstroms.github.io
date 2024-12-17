@@ -281,13 +281,13 @@ footer {
 }
 
 .social-left {
-	margin-left: 84%;
+	margin-left: 86%;
   margin-right: 5%;
 }
 
 .social-right {
 	margin-left: 5%;
-  margin-right: 84%;
+  margin-right: 86%;
 }
 
 #linkedin {
@@ -305,16 +305,4 @@ footer {
   text-align: center;
   color: #1E1E1E;
   position: relative;
-}
-
-@media only screen and (max-width: 768px) {
-  #linkedin {
-    width: 80%;
-    height: auto;
-  }
-  
-  #mail {
-    width: 80%;
-    height: auto;
-  }
 }
