@@ -249,7 +249,6 @@ header ul li:hover {
   font-weight: bold;
 }
 
-/* Responsiv design */
 @media only screen and (max-width: 768px) {
   #content-container { 
     flex-direction: column; /* Byt till vertikalt läge */
@@ -306,4 +305,16 @@ footer {
   text-align: center;
   color: #1E1E1E;
   position: relative;
+}
+
+@media only screen and (max-width: 768px) {
+  #linkedin {
+    width: 80%;
+    height: auto;
+  }
+  
+  #mail {
+    width: 80%;
+    height: auto;
+  }
 }

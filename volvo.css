@@ -634,15 +634,54 @@ h3 {
 
 /* FOOTER */
 footer {
-  position: fixed;
-  bottom: 0;
-  padding: 20% 0% 10% 0%;
+  margin-top: 8%;
+  margin-bottom: 2%;
+  width: 100%;
+}
+
+.socials {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-bottom: 1%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.social-left {
+  padding-left: 85%;
+  padding-right: 5%;
+}
+
+.social-right {
+  padding-left: 5%;
+  padding-right: 85%;
+}
+
+#linkedin {
+  width: 60%;
+  height: auto;
+}
+
+#mail {
+  width: 60%;
+  height: auto;
 }
 
 .copyright p {
   font-size: 0.8rem;
   text-align: center;
   color: #1E1E1E;
-  margin-bottom: 6%;
   position: relative;
+}
+
+@media only screen and (max-width: 768px) {
+  #linkedin {
+    width: 80%;
+    height: auto;
+  }
+  
+  #mail {
+    width: 80%;
+    height: auto;
+  }
 }
