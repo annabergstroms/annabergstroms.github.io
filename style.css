@@ -268,18 +268,19 @@ header ul li:hover {
 
 /* FOOTER */
 footer {
-  margin-top: 10%;
+  margin-top: 8%;
+  justify-content: center;
 }
 
 .socials {
   display: flex;
   flex-direction: row;
-  margin-bottom: 4%;
+  margin-bottom: 2%;
 }
 
-.socials a {
+/*.socials a {
   padding: 1%;
-}
+}*/
 
 #linkedin {
   width: 20%;
