@@ -282,22 +282,22 @@ footer {
 }
 
 .social-left {
-  padding-left: 84%;
+  padding-left: 85%;
   padding-right: 5%;
 }
 
 .social-right {
   padding-left: 5%;
-  padding-right: 84%;
+  padding-right: 85%;
 }
 
 #linkedin {
-  width: 50%;
+  width: 60%;
   height: auto;
 }
 
 #mail {
-  width: 50%;
+  width: 60%;
   height: auto;
 }
 
