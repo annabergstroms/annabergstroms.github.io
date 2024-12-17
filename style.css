@@ -270,7 +270,7 @@ header ul li:hover {
 footer {
   margin-top: 8%;
   margin-bottom: 2%;
-  justify-content: center;
+  width: 100%;
 }
 
 .socials {
