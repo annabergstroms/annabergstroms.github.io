@@ -309,12 +309,12 @@ footer {
 
 @media only screen and (max-width: 768px) {
   #linkedin {
-    width: 50%;
+    width: 80%;
     height: auto;
   }
   
   #mail {
-    width: 50%;
+    width: 80%;
     height: auto;
   }
 }
