@@ -673,3 +673,15 @@ footer {
   color: #1E1E1E;
   position: relative;
 }
+
+@media only screen and (max-width: 768px) {
+  .social-left {
+    margin-left: 85%;
+    margin-right: 2%;
+  }
+  
+  .social-right {
+    margin-left: 2%;
+    margin-right: 85%;
+  }
+}
