@@ -282,12 +282,12 @@ footer {
 }
 
 #linkedin {
-  width: 80%;
+  width: 20%;
   height: auto;
 }
 
 #mail {
-  width: 80%;
+  width: 20%;
   height: auto;
 }
 
@@ -300,12 +300,12 @@ footer {
 
 @media only screen and (max-width: 768px) {
   #linkedin {
-    width: 100%;
+    width: 50%;
     height: auto;
   }
   
   #mail {
-    width: 100%;
+    width: 50%;
     height: auto;
   }
 }
