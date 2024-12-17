@@ -273,14 +273,22 @@ footer {
 }
 
 .socials {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 50% 50%;
   margin-bottom: 2%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
-/*.socials a {
-  padding: 1%;
-}*/
+.social-left {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.social-right {
+  padding-left: 10%;
+  padding-right: 10%;
+}
 
 #linkedin {
   width: 20%;
