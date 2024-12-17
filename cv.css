@@ -3,7 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
-  
+
+html {
+    height: 100%;
+}
+
 body {
     /*margin: 0;*/
     font-family: "Poppins", sans-serif;
@@ -138,7 +142,7 @@ h3 {
     font-weight: thin;
     margin-left: 20%;
     margin-right: 20%;
-    margin-top: 4%;
+    margin-top: 1%;
 }
 
 .content {
@@ -146,7 +150,7 @@ h3 {
     text-align: left;
     margin-left: 20%;
     margin-right: 20%;
-    margin-top: 2%;
+    margin-top: 1%;
 }
 
 @media only screen and (max-width: 768px) {
