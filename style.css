@@ -164,6 +164,39 @@ header ul li:hover {
   display: none;
 }
 
+@media only screen and (max-width: 1121) {
+  #gradient {
+    display: none;
+  }
+
+  #gradient2 {
+    display: none;
+  }
+
+  #gradient3 {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    margin-top: 6%;
+    margin-bottom: 10%;
+  }
+  
+  #work-hello {
+    margin-top: 3%;
+    font-size: 3rem;
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+  
+  #work-statement {
+    margin-top: 4%;
+    font-size: 1.1rem;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   #gradient {
     display: none;
