@@ -18,6 +18,11 @@ body {
   grid-template-columns: minmax(0, 1fr);
 }
 
+:where(body) {
+  hyphens: auto;
+  overflow-wrap: break-word;
+}
+
 /* NAV */
 header {
   padding: 10px 20px;
