@@ -4,18 +4,18 @@
   box-sizing: border-box;
 }
 
-html {
-  height: 100%;
-}
-
 body {
   /*margin: 0;*/
   font-family: "Poppins", sans-serif;
   background-color: #ffffff;
   color: #1E1E1E;
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
+}
+
+.site {
+  min-height: 100dvh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: minmax(0, 1fr);
 }
 
 /* NAV */
