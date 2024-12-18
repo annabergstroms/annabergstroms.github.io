@@ -156,12 +156,20 @@ header ul li:hover {
   display: none;
 }
 
+#gradient3 {
+  display: none;
+}
+
 @media only screen and (max-width: 768px) {
   #gradient {
     display: none;
   }
 
   #gradient2 {
+    display: none;
+  }
+
+  #gradient3 {
     display: block;
     position: absolute;
     top: 0;
@@ -189,6 +197,10 @@ header ul li:hover {
 
 @media only screen and (max-width: 600px) {
   #gradient {
+    display: none;
+  }
+
+  #gradient3 {
     display: none;
   }
 
