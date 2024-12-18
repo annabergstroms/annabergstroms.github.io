@@ -160,6 +160,37 @@ header ul li:hover {
   #gradient {
     display: none;
   }
+  
+  #gradient2 {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    margin-top: 4%;
+    margin-bottom: 22%;
+  }
+
+  #work-hello {
+    margin-top: 6%;
+    font-size: 2.6rem;
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+  
+  #work-statement {
+    margin-top: 4%;
+    font-size: 1rem;
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #gradient {
+    display: none;
+  }
 
   #gradient2 {
     display: block;
