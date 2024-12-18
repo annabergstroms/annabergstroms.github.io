@@ -157,6 +157,21 @@ header ul li:hover {
 }
 
 @media only screen and (max-width: 768px) {
+  #gradient {
+    display: none;
+  }
+
+  #gradient2 {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    margin-top: 4%;
+    margin-bottom: 10%;
+  }
+  
   #work-hello {
     margin-top: 6%;
     font-size: 3rem;
@@ -264,6 +279,13 @@ header ul li:hover {
 .lank a:hover {
   font-weight: bold;
 }
+
+@media only screen and (max-width: 768px) {
+  #content-container {
+    margin-top: 10%;
+  }
+}
+
 
 @media only screen and (max-width: 768px) {
   #content-container { 
