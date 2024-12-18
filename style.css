@@ -267,7 +267,7 @@ header ul li:hover {
   }
 }
 
-@media only screen and (max-width: 607px) {
+@media only screen and (max-width: 620px) {
   #gradient {
     display: none;
   }
@@ -302,7 +302,42 @@ header ul li:hover {
   }
 }
 
-@media only screen and (max-width: 412px) {
+@media only screen and (max-width: 520px) {
+  #gradient {
+    display: none;
+  }
+
+  #gradient3 {
+    display: none;
+  }
+
+  #gradient2 {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    margin-top: 20%;
+    margin-bottom: 18%;
+  }
+  
+  #work-hello {
+    margin-top: 8%;
+    font-size: 2.4rem;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  
+  #work-statement {
+    margin-top: 6%;
+    font-size: 1rem;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+
+@media only screen and (max-width: 420px) {
   #gradient {
     display: none;
   }
