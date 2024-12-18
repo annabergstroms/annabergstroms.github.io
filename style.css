@@ -272,23 +272,23 @@ header ul li:hover {
     display: none;
   }
 
-  #gradient3 {
+  #gradient2 {
     display: none;
   }
 
-  #gradient2 {
+  #gradient3 {
     display: block;
     position: absolute;
     top: 0;
     width: 100%;
     height: auto;
     z-index: -1;
-    margin-top: 8%;
+    margin-top: 10%;
     margin-bottom: 30%;
   }
   
   #work-hello {
-    margin-top: 12%;
+    margin-top: 1Z%;
     font-size: 2.7rem;
     padding-left: 2%;
     padding-right: 2%;
