@@ -181,7 +181,7 @@ header ul li:hover {
     width: 100%;
     height: auto;
     z-index: -1;
-    margin-top: 6%;
+    margin-top: 8%;
     margin-bottom: 10%;
   }
   
@@ -263,7 +263,7 @@ header ul li:hover {
     width: 100%;
     height: auto;
     z-index: -1;
-    margin-top: 10%;
+    margin-top: 12%;
     margin-bottom: 30%;
   }
   
@@ -275,7 +275,7 @@ header ul li:hover {
   }
   
   #work-statement {
-    margin-top: 4%;
+    margin-top: 5%;
     font-size: 1rem;
   }
 }
@@ -296,7 +296,7 @@ header ul li:hover {
     width: 100%;
     height: auto;
     z-index: -1;
-    margin-top: 10%;
+    margin-top: 12%;
     margin-bottom: 30%;
   }
   
@@ -315,16 +315,16 @@ header ul li:hover {
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 480px) {
   #gradient {
     display: none;
   }
 
-  #gradient2 {
+  #gradient3 {
     display: none;
   }
 
-  #gradient3 {
+  #gradient2 {
     display: block;
     position: absolute;
     top: 0;
@@ -344,7 +344,7 @@ header ul li:hover {
   
   #work-statement {
     margin-top: 4%;
-    font-size: 1rem;
+    font-size: 0.9rem;
     padding-left: 2%;
     padding-right: 2%;
   }
