@@ -172,54 +172,19 @@ header ul li:hover {
   display: none;
 }
 
-@media only screen and (max-width: 1340px) {
-  #gradient1 {
-    margin-top: ;
-  }
-  
+@media only screen and (max-width: 1340px) {  
   #work-hello {
     margin-top: 8%;
   }
 }
 
-@media only screen and (max-width: 1240px) {  
+@media only screen and (max-width: 1200px) {  
+  #gradient1 {
+    margin-top: 7%;
+  }
+  
   #work-hello {
     margin-top: 8%;
-  }
-}
-
-@media only screen and (max-width: 1160px) {
-  #gradient1 {
-    display: none;
-  }
-
-  #gradient3 {
-    display: none;
-  }
-
-  #gradient4 {
-    display: none;
-  }
-
-  #gradient5 {
-    display: none;
-  }
-  
-  #gradient2 {
-    display: block;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: auto;
-    z-index: -1;
-    margin-top: 6%;
-    margin-bottom: 6%;
-  }
-  
-  #work-hello {
-    margin-top: 4%;
-    padding-left: 15%;
-    padding-right: 15%;
   }
 }
 
