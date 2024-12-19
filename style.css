@@ -448,25 +448,18 @@ header ul li:hover {
 }
 
 @media only screen and (max-width: 768px) {
-  #content-container {
-    margin-top: 10%;
-  }
-}
-
-
-@media only screen and (max-width: 768px) {
   #content-container { 
     flex-direction: column; /* Byt till vertikalt läge */
     margin-top: 24%;
   }
 
   .item {
-    width: 96%; /* Full bredd för varje objekt */
+    width: 98%; /* Full bredd för varje objekt */
     margin-top: 4%;
   }
 
   .item img {
-    width: 80%; /* Gör bilden responsiv inom sin box */
+    width: 84%; /* Gör bilden responsiv inom sin box */
   }
 }
 
