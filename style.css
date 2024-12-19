@@ -178,11 +178,19 @@ header ul li:hover {
 
 @media only screen and (max-width: 1160px) {
   #gradient {
+    display: none;
+  }
+
+  #gradient2 {
+    display: none;
+  }
+  
+  #gradient3 {
     position: absolute;
     top: 0;
     width: 100%;
     z-index: -1;
-    margin-top: 6%;
+    margin-top: 8%;
   }
   
   #work-hello {
