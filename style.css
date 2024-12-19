@@ -219,7 +219,7 @@ header ul li:hover {
   }
 }
 
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 1030px) {
   #gradient {
     display: none;
   }
@@ -288,7 +288,7 @@ header ul li:hover {
   }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 920px) {
   #gradient {
     display: none;
   }
@@ -305,7 +305,7 @@ header ul li:hover {
     display: none;
   }
 
-  #gradient5 {
+  #gradient3 {
     display: block;
     position: absolute;
     top: 0;
