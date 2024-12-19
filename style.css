@@ -280,35 +280,35 @@ header ul li:hover {
   }
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 515px) {
   #gradient {
     display: none;
   }
 
-  #gradient3 {
+  #gradient2 {
     display: none;
   }
 
-  #gradient2 {
+  #gradient3 {
     display: block;
     position: absolute;
     top: 0;
     width: 100%;
     height: auto;
     z-index: -1;
-    margin-top: 20%;
-    margin-bottom: 18%;
+    margin-top: 10%;
+    margin-bottom: 30%;
   }
   
   #work-hello {
-    margin-top: 2%;
+    margin-top: -2%;
     font-size: 2.4rem;
     padding-left: 2%;
     padding-right: 2%;
   }
   
   #work-statement {
-    margin-top: 6%;
+    margin-top: 4%;
     font-size: 1rem;
     padding-left: 2%;
     padding-right: 2%;
