@@ -297,7 +297,7 @@ header ul li:hover {
     height: auto;
     z-index: -1;
     margin-top: 12%;
-    margin-bottom: 44%;
+    margin-bottom: 50%;
   }
   
   #work-hello {
@@ -332,7 +332,7 @@ header ul li:hover {
     height: auto;
     z-index: -1;
     margin-top: 12%;
-    margin-bottom: 56%;
+    margin-bottom: 60%;
   }
   
   #work-hello {
@@ -345,6 +345,41 @@ header ul li:hover {
   #work-statement {
     margin-top: 4%;
     font-size: 0.9rem;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  #gradient {
+    display: none;
+  }
+
+  #gradient3 {
+    display: none;
+  }
+
+  #gradient2 {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    margin-top: 14%;
+    margin-bottom: 56%;
+  }
+  
+  #work-hello {
+    margin-top: 2%;
+    font-size: 2.2rem;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  
+  #work-statement {
+    margin-top: 4%;
+    font-size: 0.8rem;
     padding-left: 2%;
     padding-right: 2%;
   }
