@@ -164,6 +164,10 @@ header ul li:hover {
   display: none;
 }
 
+#gradient4 {
+  display: none;
+}
+
 @media only screen and (max-width: 1320px) {
   #work-hello {
     margin-top: 8%;
@@ -184,8 +188,12 @@ header ul li:hover {
   #gradient2 {
     display: none;
   }
-  
+
   #gradient3 {
+    display: none;
+  }
+  
+  #gradient4 {
     display: block;
     position: absolute;
     top: 0;
@@ -208,6 +216,10 @@ header ul li:hover {
   }
 
   #gradient2 {
+    display: none;
+  }
+
+  #gradient4 {
     display: none;
   }
 
@@ -237,6 +249,10 @@ header ul li:hover {
     display: none;
   }
 
+  #gradient4 {
+    display: none;
+  }
+
   #gradient3 {
     display: block;
     position: absolute;
@@ -260,6 +276,10 @@ header ul li:hover {
   }
 
   #gradient2 {
+    display: none;
+  }
+
+  #gradient4 {
     display: none;
   }
 
@@ -293,6 +313,10 @@ header ul li:hover {
     display: none;
   }
 
+  #gradient4 {
+    display: none;
+  }
+
   #gradient3 {
     display: block;
     position: absolute;
@@ -323,6 +347,10 @@ header ul li:hover {
   }
 
   #gradient3 {
+    display: none;
+  }
+
+  #gradient4 {
     display: none;
   }
 
@@ -361,6 +389,10 @@ header ul li:hover {
     display: none;
   }
 
+  #gradient4 {
+    display: none;
+  }
+
   #gradient2 {
     display: block;
     position: absolute;
@@ -393,6 +425,10 @@ header ul li:hover {
   }
 
   #gradient3 {
+    display: none;
+  }
+
+  #gradient4 {
     display: none;
   }
 
