@@ -211,7 +211,7 @@ header ul li:hover {
   }
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 1020px) {
   #gradient {
     display: none;
   }
@@ -231,7 +231,7 @@ header ul li:hover {
     width: 100%;
     height: auto;
     z-index: -1;
-    margin-top: 4%;
+    margin-top: 6%;
     margin-bottom: 6%;
   }
   
