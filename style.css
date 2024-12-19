@@ -166,7 +166,7 @@ header ul li:hover {
 
 @media only screen and (max-width: 1320px) {
   #work-hello {
-    margin-top: 16%;
+    margin-top: 8%;
   }
 }
 
@@ -469,6 +469,14 @@ header ul li:hover {
     width: 84%; /* Gör bilden responsiv inom sin box */
   }
 }
+
+@media only screen and (max-width: 510px) {
+  #content-container { 
+    flex-direction: column; /* Byt till vertikalt läge */
+    margin-top: 30%;
+  }
+}
+
 
 /* FOOTER */
 footer {
