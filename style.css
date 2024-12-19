@@ -178,13 +178,13 @@ header ul li:hover {
   }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1220px) {
   #work-hello {
     margin-top: 6%;
   }
 }
 
-@media only screen and (max-width: 1160px) {
+@media only screen and (max-width: 1170px) {
   #gradient {
     display: none;
   }
@@ -219,7 +219,7 @@ header ul li:hover {
   }
 }
 
-@media only screen and (max-width: 1030px) {
+@media only screen and (max-width: 1020px) {
   #gradient {
     display: none;
   }
