@@ -130,11 +130,11 @@ header ul li:hover {
   top: 0;
   width: 100%;
   z-index: -1;
-  margin-top: 4%;
+  margin-top: 5%;
 }
 
 #work-hello {
-  margin-top: 11%;
+  margin-top: 12%;
   font-size: 3.6rem;
   font-weight: bold;
   text-align: center;
@@ -173,23 +173,22 @@ header ul li:hover {
 }
 
 @media only screen and (max-width: 1320px) {
+  #gradient1 {
+    margin-top: ;
+  }
   
   #work-hello {
     margin-top: 8%;
   }
 }
 
-@media only screen and (max-width: 1240px) {
-  #gradient1 {
-    margin-top: 6.5%;
-  }
-  
+@media only screen and (max-width: 1240px) {  
   #work-hello {
-    margin-top: 6%;
+    margin-top: 8%;
   }
 }
 
-@media only screen and (max-width: 1170px) {
+@media only screen and (max-width: 1160px) {
   #gradient1 {
     display: none;
   }
