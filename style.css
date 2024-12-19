@@ -347,16 +347,16 @@ header ul li:hover {
     height: auto;
     z-index: -1;
     margin-top: 8%;
-    margin-bottom: 20%;
+    margin-bottom: 26%;
   }
   
   #work-hello {
-    margin-top: 6%;
+    margin-top: 8%;
     font-size: 3.4rem;
   }
 
   #work-statement {
-    margin-top: 8%;
+    margin-top: 6%;
     font-size: 1rem;
   }
 }
