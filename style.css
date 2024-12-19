@@ -278,7 +278,7 @@ header ul li:hover {
     width: 100%;
     height: auto;
     z-index: -1;
-    margin-top: 6%;
+    margin-top: 4%;
     margin-bottom: 10%;
   }
   
@@ -317,7 +317,7 @@ header ul li:hover {
   }
   
   #work-hello {
-    margin-top: 4%;
+    margin-top: 2%;
     font-size: 3rem;
   }
 }
