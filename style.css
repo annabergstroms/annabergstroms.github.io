@@ -309,6 +309,41 @@ header ul li:hover {
   
   #work-statement {
     margin-top: 4%;
+    font-size: 0.9rem;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  #gradient {
+    display: none;
+  }
+
+  #gradient2 {
+    display: none;
+  }
+
+  #gradient3 {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    margin-top: 10%;
+    margin-bottom: 30%;
+  }
+  
+  #work-hello {
+    margin-top: -2%;
+    font-size: 2.4rem;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  
+  #work-statement {
+    margin-top: 4%;
     font-size: 1rem;
     padding-left: 2%;
     padding-right: 2%;
