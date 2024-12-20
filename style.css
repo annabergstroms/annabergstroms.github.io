@@ -240,9 +240,46 @@ header ul li:hover {
   }
   
   #work-hello {
+    font-size: 3.4rem;
     margin-top: 1%;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 18%;
+    padding-right: 18%;
+  }
+}
+
+@media only screen and (max-width: 1122px) {
+  #gradien1 {
+    display: none;
+  }
+
+  #gradient2 {
+    display: none;
+  }
+
+  #gradient4 {
+    display: none;
+  }
+
+  #gradient5 {
+    display: none;
+  }
+  
+  #gradient3 {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    margin-top: 6%;
+    margin-bottom: 6%;
+  }
+
+  #work-hello {
+    font-size: 3.4rem;
+    margin-top: 4%;
+    padding-left: 18%;
+    padding-right: 18%;
   }
 }
 
