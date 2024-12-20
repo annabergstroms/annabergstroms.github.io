@@ -203,7 +203,7 @@ header ul li:hover {
     height: auto;
     z-index: -1;
     margin-top: 5%;
-    margin-bottom: 6%;
+    margin-bottom: 8%;
   }
   
   #work-hello {
@@ -240,7 +240,7 @@ header ul li:hover {
   }
   
   #work-hello {
-    margin-top: 6%;
+    margin-top: 3%;
     padding-left: 15%;
     padding-right: 15%;
   }
