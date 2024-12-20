@@ -4,8 +4,16 @@
   box-sizing: border-box;
 }
 
-html {
+html, body{
   height: 100%;
+}
+
+#container {
+  min-height: 100%;
+}
+
+main {
+  overflow: auto;
 }
 
 body {
@@ -13,10 +21,6 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: #ffffff;
   color: #1E1E1E;
-
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
 }
 
 /* NAV */
@@ -150,7 +154,7 @@ h1 {
 
 /* FOOTER */
 footer {
-  margin-top: auto;
+  position: relative;
   width: 100%;
   padding-top: 8%;
   padding-bottom: 2%;
