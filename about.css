@@ -151,9 +151,9 @@ h1 {
 /* FOOTER */
 footer {
   margin-top: auto;
-  margin-bottom: 2%;
   width: 100%;
   padding-top: 8%;
+  padding-bottom: 2%;
 }
 
 .socials {
