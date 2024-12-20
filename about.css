@@ -11,6 +11,18 @@ body {
   color: #1E1E1E;
 }
 
+.site {
+  min-height: 100dvh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: minmax(0, 1fr);
+}
+
+:where(body) {
+  hyphens: auto;
+  overflow-wrap: break-word;
+}
+
 /* NAV */
 header {
   padding: 10px 20px;
@@ -145,8 +157,6 @@ footer {
   width: 100%;
   padding-top: 8%;
   padding-bottom: 2%;
-  position: fixed;
-  bottom: 0;
 }
 
 .socials {
