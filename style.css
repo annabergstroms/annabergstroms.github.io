@@ -172,8 +172,13 @@ header ul li:hover {
   display: none;
 }
 
-
 @media only screen and (max-width: 1340px) {
+  #work-hello {
+    margin-top: 8%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
   #gradien1 {
     display: none;
   }
