@@ -253,7 +253,7 @@ header ul li:hover {
     display: none;
   }
 
-  #gradient2 {
+  #gradient3 {
     display: none;
   }
 
@@ -265,7 +265,7 @@ header ul li:hover {
     display: none;
   }
   
-  #gradient3 {
+  #gradient2 {
     display: block;
     position: absolute;
     top: 0;
@@ -278,8 +278,8 @@ header ul li:hover {
   
   #work-hello {
     margin-top: 2%;
-    padding-left: 22%;
-    padding-right: 22%;
+    padding-left: 23%;
+    padding-right: 23%;
     font-size: 3.4rem;
   }
 }
