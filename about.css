@@ -145,8 +145,7 @@ footer {
   width: 100%;
   padding-top: 8%;
   padding-bottom: 2%;
-
-  position: relative;
+  position: fixed;
   bottom: 0;
 }
 
