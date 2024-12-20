@@ -284,6 +284,42 @@ header ul li:hover {
   }
 }
 
+@media only screen and (max-width: 1020px) {
+  #gradien1 {
+    display: none;
+  }
+
+  #gradient2 {
+    display: none;
+  }
+
+  #gradient4 {
+    display: none;
+  }
+
+  #gradient5 {
+    display: none;
+  }
+  
+  #gradient3 {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    margin-top: 6%;
+    margin-bottom: 6%;
+  }
+  
+  #work-hello {
+    margin-top: 2%;
+    padding-left: 23%;
+    padding-right: 23%;
+    font-size: 3.2rem;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   #gradient1 {
     display: none;
