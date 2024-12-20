@@ -172,19 +172,8 @@ header ul li:hover {
   display: none;
 }
 
-@media only screen and (max-width: 1340px) {  
-  #work-hello {
-    margin-top: 8%;
-  }
-}
 
-@media only screen and (max-width: 1200px) {  
-  #work-hello {
-    margin-top: 6%;
-  }
-}
-
-@media only screen and (max-width: 1140px) {
+@media only screen and (max-width: 1340px) {
   #gradien1 {
     display: none;
   }
@@ -214,113 +203,6 @@ header ul li:hover {
   
   #work-hello {
     margin-top: 8%;
-  }
-}
-
-@media only screen and (max-width: 980px) {
-  #gradien1 {
-    display: none;
-  }
-
-  #gradient2 {
-    display: none;
-  }
-
-  #gradient4 {
-    display: none;
-  }
-
-  #gradient5 {
-    display: none;
-  }
-
-  #gradient3 {
-    display: block;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: auto;
-    z-index: -1;
-    margin-top: 8%;
-    margin-bottom: 10%;
-  }
-  
-  #work-hello {
-    margin-top: 2%;
-    font-size: 3.4rem;
-  }
-}
-
-@media only screen and (max-width: 920px) {
-  #gradien1 {
-    display: none;
-  }
-
-  #gradient2 {
-    display: none;
-  }
-
-  #gradient4 {
-    display: none;
-  }
-
-  #gradient51 {
-    display: none;
-  }
-
-  #gradient3 {
-    display: block;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: auto;
-    z-index: -1;
-    margin-top: 10%;
-    margin-bottom: 10%;
-  }
-  
-  #work-hello {
-    margin-top: 0%;
-    font-size: 3.4rem;
-  }
-}
-
-@media only screen and (max-width: 820px) {
-  #gradient1 {
-    display: none;
-  }
-
-  #gradient2 {
-    display: none;
-  }
-
-  #gradient3 {
-    display: none;
-  }
-
-  #gradient5 {
-    display: none;
-  }
-
-  #gradient4 {
-    display: block;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: auto;
-    z-index: -1;
-    margin-top: 8%;
-    margin-bottom: 26%;
-  }
-  
-  #work-hello {
-    margin-top: 8%;
-    font-size: 3.4rem;
-  }
-
-  #work-statement {
-    margin-top: 6%;
-    font-size: 1rem;
   }
 }
 
