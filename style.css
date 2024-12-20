@@ -240,12 +240,13 @@ header ul li:hover {
   }
   
   #work-hello {
-    font-size: 3.4rem;
     margin-top: 4%;
+    padding-left: 30%;
+    padding-right: 30%;
   }
 }
 
-@media only screen and (max-width: 1122px) {
+@media only screen and (max-width: 1050px) {
   #gradien1 {
     display: none;
   }
