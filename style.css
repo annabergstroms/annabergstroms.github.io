@@ -495,8 +495,8 @@ header ul li:hover {
   #work-hello {
     margin-top: 3%;
     font-size: 3rem;
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 4%;
+    padding-right: 4%;
   }
 }
 
@@ -535,8 +535,8 @@ header ul li:hover {
   #work-hello {
     margin-top: 2%;
     font-size: 2.7rem;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 6%;
+    padding-right: 6%;
   }
 
   #work-statement {
@@ -579,8 +579,8 @@ header ul li:hover {
   #work-hello {
     margin-top: 0%;
     font-size: 2.4rem;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 6%;
+    padding-right: 6%;
   }
   
   #work-statement {
@@ -626,8 +626,8 @@ header ul li:hover {
   #work-hello {
     margin-top: 4%;
     font-size: 2.4rem;
-    padding-left: 4%;
-    padding-right: 4%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
   
   #work-statement {
@@ -796,13 +796,13 @@ header ul li:hover {
 
 @media only screen and (max-width: 1020px) {
   #content-container { 
-    margin-top: 24%;
+    margin-top: 16%;
   }
 }
 
 @media only screen and (max-width: 880px) {
   #content-container { 
-    margin-top: 24%;
+    margin-top: 16%;
   }
 }
 
