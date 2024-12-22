@@ -732,7 +732,7 @@ header ul li:hover {
   }
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 398px) {
   #gradient1 {
     display: none;
   }
