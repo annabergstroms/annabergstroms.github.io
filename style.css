@@ -869,6 +869,12 @@ header ul li:hover {
   }
 }
 
+@media only screen and (max-width: 580px) {
+  #content-container { 
+    margin-top: 10%;
+  }
+}
+
 @media only screen and (max-width: 510px) {
   #content-container { 
     flex-direction: column; /* Byt till vertikalt läge */
