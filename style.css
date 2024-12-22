@@ -177,6 +177,10 @@ header ul li:hover {
   display: none;
 }
 
+#gradient6 {
+  display: none;
+}
+
 /*@media only screen and (max-width: 1340px) {
   #work-hello {
     margin-top: 8%;
@@ -197,6 +201,10 @@ header ul li:hover {
   }
 
   #gradient5 {
+    display: none;
+  }
+
+  #gradient6 {
     display: none;
   }
   
@@ -226,6 +234,10 @@ header ul li:hover {
   }
 
   #gradient5 {
+    display: none;
+  }
+
+  #gradient6 {
     display: none;
   }
   
@@ -264,6 +276,10 @@ header ul li:hover {
   #gradient5 {
     display: none;
   }
+
+  #gradient6 {
+    display: none;
+  }
   
   #gradient2 {
     display: block;
@@ -298,6 +314,10 @@ header ul li:hover {
   }
 
   #gradient5 {
+    display: none;
+  }
+
+  #gradient6 {
     display: none;
   }
   
@@ -336,6 +356,10 @@ header ul li:hover {
   #gradient5 {
     display: none;
   }
+
+  #gradient6 {
+    display: none;
+  }
   
   #gradient3 {
     display: block;
@@ -345,7 +369,7 @@ header ul li:hover {
     height: auto;
     z-index: -1;
     margin-top: 6%;
-    margin-bottom: 10%;
+    margin-bottom: 14%;
   }
   
   #work-hello {
@@ -356,8 +380,12 @@ header ul li:hover {
   }
 }
 
-@media only screen and (max-width: 866px) {
+@media only screen and (max-width: 880px) {
   #gradien1 {
+    display: none;
+  }
+
+  #gradient2 {
     display: none;
   }
 
@@ -365,15 +393,15 @@ header ul li:hover {
     display: none;
   }
 
-  #gradient4 {
-    display: none;
-  }
-
   #gradient5 {
     display: none;
   }
+
+  #gradient6 {
+    display: none;
+  }
   
-  #gradient2 {
+  #gradient4 {
     display: block;
     position: absolute;
     top: 0;
@@ -405,11 +433,15 @@ header ul li:hover {
     display: none;
   }
 
-  #gradient5 {
+  #gradient4 {
     display: none;
   }
 
-  #gradient4 {
+  #gradient6 {
+    display: none;
+  }
+
+  #gradient5 {
     display: block;
     position: absolute;
     top: 0;
@@ -428,6 +460,46 @@ header ul li:hover {
   }
 }
 
+@media only screen and (max-width: 768px) {
+  #gradient1 {
+    display: none;
+  }
+
+  #gradient2 {
+    display: none;
+  }
+
+  #gradient3 {
+    display: none;
+  }
+
+  #gradient4 {
+    display: none;
+  }
+
+  #gradient6 {
+    display: none;
+  }
+
+  #gradient5 {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    margin-top: 8%;
+    margin-bottom: 10%;
+  }
+  
+  #work-hello {
+    margin-top: 6%;
+    padding-left: 22%;
+    padding-right: 22%;
+    font-size: 3rem;
+  }
+}
+
 @media only screen and (max-width: 680px) {
   #gradient1 {
     display: none;
@@ -441,11 +513,15 @@ header ul li:hover {
     display: none;
   }
 
-  #gradient5 {
+  #gradient4 {
     display: none;
   }
 
-  #gradient4 {
+  #gradient6 {
+    display: none;
+  }
+
+  #gradient5 {
     display: block;
     position: absolute;
     top: 0;
@@ -459,6 +535,8 @@ header ul li:hover {
   #work-hello {
     margin-top: 3%;
     font-size: 3rem;
+    padding-left: 2%;
+    padding-right: 2%;
   }
 }
 
@@ -475,11 +553,15 @@ header ul li:hover {
     display: none;
   }
 
-  #gradient5 {
+  #gradient4 {
     display: none;
   }
 
-  #gradient4 {
+  #gradient6 {
+    display: none;
+  }
+
+  #gradient5 {
     display: block;
     position: absolute;
     top: 0;
@@ -493,6 +575,8 @@ header ul li:hover {
   #work-hello {
     margin-top: 2%;
     font-size: 2.7rem;
+    padding-left: 2%;
+    padding-right: 2%;
   }
 
   #work-statement {
@@ -513,11 +597,15 @@ header ul li:hover {
     display: none;
   }
 
-  #gradient5 {
+  #gradient4 {
     display: none;
   }
 
-  #gradient4 {
+  #gradient6 {
+    display: none;
+  }
+
+  #gradient5 {
     display: block;
     position: absolute;
     top: 0;
@@ -538,6 +626,8 @@ header ul li:hover {
   #work-statement {
     margin-top: 5%;
     font-size: 1rem;
+    padding-left: 2%;
+    padding-right: 2%;
   }
 }
 
@@ -559,6 +649,10 @@ header ul li:hover {
   }
 
   #gradient5 {
+    display: none;
+  }
+
+  #gradient6 {
     display: block;
     position: absolute;
     top: 0;
@@ -602,6 +696,10 @@ header ul li:hover {
   }
 
   #gradient5 {
+    display: none;
+  }
+
+  #gradient6 {
     display: block;
     position: absolute;
     top: 0;
@@ -645,6 +743,10 @@ header ul li:hover {
   }
 
   #gradient5 {
+    display: none;
+  }
+
+  #gradient6 {
     display: block;
     position: absolute;
     top: 0;
