@@ -109,12 +109,6 @@ header ul li:hover {
   margin-bottom: 10px;
 }
 
-@media only screen and (max-width: 990px) {
-  header nav {
-    margin-bottom: 6%;
-  } 
-}
-
 @media only screen and (max-width: 768px) {
   header nav {
     display: none;
@@ -331,7 +325,7 @@ header ul li:hover {
     display: none;
   }
 
-  #gradient3 {
+  #gradient2 {
     display: none;
   }
 
@@ -344,7 +338,7 @@ header ul li:hover {
     display: none;
   }
   
-  #gradient2 {
+  #gradient3 {
     display: block;
     position: absolute;
     top: 0;
@@ -356,7 +350,7 @@ header ul li:hover {
   }
   
   #work-hello {
-    margin-top: -2%;
+    margin-top: 0%;
     padding-left: 23%;
     padding-right: 23%;
     font-size: 3.2rem;
